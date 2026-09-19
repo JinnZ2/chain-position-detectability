@@ -8,7 +8,7 @@ This directory contains the six CC0 work orders that define the current research
 | [WO-2 — “Quiet” failure as a missing aggregation function](WO-2-quiet-failure-missing-aggregation.md) | Whether apparently quiet failures were signalled but left unjoined | Pilot milestone complete; external blind replication open |
 | [WO-3 — The terminal system as an accounting boundary](WO-3-terminal-system-accounting-boundary.md) | Whether any system has no dependents or crossings | Validated first milestone complete; broader searches open |
 | [WO-4 — The shape: local correctness with an unowned join](WO-4-the-shape-and-the-term-gap.md) | Whether one structure underlies several failures treated as unrelated | Not started |
-| [WO-5 — Hop distance and pre-entry loss in reporting chains](WO-5-hop-distance-and-pre-entry-loss.md) | Per-hop information loss from a physical quantity to the acting node | Not started |
+| [WO-5 — Hop distance and pre-entry loss in reporting chains](WO-5-hop-distance-and-pre-entry-loss.md) | Per-hop information loss from a physical quantity to the acting node | In progress |
 | [WO-6 — Assessor–assessed coupling as a recurrent known failure mode](WO-6-assessor-assessed-coupling.md) | Whether an assessor is structurally independent of the assessed party | Not started |
 
 WO-1 execution artifacts are maintained in [`research/wo-1/`](../research/wo-1/).
@@ -16,3 +16,5 @@ WO-1 execution artifacts are maintained in [`research/wo-1/`](../research/wo-1/)
 WO-2 execution artifacts and the validated pilot result are maintained in [`research/wo-2/`](../research/wo-2/).
 
 WO-3 execution artifacts, structured results, and the validated first-milestone report are maintained in [`research/wo-3/`](../research/wo-3/).
+
+WO-5 execution artifacts and the preregistered field and ecology protocols are maintained in [`research/wo-5/`](../research/wo-5/).
