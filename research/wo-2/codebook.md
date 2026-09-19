@@ -45,11 +45,19 @@ Two coders apply this codebook independently to every case. They do not see each
 
 Because the coders are AI research agents operating from the same task design, their agreement is not equivalent to human inter-rater reliability. The duplicate pass is a consistency and ambiguity check, not a validated psychometric measure.
 
+## Post-hoc clarification from validation
+
+Independent validation of the first reconciliation exposed a rule that was implicit but not stated tightly enough before coding. The **signal, reporting event, holders, join assessment, date, and lead time used for one case classification must belong to one coherent hazard pathway identified by the official report**. Evidence from separate contributing or severity pathways cannot be combined merely to satisfy different variables.
+
+The same validation tightened the supplemental `sudden_label` field. Wording in an alarm name and an adverb describing physical reaction speed do not qualify by themselves. The official source must use the language to characterize the event, the relevant failure, or the warning pattern.
+
+These clarifications were added after the initial reconciliation and were therefore not preregistered. They were applied symmetrically to all eight cases by validators who read the official reports. The initial reconciliation remains in the repository as a superseded audit trail.
+
 ## Interpretation limits
 
 The sample is bounded to one investigating agency and one report genre. Eight cases are sufficient to test whether the instrument can be applied and falsified, but not to estimate prevalence. Selection by publication recency avoids hand-picking for the target pattern, yet agency case selection and report availability remain upstream filters.
 
-A finding that several cases support the pattern would show recurrence within this pilot. It would not prove that the aggregation step was unownable, that every event called sudden was signalled, or that the same rate applies in aviation, transport, medicine, intelligence, or structural engineering.
+A supporting case shows that the structure can be identified in this report genre. It does not prove that the aggregation step was unownable, that every event called sudden was signalled, or that the same rate applies in aviation, transport, medicine, intelligence, or structural engineering.
 
 ## References
 
