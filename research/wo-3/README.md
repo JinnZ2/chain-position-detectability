@@ -1,23 +1,34 @@
 # WO-3 execution record
 
-**Status:** In progress
+**Status:** Validated first milestone complete; broader asymptote and cost-case searches remain open
 
 **Work order:** [WO-3 — The terminal system as an accounting boundary](../../work-orders/WO-3-terminal-system-accounting-boundary.md)
 
-## Research question
+## Result
 
-Can any physical or engineered system be shown to have no boundary crossings and no external dependents, or does apparent terminality result from selecting a boundary or time horizon that omits real exchanges and consequences?
+The milestone found **no terminal instance among the three specified asymptotes** and **no cost case that satisfied all five preregistered selection gates**. The exact-zero falsifier remains logically valid, but finite empirical work can provide only detections or scope- and detection-bounded non-detections. Universal all-medium, all-time zero is a model-conditional proposition rather than an empirically certifiable result.
 
-## Preregistered execution plan
+Forsmark is observed nonterminal within its declared whole-life frame because preparatory construction and institutional interfaces already exist. Voyager 1 is observed nonterminal across its historical life; its future post-radio heat result is model-conditional and its actual future state is unresolved. The GW150914 source system is model-conditionally nonterminal under the general-relativistic source and propagation model; the detector strain is observed, while the stipulated source boundary is not.
 
-The first milestone has four parts. It first defines a crossing-rate vector that preserves the units of heterogeneous physical and institutional media rather than collapsing them into an arbitrary scalar. It then attacks the proposed zero-crossing falsifier for omitted media and verification problems. Next, it applies the metric to the three candidates named by the work order: a deep geological repository, Voyager after radio transmission ends, and a black hole. Finally, it searches for one documented decision in which an engineering control was declined or weakened on cost grounds and redraws the cost boundary to include downstream effects.
+Six public cost candidates were screened. Each failed at least one required gate. No avoided-loss total, net-cost delta, downstream allocation, or saving-to-loss ratio is reported.
 
-## Decision rules
+## Primary artifacts
 
-A candidate is **nonterminal** when authoritative evidence gives a positive lower bound for at least one crossing channel or establishes at least one external dependent. It is **unresolved** when no positive crossing is established but at least one channel has an open upper bound or the medium inventory is incomplete. It is **terminal within scope** only when every enumerated channel and dependent count has a defensible upper bound of zero for the stated boundary and horizon.
+- [`final-report.md`](final-report.md) — validated synthesis and conclusions.
+- [`crossing-metric.md`](crossing-metric.md) — preregistered metric and decision rules.
+- [`amended-crossing-profile.md`](amended-crossing-profile.md) — post-validation multi-ledger instrument.
+- [`medium-audit-results.csv`](medium-audit-results.csv) — structured results for six medium audits.
+- [`asymptote-results.csv`](asymptote-results.csv) — structured results for the three specified asymptotes.
+- [`cost-case-screen.csv`](cost-case-screen.csv) — strict five-gate results for six cost candidates.
+- [`workflow-synthesis.md`](workflow-synthesis.md) — compact reconciled evidence synthesis.
+- [`validation-summary.md`](validation-summary.md) — independent validation findings and correction register.
 
-A terminality claim without a boundary, horizon, lifecycle phase, and channel inventory is not testable. Whole-life terminality includes construction, operation, dormancy, and disposal or afterlife. A narrower phase may be reported, but it cannot be generalized to the complete lifecycle.
+## Evidence and audit trail
 
-## Planned artifacts
+The [`evidence/`](evidence/) directory contains six medium audits and the three corrected asymptote records. The [`cost-candidates/`](cost-candidates/) directory contains all six screened cost cases, including negative findings and source conflicts. The [`validation/`](validation/) directory contains one independent validation record for the ontology synthesis, each asymptote, and each cost case. [`source-check-notes.md`](source-check-notes.md) preserves parent-level checks of the decisive official sources.
 
-The milestone will publish the metric specification, independent medium audits, one evidence record for each asymptotic candidate, a bounded cost-case search, a boundary-redraw study if a qualifying case is found, a structured dataset, and a final synthesis. Superseded or negative search results will remain visible.
+The preregistration is retained unchanged. The amended profile and final report state every material correction, including the conflicting 2.3 and 2.7 million m³ Forsmark excavation estimates, Voyager's unobserved post-radio premise, the model status of the GW150914 source boundary, the Deepwater causation conflict, and the strict bounded null for the six cost candidates.
+
+## Scope
+
+The asymptote list is not exhaustive. The study does not prove that no terminal system can exist. The contamination marker remains **UNKNOWN**. The bounded cost null does not prove that no organization possesses a qualifying decision record; it reports that none of the six public candidates cleared all gates in the reviewed evidence.
