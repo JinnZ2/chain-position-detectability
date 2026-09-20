@@ -326,6 +326,34 @@ def check_wo3_gates(root: str) -> Result:
     return Result("wo3_gates", "FAIL" if bad else "PASS", detail + ("; " + "; ".join(bad) if bad else ""))
 
 
+def check_wo4_invariant(root: str) -> Result:
+    """CPD_015 -- the counts research/wo-4/formal-statement.md states reproduce from invariant.py."""
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("wo4_invariant", os.path.join(root, "research/wo-4/invariant.py"))
+    if spec is None or spec.loader is None:
+        raise FileNotFoundError("research/wo-4/invariant.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    txt = _read(root, "research/wo-4/formal-statement.md")
+    m = re.search(r"controls\s+(\d+).*?\nfaces\s+(\d+)", txt)
+    k = re.search(r"assembly (\d+) .*?\nsensing\s+(\d+)", txt)
+    c = re.search(r"terms (\d+)\s+name C1 only (\d+)\s+name C2 only (\d+)\s+name C3 only (\d+)\s+name neither (\d+)\s+name C1 AND C3 (\d+)", txt)
+    if not (m and k and c):
+        return Result("wo4_invariant", "FAIL", "stated counts not found in formal-statement.md")
+    faces = [f.analyze() for f in mod.faces()]
+    got = (len(mod.controls()), len(faces),
+           sum(r["kind"] == "assembly" for r in faces), sum(r["kind"] == "sensing" for r in faces))
+    stated = (int(m.group(1)), int(m.group(2)), int(k.group(1)), int(k.group(2)))
+    # census table: one row per term; the 'both' column must read 'no' for every row for the stated 0 to hold
+    rows = [l for l in txt.splitlines() if l.startswith("| ") and l.count("|") == 7 and "names C1" not in l and "---" not in l]
+    both = sum(1 for l in rows if l.rsplit("|", 2)[-2].strip().lower().startswith("yes"))
+    verdicts = {r["verdict"] for r in [i.analyze() for i in mod.controls()]}
+    detail = "controls/faces/assembly/sensing got %s stated %s; census rows %d stated %s, both-yes %d stated %s; control verdicts %d" % (
+        got, stated, len(rows), c.group(1), both, c.group(6), len(verdicts))
+    ok = got == stated and len(rows) == int(c.group(1)) and both == int(c.group(6)) and len(verdicts) == 4
+    return Result("wo4_invariant", "PASS" if ok else "FAIL", detail)
+
+
 def check_readme_duplicate(root: str) -> Result:
     """CPD_001 -- the root README is a byte copy of one work order."""
     readme = _read(root, "README.md")
@@ -355,7 +383,7 @@ def check_status_table(root: str) -> Result:
 
 CHECKS = [check_links, check_wo1_clauses, check_wo2_dates, check_wo2_distributions,
           check_wo2_agreement, check_wo2_fields, check_wo3_arithmetic, check_wo3_gates,
-          check_readme_duplicate, check_status_table]
+          check_wo4_invariant, check_readme_duplicate, check_status_table]
 
 
 def run(root: str) -> List[Result]:
@@ -388,6 +416,7 @@ def _plant(src: str, dst: str) -> None:
     edit("research/wo-3/cost-case-screen.csv", '"pass","pass","fail","pass_disputed"', '"pass","pass","pass","pass_disputed"')
     edit("research/wo-2/coding/coder-a/givaudan-sense-colour.md", "| `signal_present` | **yes** |", "| `signal_present` | **no** |")
     edit("README.md", "# WO-1", "# Repository index\n\n# WO-1")
+    edit("research/wo-4/formal-statement.md", "assembly 3 ", "assembly 4 ")
 
 
 def selftest() -> int:
@@ -397,14 +426,14 @@ def selftest() -> int:
         planted = os.path.join(tmp, "tree")
         _plant(ROOT, planted)
         res = {r.check: r for r in run(planted)}
-        for name in ("links", "wo1_clauses", "wo2_dates", "wo2_distrib", "wo3_gates", "wo2_agreement"):
+        for name in ("links", "wo1_clauses", "wo2_dates", "wo2_distrib", "wo3_gates", "wo2_agreement", "wo4_invariant"):
             assert res[name].state == "FAIL", (name, res[name].row())
             n += 1
         assert res["readme_dup"].state == "PASS", res["readme_dup"].row(); n += 1
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     real = {r.check: r for r in run(ROOT)}
-    for name in ("links", "wo1_clauses", "wo2_dates", "wo2_distrib", "wo3_arithmetic", "wo3_gates", "status_table"):
+    for name in ("links", "wo1_clauses", "wo2_dates", "wo2_distrib", "wo3_arithmetic", "wo3_gates", "wo4_invariant", "status_table"):
         assert real[name].state == "PASS", real[name].row(); n += 1
     # recorded findings that stand today; each turns PASS when repaired and that is a change to record
     for name in ("readme_dup", "wo2_agreement", "wo2_fields"):

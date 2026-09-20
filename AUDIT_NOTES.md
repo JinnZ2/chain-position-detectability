@@ -54,6 +54,7 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_012 | MECHANICAL | Before this audit nothing in the tree executed; every stated number was typed | SUPPORTED |
 | CPD_013 | READING | WO-1's pre-registered null was met by the party that wrote the criterion | OPEN |
 | CPD_014 | -- | No external source was opened; every citation is carried | UNVERIFIED |
+| CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
 
 ---
 
@@ -314,6 +315,28 @@ tree and hold whatever those sources say.
 
 FALSIFIER: not applicable; this is the audit's own scope statement.
 
+## CPD_015 -- WO-4 run: a formal statement whose first reading its own check refuted
+
+STATUS: SUPPORTED. Row `wo4_invariant`; `python3 research/wo-4/invariant.py --selftest`.
+
+```
+statement      UNDETECTABLE <=> C1 (L does not entail J) and C3 (no owner with a view covering var(J))
+controls       5, reaching all four verdicts
+faces          7, all UNDETECTABLE under their encoding; 3 assembly, 4 sensing (computed, not declared)
+term census    11 terms; C1 named by 3, C3 named by 6, the conjunction by 0; nothing coined
+```
+
+The first draft declared the face split by hand and the selftest refuted
+it on F4 before anything was written down; the refuted split is kept in
+the module and asserted to stay refuted. The encoding of every face is by
+the same party that wrote the checker, so the fits are readings. Step 2
+needs a party outside this author line and was not run; step 4 is gated by
+the work order and was not started.
+
+FALSIFIER: an instance in the module where the biconditional fails; an
+encoding of a face under which the aggregator-over-all-views verdict
+flips kind; a term that names both C1 and C3.
+
 ---
 
 ## What would move each open item
@@ -325,4 +348,5 @@ CPD_005  rename validation_verdict -> initial_reconciliation_verdict, or a note 
 CPD_007  one constructed known-negative case, or one real case coded does_not_support
 CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
+CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 ```
