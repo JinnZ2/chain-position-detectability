@@ -1,0 +1,2 @@
+# CSV fields may intentionally retain source-provided trailing spaces.
+research/wo-5/**/*.csv -whitespace

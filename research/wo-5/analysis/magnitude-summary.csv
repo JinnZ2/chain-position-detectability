@@ -1,0 +1,3 @@
+"hop_code","effect_rows","source_studies","mean_absolute_rr","median_absolute_rr","q25_absolute_rr","q75_absolute_rr","mean_source_category_absolute_rr","median_source_category_absolute_rr"
+"H1","326","23","0.2699421696932515","0.182016772","0.0648872185","0.3249509895","0.32989662238229084","0.2421826275"
+"H2","1197","91","0.4638987737752715","0.266429797","0.109749823","0.553441926","0.477366319472201","0.36075888450000004"
