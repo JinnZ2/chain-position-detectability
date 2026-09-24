@@ -4,19 +4,20 @@ Guidance for working in this repository. Public; CC0; nothing here is private.
 
 ## What this repository is
 
-A **research program as work orders**: six markers, each an instrument
+A **research program as work orders**: six delivered markers plus one registered slot, each an instrument
 spec with a measurand, a falsifier, scope limits and runnable next steps,
 plus the execution records for the four that have been run in part. It is not a
 code repository and not a thesis.
 
 ```text
-work-orders/            six markers, operator-authored, verbatim, never edited
+work-orders/            six markers, operator-authored, verbatim, never edited; one registered slot (WO-11)
    |  WO-1  chain position detectable from inside a container?
    |  WO-2  "quiet" failure = a missing aggregation function?
    |  WO-3  does any TERMINAL system exist (zero crossings, every medium)?
    |  WO-4  one shape under WO-1..3: local correctness + an unowned join; the term gap
    |  WO-5  per-hop loss and pre-entry loss in reporting chains
    |  WO-6  assessor-assessed coupling as a known failure mode
+   |  WO-11 benchmark score as an unpartitioned residual   SLOT: text not landed, never edit once it does
    v
 research/wo-N/          model-executed milestones (wo-1..3 Manus AI; wo-4 this session), one dir per run order
    |  wo-1  standards audit: 15 units, 516 clauses, 0 positive   NULL RESULT
@@ -104,7 +105,7 @@ file; if a mapping is needed, it is a new table in `work-orders/README.md`.
 
 ```text
 README.md                     byte copy of WO-1 (CPD_001) -- not the index
-work-orders/README.md         THE index: six rows, measurand, status
+work-orders/README.md         THE index: seven rows (six delivered, one slot), measurand, status
 work-orders/WO-N-*.md         markers
 research/wo-1/                standards-audit.md, source-inventory.md, evidence/audit-unit-NN.md (15)
 research/wo-2/                codebook.md, source-manifest.md, coding/coder-{a,b}/, validation/,

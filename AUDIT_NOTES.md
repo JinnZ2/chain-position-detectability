@@ -339,6 +339,31 @@ flips kind; a term that names both C1 and C3.
 
 ---
 
+## CPD_016 -- WO-11 is a registered slot, not a delivered marker
+
+STATUS: OPEN. Row `status_table` counts it as an index row and a WO file;
+nothing recomputes its content because it has none.
+
+```
+file            work-orders/WO-11-benchmark-score-unpartitioned-residual.md
+carries         title, registration date, the STATUS line, what would move it
+does not carry  measurand statement, tags, falsifier, scope limits, runnable steps
+why             the delivered text was pasted into a session whose record did not
+                retain it; reconstructing it from memory would author a marker in
+                the operator's name, which the verbatim rule forbids
+```
+
+This is the first file under `work-orders/` that is not verbatim, and the
+file states that on its first line so the directory's own rule
+(`delivered files are verbatim`) stays checkable: a reader who finds a
+STATUS line in a work order knows they are reading a slot.
+
+FALSIFIER: the delivered WO-11 text lands under the same filename and the
+STATUS line is gone; this claim is then SUPERSEDED and the row moves to
+the delivered-marker set.
+
+---
+
 ## What would move each open item
 
 ```
@@ -349,4 +374,5 @@ CPD_007  one constructed known-negative case, or one real case coded does_not_su
 CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
+CPD_016  the operator pastes WO-11 verbatim over the slot file
 ```

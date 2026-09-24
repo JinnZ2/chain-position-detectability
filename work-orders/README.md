@@ -1,6 +1,6 @@
 # Work orders
 
-This directory contains the six CC0 work orders that define the current research program. Each document distinguishes **OBSERVED**, **DERIVED**, and **PROPOSED** claims and states runnable next steps and scope limits.
+This directory contains the CC0 work orders that define the current research program: six delivered markers and one registered slot (WO-11) whose delivered text has not landed. Each document distinguishes **OBSERVED**, **DERIVED**, and **PROPOSED** claims and states runnable next steps and scope limits.
 
 | Work order | Measurand | Status |
 | --- | --- | --- |
@@ -10,6 +10,7 @@ This directory contains the six CC0 work orders that define the current research
 | [WO-4 — The shape: local correctness with an unowned join](WO-4-the-shape-and-the-term-gap.md) | Whether one structure underlies several failures treated as unrelated | Step 1 delivered as a checkable invariant; step 3 bounded census; steps 2 and 4 open |
 | [WO-5 — Hop distance and pre-entry loss in reporting chains](WO-5-hop-distance-and-pre-entry-loss.md) | Per-hop information loss from a physical quantity to the acting node | Not started |
 | [WO-6 — Assessor–assessed coupling as a recurrent known failure mode](WO-6-assessor-assessed-coupling.md) | Whether an assessor is structurally independent of the assessed party | Not started |
+| [WO-11 — Benchmark score as an unpartitioned residual](WO-11-benchmark-score-unpartitioned-residual.md) | A benchmark score read as a residual to which no partition has been applied (title only; the delivered text is not in the tree) | Registered, text not landed; not started |
 
 WO-1 execution artifacts are maintained in [`research/wo-1/`](../research/wo-1/).
 
