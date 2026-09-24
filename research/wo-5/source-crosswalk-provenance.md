@@ -1,0 +1,10 @@
+# Crosswalk provenance notes
+
+- Raw CSV: `/home/ubuntu/chain-position-detectability/research/wo-5/analysis/raw-source-data/PSF.data.EL.open.csv`; 5,969 rows, 28 columns, 202 unique `Author` labels.
+- Jiang et al. 2024 publisher: https://doi.org/10.1111/ele.14364 and https://onlinelibrary.wiley.com/doi/10.1111/ele.14364. The method states that 179 studies came from Web of Science and the final 202 used Google Scholar, CNKI, and three previous syntheses. The page reports 5,969 observations from 202 papers. Its Data Availability Statement links Dryad.
+- Dryad synthesis dataset: https://doi.org/10.5061/dryad.n2z34tn35; API https://datadryad.org/api/v2/datasets/doi%3A10.5061%2Fdryad.n2z34tn35; version 6, 18 Dec 2023. File inventory https://datadryad.org/api/v2/versions/269740/files. Public release includes CSV, README, and R script but no standalone bibliography.
+- Xi et al. 2021: https://doi.org/10.1111/1365-2745.13731. Open PDF mirror https://par.nsf.gov/servlets/purl/10334146 includes a `DATA SOURCES` bibliography. Dryad dataset https://doi.org/10.5061/dryad.c59zw3r7f.
+- Crawford et al. 2019: https://doi.org/10.1111/ele.13278. Figshare dataset https://doi.org/10.6084/m9.figshare.7985195.v1 contains `Supplementary Table 1.xlsx`, including a `References` worksheet with 69 source citations. Open paper copy: https://par.nsf.gov/servlets/purl/10097433.
+- APIs used: Crossref REST https://api.crossref.org/works and OpenAlex https://api.openalex.org/works. Candidate records were searched by first-author label plus year and plant/soil terms, then checked against source-list membership, journal suffixes in raw labels, source figures/tables, species, and locations.
+- Crossref references: Jiang 88; Xi 141; Crawford 96. OpenAlex cited works: Jiang 92; Xi 139; Crawford 97.
+- Publisher DOI pages were used as stable URLs for DOI-resolved items. Unpublished/original-contributor labels were not converted to publications unless an independent exact match existed; explicit `Kulmatiski, unpubl. Data` remains unresolved.

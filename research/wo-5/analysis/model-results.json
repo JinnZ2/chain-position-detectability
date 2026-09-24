@@ -1,0 +1,168 @@
+{
+  "causal_note": "Hop category is confounded with experimental setting and study composition; every estimate is associational.",
+  "descriptive_magnitude": [
+    {
+      "effect_rows": 326,
+      "hop_code": "H1",
+      "mean_absolute_rr": 0.2699421696932515,
+      "mean_source_category_absolute_rr": 0.32989662238229084,
+      "median_absolute_rr": 0.182016772,
+      "median_source_category_absolute_rr": 0.2421826275,
+      "q25_absolute_rr": 0.0648872185,
+      "q75_absolute_rr": 0.3249509895,
+      "source_studies": 23
+    },
+    {
+      "effect_rows": 1197,
+      "hop_code": "H2",
+      "mean_absolute_rr": 0.4638987737752715,
+      "mean_source_category_absolute_rr": 0.477366319472201,
+      "median_absolute_rr": 0.266429797,
+      "median_source_category_absolute_rr": 0.36075888450000004,
+      "q25_absolute_rr": 0.109749823,
+      "q75_absolute_rr": 0.553441926,
+      "source_studies": 91
+    }
+  ],
+  "eligibility_note": "Only H1 and H2 met the preregistered threshold, so the categorical fallback was used; no ordinal three-category model was fit.",
+  "equal_source_weight": {
+    "h2_minus_h1": {
+      "ci_high": 0.21204023041657177,
+      "ci_low": -0.1651917127597997,
+      "df": 110,
+      "estimate": 0.023424258828386023,
+      "p_value": 0.8060512043327117,
+      "se": 0.09517573715149338,
+      "statistic": 0.2461158644991748
+    }
+  },
+  "equivalence": {
+    "primary_ci_inside_margin": false,
+    "small_effect_margin_log_response_ratio": 0.09531017980432493
+  },
+  "input": {
+    "all_rows": 5969,
+    "eligible_rows": 1523,
+    "eligible_source_studies": 111,
+    "path": "analysis/hop-coded-effects.csv",
+    "sha256": "77dc735fa425abd96329acbc55a99c6403f7da77b947f3b1cc7d61a9ec612480",
+    "unresolved_rows": 4446
+  },
+  "leave_one_source_out": {
+    "ci_high_max": 0.20813389085142775,
+    "ci_low_min": -0.2143426228572569,
+    "estimate_max": 0.033651292943237474,
+    "estimate_min": -0.04256170921848504,
+    "models": 111
+  },
+  "paired_source": {
+    "h2_minus_h1": {
+      "ci_high": 1.0454716029299025,
+      "ci_low": -0.555954430374441,
+      "df": 2,
+      "estimate": 0.24475858627773078,
+      "p_value": 0.31898786550413627,
+      "se": 0.18609752330599924,
+      "statistic": 1.3152167848858227
+    },
+    "paired_sources": 3,
+    "tau2": 0.09897059509311995
+  },
+  "permutation": {
+    "method": "count-preserving source-level label permutation with fixed tau-squared and weights",
+    "observed_h2_cells": 91,
+    "observed_source_aggregate_difference": -0.002813634837447166,
+    "permuted_h2_cell_max": 91,
+    "permuted_h2_cell_min": 91,
+    "replicates": 4999,
+    "seed": 20260919,
+    "two_sided_p": 0.9824
+  },
+  "primary": {
+    "h1": {
+      "ci_high": 0.03289668288181983,
+      "ci_low": -0.11864141322076416,
+      "df": 110,
+      "estimate": -0.04287236516947216,
+      "p_value": 0.2645845786393231,
+      "se": 0.03823310900358734,
+      "statistic": -1.121341326582924
+    },
+    "h2": {
+      "ci_high": 0.11807634973787953,
+      "ci_low": -0.21437520174585642,
+      "df": 110,
+      "estimate": -0.048149426003988444,
+      "p_value": 0.5671101845467416,
+      "se": 0.08387763033319953,
+      "statistic": -0.57404370882579
+    },
+    "h2_minus_h1": {
+      "ci_high": 0.1778341664187118,
+      "ci_low": -0.18838828808774438,
+      "df": 110,
+      "estimate": -0.005277060834516279,
+      "p_value": 0.954559385494709,
+      "se": 0.0923980397195177,
+      "statistic": -0.05711225963814013
+    },
+    "h2_minus_h1_cr2_satterthwaite": {
+      "ci_high": 0.2075223793616351,
+      "ci_low": -0.21807650103066772,
+      "df": 13.582112944751803,
+      "estimate": -0.005277060834516304,
+      "p_value": 0.9582368576963439,
+      "se": 0.09893073855519108,
+      "statistic": -0.05334096269353492
+    },
+    "method": "effect-level REML meta-regression with source-study-clustered CR1 standard errors",
+    "tau2": 0.3637751464520877
+  },
+  "source_category_aggregation": {
+    "cells": 114,
+    "h1": {
+      "ci_high": 0.09948638383730174,
+      "ci_low": -0.2065188814024524,
+      "df": 110,
+      "estimate": -0.05351624878257533,
+      "p_value": 0.4896646455326367,
+      "se": 0.07720522404916026,
+      "statistic": -0.6931687517479255
+    },
+    "h2": {
+      "ci_high": 0.044187984567630095,
+      "ci_low": -0.1568477518076751,
+      "df": 110,
+      "estimate": -0.0563298836200225,
+      "p_value": 0.26917315987462814,
+      "se": 0.0507213791128159,
+      "statistic": -1.1105747636461543
+    },
+    "h2_minus_h1": {
+      "ci_high": 0.18110157583953282,
+      "ci_low": -0.18672884551442717,
+      "df": 110,
+      "estimate": -0.002813634837447166,
+      "p_value": 0.9758682838602657,
+      "se": 0.09280373025764581,
+      "statistic": -0.030318122231033483
+    },
+    "h2_minus_h1_cr2_satterthwaite": {
+      "ci_high": 0.18747228011408348,
+      "ci_low": -0.19309954978897778,
+      "df": 33.40183992148762,
+      "estimate": -0.002813634837447142,
+      "p_value": 0.9761907220594017,
+      "se": 0.0935716151643834,
+      "statistic": -0.030069319980255176
+    },
+    "method": "inverse-variance aggregation within source-study/category, then REML meta-regression with source-clustered CR1 standard errors",
+    "sources": 111,
+    "tau2": 0.20342293371275263
+  },
+  "source_overlap": {
+    "dual_category_sources": 3,
+    "h1_only_sources": 20,
+    "h2_only_sources": 88
+  }
+}

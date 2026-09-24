@@ -1,0 +1,5068 @@
+[
+  {
+    "i": 1,
+    "label": "Bever 1994",
+    "year": 1994,
+    "source_values": "Figure 3a",
+    "candidates": [
+      {
+        "title": "Feeback between Plants and Their Soil Communities in an Old Field Community",
+        "doi": "10.2307/1941601",
+        "mark": "SC",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 2,
+    "label": "Holah and Alexander 1999",
+    "year": 1999,
+    "source_values": "Figure 1b | Figure 1d",
+    "candidates": [
+      {
+        "title": "Soil pathogenic fungi have the potential to affect the co‐existence of two tallgrass prairie species",
+        "doi": "10.1046/j.1365-2745.1999.00383.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 3,
+    "label": "Peltzer 2001",
+    "year": 2001,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Plant responses to competition and soil origin across a prairie–forest boundary",
+        "doi": "10.1046/j.1365-2745.2001.00544.x",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Variation in Plant Responses to Neighbors at Local and Regional Scales",
+        "doi": "10.2307/3079302",
+        "mark": "",
+        "topical": false,
+        "container": "The American Naturalist"
+      },
+      {
+        "title": "Variation in Plant Responses to Neighbors at Local and Regional Scales",
+        "doi": "10.1086/320623",
+        "mark": "",
+        "topical": false,
+        "container": "The American Naturalist"
+      }
+    ]
+  },
+  {
+    "i": 4,
+    "label": "Troelstra et al. 2001",
+    "year": 2001,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Interpretation of bioassays in the study of interactions between soil organisms and plants: involvement of nutrient factors",
+        "doi": "10.1046/j.1469-8137.2001.00133.x",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 5,
+    "label": "Klironomos 2002",
+    "year": 2002,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Feedback with soil biota contributes to plant rarity and invasiveness in communities",
+        "doi": "10.1038/417067a",
+        "mark": "",
+        "topical": true,
+        "container": "Nature"
+      }
+    ]
+  },
+  {
+    "i": 6,
+    "label": "Van der Stoel et al. 2002",
+    "year": 2002,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Development of a negative plant–soil feedback in the expansion zone of the clonal grass <i>Ammophila arenaria</i> following root formation and nematode colonization",
+        "doi": "10.1046/j.1365-2745.2002.00727.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 7,
+    "label": "Beckstead and Parker 2003",
+    "year": 2003,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "INVASIVENESS OF AMMOPHILA ARENARIA: RELEASE FROM SOIL-BORNE PATHOGENS?",
+        "doi": "10.1890/02-0517",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 8,
+    "label": "Reinhart et al. 2003",
+    "year": 2003,
+    "source_values": "Figure 2b",
+    "candidates": [
+      {
+        "title": "Plant–soil biota interactions and spatial distribution of black cherry in its native and invasive ranges",
+        "doi": "10.1046/j.1461-0248.2003.00539.x",
+        "mark": "S",
+        "topical": true,
+        "container": "Ecology Letters"
+      }
+    ]
+  },
+  {
+    "i": 9,
+    "label": "Callaway et al. 2004b Nature",
+    "year": 2004,
+    "source_values": "Figure 1 | Figure 2",
+    "candidates": [
+      {
+        "title": "Soil biota and exotic plant invasion",
+        "doi": "10.1038/nature02322",
+        "mark": "SXC",
+        "topical": true,
+        "container": "Nature"
+      },
+      {
+        "title": "Feedforward, feedback and inhibitory connections in primate visual cortex",
+        "doi": "10.1016/j.neunet.2004.04.004",
+        "mark": "",
+        "topical": false,
+        "container": "Neural Networks"
+      },
+      {
+        "title": "SOIL FUNGI ALTER INTERACTIONS BETWEEN THE INVADER CENTAUREA MACULOSA AND NORTH AMERICAN NATIVES",
+        "doi": "10.1890/02-0775",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology"
+      },
+      {
+        "title": "Novel weapons: invasive success and the evolution of increased competitive ability",
+        "doi": "10.1890/1540-9295(2004)002[0436:nwisat]2.0.co;2",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Ecology and the Environment"
+      }
+    ]
+  },
+  {
+    "i": 10,
+    "label": "De Deyn et al. 2004a",
+    "year": 2004,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Plant community development is affected by nutrients and soil biota",
+        "doi": "10.1111/j.0022-0477.2004.00924.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Plant species identity and diversity effects on different trophic levels of nematodes in the soil food web",
+        "doi": "10.1111/j.0030-1299.2004.13265.x",
+        "mark": "",
+        "topical": false,
+        "container": "Oikos"
+      }
+    ]
+  },
+  {
+    "i": 11,
+    "label": "Ehlers and Thompson 2004",
+    "year": 2004,
+    "source_values": "Figure 3b",
+    "candidates": [
+      {
+        "title": "Deformation and localization analysis of partially saturated soil",
+        "doi": "10.1016/s0045-7825(04)00114-8",
+        "mark": "",
+        "topical": false,
+        "container": "Computer Methods in Applied Mechanics and Engineering"
+      },
+      {
+        "title": "Deformation and localization analysis of partially saturated soil",
+        "doi": "10.1016/j.cma.2003.09.026",
+        "mark": "",
+        "topical": false,
+        "container": "Computer Methods in Applied Mechanics and Engineering"
+      },
+      {
+        "title": "Inventory of non-timber forest product plant and fungal species in the Robson Valley",
+        "doi": "10.22230/jem.2004v4n2a276",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Ecosystems and Management"
+      },
+      {
+        "title": "Flower production in relation to individual plant age and leaf production among different patches of Corydalis intermedia",
+        "doi": "10.1023/b:vege.0000046060.77491.b9",
+        "mark": "",
+        "topical": false,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Do co-occurring plant species adapt to one another? The response of Bromus erectus to the presence of different Thymus vulgaris chemotypes",
+        "doi": "10.1007/s00442-004-1663-7",
+        "mark": "",
+        "topical": false,
+        "container": "Oecologia"
+      }
+    ]
+  },
+  {
+    "i": 12,
+    "label": "Gustafson and Casper 2004",
+    "year": 2004,
+    "source_values": "Figure 1 | Figure 2 | Figure 3 | Figure 4 | Figure 5",
+    "candidates": [
+      {
+        "title": "Nutrient addition affects AM fungal performance and expression of plant/fungal feedback in three serpentine grasses",
+        "doi": "10.1023/b:plso.0000020936.56786.a4",
+        "mark": "X",
+        "topical": false,
+        "container": "Plant and Soil"
+      }
+    ]
+  },
+  {
+    "i": 13,
+    "label": "Knevel et al. 2004",
+    "year": 2004,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Release from native root herbivores and biotic resistance by soil pathogens in a new habitat both affect the alien Ammophila arenaria in South Africa",
+        "doi": "10.1007/s00442-004-1662-8",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      }
+    ]
+  },
+  {
+    "i": 14,
+    "label": "Packer and Clay 2004",
+    "year": 2004,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Development of negative feedback during successive growth cycles of black cherry",
+        "doi": "10.1098/rspb.2003.2583",
+        "mark": "",
+        "topical": false,
+        "container": "Proceedings of the Royal Society of London. Series B: Biological Sciences"
+      }
+    ]
+  },
+  {
+    "i": 15,
+    "label": "Reinhart and Callaway 2004",
+    "year": 2004,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "SOIL BIOTA FACILITATE EXOTIC ACER INVASIONS IN EUROPE AND NORTH AMERICA",
+        "doi": "10.1890/03-5204",
+        "mark": "S",
+        "topical": true,
+        "container": "Ecological Applications"
+      }
+    ]
+  },
+  {
+    "i": 16,
+    "label": "Suding et al. 2004",
+    "year": 2004,
+    "source_values": "Figure 2",
+    "candidates": []
+  },
+  {
+    "i": 17,
+    "label": "Agrawal et al. 2005",
+    "year": 2005,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Effluent treatment and by-product recovery from the sludge of an alumina plant",
+        "doi": "10.1016/j.mineng.2004.08.005",
+        "mark": "",
+        "topical": false,
+        "container": "Minerals Engineering"
+      },
+      {
+        "title": "Future directions in the study of induced plant responses to herbivory",
+        "doi": "10.1111/j.1570-7458.2005.00294.x",
+        "mark": "",
+        "topical": false,
+        "container": "Entomologia Experimentalis et Applicata"
+      },
+      {
+        "title": "Plant Transformation Vectors Having Street Rabies Virus (Indian Strain) Glycoprotein Gene",
+        "doi": "10.1007/bf03263233",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Plant Biochemistry and Biotechnology"
+      },
+      {
+        "title": "Alkaline protease production by a soil isolate of Beauveria felina under SSF condition: parameter optimization and application to soy protein hydrolysis",
+        "doi": "10.1016/j.procbio.2004.03.006",
+        "mark": "",
+        "topical": false,
+        "container": "Process Biochemistry"
+      },
+      {
+        "title": "ENEMY RELEASE? AN EXPERIMENT WITH CONGENERIC PLANT PAIRS AND DIVERSE ABOVE- AND BELOWGROUND ENEMIES",
+        "doi": "10.1890/05-0219",
+        "mark": "S",
+        "topical": false,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 18,
+    "label": "Belnap et al. 2005",
+    "year": 2005,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "SOIL BIOTA CAN CHANGE AFTER EXOTIC PLANT INVASION: DOES THIS AFFECT ECOSYSTEM PROCESSES?",
+        "doi": "10.1890/05-0333",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Biological Soil Crusts and Global Changes",
+        "doi": "10.1201/9781420027891.ch35",
+        "mark": "",
+        "topical": false,
+        "container": "Mycology"
+      },
+      {
+        "title": "Lichens and Microfungi in Biological Soil Crusts",
+        "doi": "10.1201/9781420027891.ch6",
+        "mark": "",
+        "topical": false,
+        "container": "Mycology"
+      }
+    ]
+  },
+  {
+    "i": 19,
+    "label": "Bonanomi and Mazzoleni 2005 CE",
+    "year": 2005,
+    "source_values": "Figure 2 | Figure 3",
+    "candidates": [
+      {
+        "title": "Negative plant–soil feedback and species coexistence",
+        "doi": "10.1111/j.0030-1299.2005.13975.x",
+        "mark": "",
+        "topical": true,
+        "container": "Oikos"
+      },
+      {
+        "title": "Negative Plant–Soil Feedback and Positive Species Interaction in a Herbaceous Plant Community",
+        "doi": "10.1007/s11258-005-7221-5",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Soil history affects plant growth and competitive ability in herbaceous species",
+        "doi": "10.1556/comec.6.2005.1.3",
+        "mark": "",
+        "topical": false,
+        "container": "Community Ecology"
+      },
+      {
+        "title": "Phytotoxicity dynamics of decaying plant materials",
+        "doi": "10.1111/j.1469-8137.2005.01611.x",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 20,
+    "label": "Bonanomi et al. 2005 PE",
+    "year": 2005,
+    "source_values": "Figure 5",
+    "candidates": [
+      {
+        "title": "Negative plant–soil feedback and species coexistence",
+        "doi": "10.1111/j.0030-1299.2005.13975.x",
+        "mark": "",
+        "topical": true,
+        "container": "Oikos"
+      },
+      {
+        "title": "Negative Plant–Soil Feedback and Positive Species Interaction in a Herbaceous Plant Community",
+        "doi": "10.1007/s11258-005-7221-5",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Soil history affects plant growth and competitive ability in herbaceous species",
+        "doi": "10.1556/comec.6.2005.1.3",
+        "mark": "",
+        "topical": false,
+        "container": "Community Ecology"
+      },
+      {
+        "title": "Phytotoxicity dynamics of decaying plant materials",
+        "doi": "10.1111/j.1469-8137.2005.01611.x",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 21,
+    "label": "Reinhart et al. 2005a Ecography",
+    "year": 2005,
+    "source_values": "Figure 5",
+    "candidates": [
+      {
+        "title": "Soil feedback and pathogen activity in <i>Prunus serotina</i> throughout its native range",
+        "doi": "10.1111/j.1365-2745.2005.01028.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Effects of\n                    <i>Acer platanoides</i>\n                    invasion on understory plant communities and tree regeneration in the northern Rocky Mountains",
+        "doi": "10.1111/j.2005.0906-7590.04166.x",
+        "mark": "",
+        "topical": false,
+        "container": "Ecography"
+      }
+    ]
+  },
+  {
+    "i": 22,
+    "label": "Bezemer et al. 2006a Ecology",
+    "year": 2006,
+    "source_values": "Figure 4",
+    "candidates": [
+      {
+        "title": "Plant species and functional group effects on abiotic and microbial soil properties and plant–soil feedback responses in two grasslands",
+        "doi": "10.1111/j.1365-2745.2006.01158.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "INTERPLAY BETWEEN<i>SENECIO JACOBAEA</i>AND PLANT, SOIL, AND ABOVEGROUND INSECT COMMUNITY COMPOSITION",
+        "doi": "10.1890/0012-9658(2006)87[2002:ibsjap]2.0.co;2",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 23,
+    "label": "Bezemer et al. 2006b JE",
+    "year": 2006,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Plant species and functional group effects on abiotic and microbial soil properties and plant–soil feedback responses in two grasslands",
+        "doi": "10.1111/j.1365-2745.2006.01158.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "INTERPLAY BETWEEN<i>SENECIO JACOBAEA</i>AND PLANT, SOIL, AND ABOVEGROUND INSECT COMMUNITY COMPOSITION",
+        "doi": "10.1890/0012-9658(2006)87[2002:ibsjap]2.0.co;2",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 24,
+    "label": "Bodelier et al. 2006",
+    "year": 2006,
+    "source_values": "Figure 4a",
+    "candidates": [
+      {
+        "title": "Animal–plant–microbe interactions: direct and indirect effects of swan foraging behaviour modulate methane cycling in temperate shallow wetlands",
+        "doi": "10.1007/s00442-006-0445-9",
+        "mark": "",
+        "topical": false,
+        "container": "Oecologia"
+      }
+    ]
+  },
+  {
+    "i": 25,
+    "label": "Gillespie and Allen 2006",
+    "year": 2006,
+    "source_values": "Figure 2a",
+    "candidates": [
+      {
+        "title": "Narrative Comments in 360 Feedback: Who Says What?",
+        "doi": "10.1037/e518572013-455",
+        "mark": "",
+        "topical": false,
+        "container": "PsycEXTRA Dataset"
+      },
+      {
+        "title": "Bone marrow-derived cells – fertilizer necessary for the seed and soil",
+        "doi": "10.1138/20060207",
+        "mark": "",
+        "topical": false,
+        "container": "BoneKEy-Osteovision"
+      },
+      {
+        "title": "Effects of soil and mycorrhizae from native and invaded vegetation on a rare California forb",
+        "doi": "10.1016/j.apsoil.2005.03.008",
+        "mark": "",
+        "topical": true,
+        "container": "Applied Soil Ecology"
+      }
+    ]
+  },
+  {
+    "i": 26,
+    "label": "Kardol et al. 2006",
+    "year": 2006,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Temporal variation in plant–soil feedback controls succession",
+        "doi": "10.1111/j.1461-0248.2006.00953.x",
+        "mark": "SC",
+        "topical": true,
+        "container": "Ecology Letters"
+      }
+    ]
+  },
+  {
+    "i": 27,
+    "label": "Kulmatiski et al. 2006",
+    "year": 2006,
+    "source_values": "Figure 1",
+    "candidates": []
+  },
+  {
+    "i": 28,
+    "label": "Meiman et al. 2006",
+    "year": 2006,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "The role of the native soil community in the invasion ecology of spotted (Centaurea maculosa auct. non Lam.) and diffuse (Centaurea diffusa Lam.) knapweed",
+        "doi": "10.1016/j.apsoil.2005.02.016",
+        "mark": "",
+        "topical": true,
+        "container": "Applied Soil Ecology"
+      }
+    ]
+  },
+  {
+    "i": 29,
+    "label": "Morris et al. 2006",
+    "year": 2006,
+    "source_values": "Table 3, Text",
+    "candidates": []
+  },
+  {
+    "i": 30,
+    "label": "Puerta-Pinero et al. 2006",
+    "year": 2006,
+    "source_values": "Table 2",
+    "candidates": []
+  },
+  {
+    "i": 31,
+    "label": "Suguenza et al. 2006",
+    "year": 2006,
+    "source_values": "Figure 1a | Figure 1b",
+    "candidates": []
+  },
+  {
+    "i": 32,
+    "label": "Blank and Sforza 2007",
+    "year": 2007,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Plant–soil relationships of the invasive annual grass Taeniatherum caput-medusae: a reciprocal transplant experiment",
+        "doi": "10.1007/s11104-007-9308-3",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Feedback Improves Performance",
+        "doi": "10.1001/archpedi.161.1.103",
+        "mark": "",
+        "topical": false,
+        "container": "Archives of Pediatrics &amp; Adolescent Medicine"
+      }
+    ]
+  },
+  {
+    "i": 33,
+    "label": "Casper and Castelli 2007",
+    "year": 2007,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Evaluating plant–soil feedback together with competition in a serpentine grassland",
+        "doi": "10.1111/j.1461-0248.2007.01030.x",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology Letters"
+      },
+      {
+        "title": "Fuzzy logic-based rainfall—runoff modelling using soil moisture measurements to represent system state",
+        "doi": "10.1623/hysj.52.3.478",
+        "mark": "",
+        "topical": false,
+        "container": "Hydrological Sciences Journal"
+      }
+    ]
+  },
+  {
+    "i": 34,
+    "label": "Dickie et al. 2007",
+    "year": 2007,
+    "source_values": "Table 1",
+    "candidates": [
+      {
+        "title": "Physiological and phenological responses of oak seedlings to oak forest soil in the absence of trees",
+        "doi": "10.1093/treephys/27.1.133",
+        "mark": "",
+        "topical": false,
+        "container": "Tree Physiology"
+      },
+      {
+        "title": "Host preference, niches and fungal diversity",
+        "doi": "10.1111/j.1469-8137.2007.02055.x",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 35,
+    "label": "Kardol et al. 2007",
+    "year": 2007,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "MICROBE‐MEDIATED PLANT–SOIL FEEDBACK CAUSES HISTORICAL CONTINGENCY EFFECTS IN PLANT COMMUNITY ASSEMBLY",
+        "doi": "10.1890/06-0502",
+        "mark": "",
+        "topical": true,
+        "container": "Ecological Monographs"
+      }
+    ]
+  },
+  {
+    "i": 36,
+    "label": "Nijjer et al. 2007",
+    "year": 2007,
+    "source_values": "Figure 1b",
+    "candidates": [
+      {
+        "title": "Negative plant–soil feedbacks may limit persistence of an invasive tree due to rapid accumulation of soil pathogens",
+        "doi": "10.1098/rspb.2007.0804",
+        "mark": "X",
+        "topical": true,
+        "container": "Proceedings of the Royal Society B: Biological Sciences"
+      }
+    ]
+  },
+  {
+    "i": 37,
+    "label": "Niu et al 2007",
+    "year": 2007,
+    "source_values": "Figure 4",
+    "candidates": [
+      {
+        "title": "An invasive aster (Ageratina adenophora) invades and dominates forest understories in China: altered soil microbial communities facilitate the invader and inhibit natives",
+        "doi": "10.1007/s11104-007-9230-8",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "An observation‐based formulation of snow cover fraction and its evaluation over large North American river basins",
+        "doi": "10.1029/2007jd008674",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Geophysical Research Atmospheres"
+      }
+    ]
+  },
+  {
+    "i": 38,
+    "label": "Van der Putten et al. 2007",
+    "year": 2007,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "SOIL FEEDBACK OF EXOTIC SAVANNA GRASS RELATES TO PATHOGEN ABSENCE AND MYCORRHIZAL SELECTIVITY",
+        "doi": "10.1890/06-1051",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Microbial ecology of biological invasions",
+        "doi": "10.1038/ismej.2007.9",
+        "mark": "",
+        "topical": false,
+        "container": "The ISME Journal"
+      }
+    ]
+  },
+  {
+    "i": 39,
+    "label": "VanGrunsven et al. 2007",
+    "year": 2007,
+    "source_values": "Author",
+    "candidates": []
+  },
+  {
+    "i": 40,
+    "label": "van Grunsven et al. 2007",
+    "year": 2007,
+    "source_values": "Author",
+    "candidates": []
+  },
+  {
+    "i": 41,
+    "label": "van der Putten et al. 2007",
+    "year": 2007,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "SOIL FEEDBACK OF EXOTIC SAVANNA GRASS RELATES TO PATHOGEN ABSENCE AND MYCORRHIZAL SELECTIVITY",
+        "doi": "10.1890/06-1051",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Microbial ecology of biological invasions",
+        "doi": "10.1038/ismej.2007.9",
+        "mark": "",
+        "topical": false,
+        "container": "The ISME Journal"
+      }
+    ]
+  },
+  {
+    "i": 42,
+    "label": "Batten et al. 2008",
+    "year": 2008,
+    "source_values": "Figure 4",
+    "candidates": []
+  },
+  {
+    "i": 43,
+    "label": "Casper,2008",
+    "year": 2008,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "PLANT–SOIL FEEDBACK: TESTING THE GENERALITY WITH THE SAME GRASSES IN SERPENTINE AND PRAIRIE SOILS",
+        "doi": "10.1890/07-1277.1",
+        "mark": "S",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 44,
+    "label": "Jordan et al. 2008",
+    "year": 2008,
+    "source_values": "Figure 1 | Figure 2 | Figure 3",
+    "candidates": [
+      {
+        "title": "Online interactive assessment with short free-text questions and tailored feedback",
+        "doi": "10.11120/ndir.2008.00040017",
+        "mark": "",
+        "topical": false,
+        "container": "New Directions"
+      },
+      {
+        "title": "Effects of soil fungi on weed communities in a corn–soybean rotation",
+        "doi": "10.1017/s1742170508002226",
+        "mark": "",
+        "topical": false,
+        "container": "Renewable Agriculture and Food Systems"
+      },
+      {
+        "title": "Natural bioremediation of a nitrate-contaminated soil-and-aquifer system in a desert environment",
+        "doi": "10.1016/j.jaridenv.2007.09.002",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Arid Environments"
+      }
+    ]
+  },
+  {
+    "i": 45,
+    "label": "Kulmatiski, unpubl. Data",
+    "year": 2008,
+    "source_values": "Author",
+    "candidates": []
+  },
+  {
+    "i": 46,
+    "label": "Manning,2008",
+    "year": 2008,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Nitrogen enrichment modifies plant community structure via changes to plant–soil feedback",
+        "doi": "10.1007/s00442-008-1104-0",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      },
+      {
+        "title": "Biological enhancement of soil carbonate precipitation: passive removal of atmospheric CO<sub>2</sub>",
+        "doi": "10.1180/minmag.2008.072.2.639",
+        "mark": "",
+        "topical": false,
+        "container": "Mineralogical Magazine"
+      }
+    ]
+  },
+  {
+    "i": 47,
+    "label": "Petermann et al. 2008",
+    "year": 2008,
+    "source_values": "Authors",
+    "candidates": [
+      {
+        "title": "JANZEN‐CONNELL EFFECTS ARE WIDESPREAD AND STRONG ENOUGH TO MAINTAIN DIVERSITY IN GRASSLANDS",
+        "doi": "10.1890/07-2056.1",
+        "mark": "C",
+        "topical": false,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 48,
+    "label": "Markham,2009",
+    "year": 2009,
+    "source_values": "Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 49,
+    "label": "Fitzsimons et al. 2010",
+    "year": 2010,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "The importance of soil microorganisms for maintaining diverse plant communities in tallgrass prairie",
+        "doi": "10.3732/ajb.0900237",
+        "mark": "",
+        "topical": false,
+        "container": "American Journal of Botany"
+      }
+    ]
+  },
+  {
+    "i": 50,
+    "label": "Harrison,2010",
+    "year": 2010,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Influence of plant species and soil conditions on plant–soil feedback in mixed grassland communities",
+        "doi": "10.1111/j.1365-2745.2009.01614.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Faculty Opinions recommendation of Self-medication as adaptive plasticity: increased ingestion of plant toxins by parasitized caterpillars.",
+        "doi": "10.3410/f.1764976.1306054",
+        "mark": "",
+        "topical": false,
+        "container": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature"
+      },
+      {
+        "title": "Faculty Opinions recommendation of Genome-wide phylogenetic comparative analysis of plant transcriptional regulation: a timeline of loss, gain, expansion, and correlation with complexity.",
+        "doi": "10.3410/f.5018956.4951054",
+        "mark": "",
+        "topical": false,
+        "container": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature"
+      },
+      {
+        "title": "Grazing winter wheat relieves plant water stress and transiently enhances photosynthesis",
+        "doi": "10.1071/fp10040",
+        "mark": "",
+        "topical": false,
+        "container": "Functional Plant Biology"
+      },
+      {
+        "title": "Ecophysiological and bioclimatic foundations for a global plant functional classification",
+        "doi": "10.1111/j.1654-1103.2009.01144.x",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Vegetation Science"
+      }
+    ]
+  },
+  {
+    "i": 51,
+    "label": "Jiang, 2010",
+    "year": 2010,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "The role of plant–soil feedbacks and land‐use legacies in restoration of a temperate steppe in northern China",
+        "doi": "10.1007/s11284-010-0735-x",
+        "mark": "",
+        "topical": true,
+        "container": "Ecological Research"
+      },
+      {
+        "title": "Energy-efficient, decision feedback equalization Using SAR-like capacitive charge summation",
+        "doi": "10.1109/vdat.2010.5496736",
+        "mark": "",
+        "topical": false,
+        "container": "Proceedings of 2010 International Symposium on VLSI Design, Automation and Test"
+      },
+      {
+        "title": "Application issues of virtual reference feedback tuning and non-iterative correlation-based tuning",
+        "doi": "10.1109/icinfa.2010.5512301",
+        "mark": "",
+        "topical": false,
+        "container": "The 2010 IEEE International Conference on Information and Automation"
+      },
+      {
+        "title": "Quantized dynamic output feedback control for networked control systems",
+        "doi": "10.3969/j.issn.1004-4132.2010.06.015",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Systems Engineering and Electronics"
+      },
+      {
+        "title": "Two new species of Humicola from soil",
+        "doi": "10.5248/111.117",
+        "mark": "",
+        "topical": false,
+        "container": "Mycotaxon"
+      }
+    ]
+  },
+  {
+    "i": 52,
+    "label": "Kueffer 2010",
+    "year": 2010,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Transdisciplinary research is needed to predict plant invasions in an era of global change",
+        "doi": "10.1016/j.tree.2010.08.001",
+        "mark": "",
+        "topical": false,
+        "container": "Trends in Ecology &amp; Evolution"
+      },
+      {
+        "title": "A global comparison of plant invasions on oceanic islands",
+        "doi": "10.1016/j.ppees.2009.06.002",
+        "mark": "",
+        "topical": false,
+        "container": "Perspectives in Plant Ecology, Evolution and Systematics"
+      }
+    ]
+  },
+  {
+    "i": 53,
+    "label": "Mangan et al. 2010",
+    "year": 2010,
+    "source_values": "Crowford2019",
+    "candidates": [
+      {
+        "title": "Functional specificity between Neotropical tree seedlings and their fungal mutualists: evidence for AMF-mediated plant-soil feedback.",
+        "doi": "10.1890/09-0396",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Specificity between Neotropical tree seedlings and their fungal mutualists leads to plant–soil feedback",
+        "doi": "10.1890/09-0396.1",
+        "mark": "C",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Negative plant–soil feedback predicts tree-species relative abundance in a tropical forest",
+        "doi": "10.1038/nature09273",
+        "mark": "SXC",
+        "topical": true,
+        "container": "Nature"
+      }
+    ]
+  },
+  {
+    "i": 54,
+    "label": "de la Pena et al. 2010",
+    "year": 2010,
+    "source_values": "Figure 1a | Figure 2a | Figure 3a",
+    "candidates": [
+      {
+        "title": "Plant-soil feedback as a mechanism of invasion by Carpobrotus edulis",
+        "doi": "10.1007/s10530-010-9756-1",
+        "mark": "",
+        "topical": true,
+        "container": "Biological Invasions"
+      },
+      {
+        "title": "Landscape structure, dispersal and the evolution of antagonistic plant–herbivore interactions",
+        "doi": "10.1111/j.1600-0587.2010.06524.x",
+        "mark": "",
+        "topical": false,
+        "container": "Ecography"
+      }
+    ]
+  },
+  {
+    "i": 55,
+    "label": "van Grunsven,2010a",
+    "year": 2010,
+    "source_values": "Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 56,
+    "label": "Dostal,2011",
+    "year": 2011,
+    "source_values": "Figure 2 | Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 57,
+    "label": "Kulmatiski et al. 2011 JE",
+    "year": 2011,
+    "source_values": "Table 2",
+    "candidates": [
+      {
+        "title": "Testing predictions of a three‐species plant–soil feedback model",
+        "doi": "10.1111/j.1365-2745.2010.01784.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Long-term plant growth legacies overwhelm short-term plant growth effects on soil microbial community structure",
+        "doi": "10.1016/j.soilbio.2010.12.018",
+        "mark": "",
+        "topical": true,
+        "container": "Soil Biology and Biochemistry"
+      },
+      {
+        "title": "Changing Soils to Manage Plant Communities: Activated Carbon as a Restoration Tool in Ex‐arable Fields",
+        "doi": "10.1111/j.1526-100x.2009.00632.x",
+        "mark": "",
+        "topical": false,
+        "container": "Restoration Ecology"
+      }
+    ]
+  },
+  {
+    "i": 58,
+    "label": "Kulmatiski et al. 2011 SBB",
+    "year": 2011,
+    "source_values": "Figure 4",
+    "candidates": [
+      {
+        "title": "Testing predictions of a three‐species plant–soil feedback model",
+        "doi": "10.1111/j.1365-2745.2010.01784.x",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Long-term plant growth legacies overwhelm short-term plant growth effects on soil microbial community structure",
+        "doi": "10.1016/j.soilbio.2010.12.018",
+        "mark": "",
+        "topical": true,
+        "container": "Soil Biology and Biochemistry"
+      },
+      {
+        "title": "Changing Soils to Manage Plant Communities: Activated Carbon as a Restoration Tool in Ex‐arable Fields",
+        "doi": "10.1111/j.1526-100x.2009.00632.x",
+        "mark": "",
+        "topical": false,
+        "container": "Restoration Ecology"
+      }
+    ]
+  },
+  {
+    "i": 59,
+    "label": "Li et al. 2011 SAS",
+    "year": 2011,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Irrigation Optimization by Modeling of Plant-Soil Interaction",
+        "doi": "10.2316/p.2011.715-093",
+        "mark": "",
+        "topical": true,
+        "container": "Applied Simulation and Modelling"
+      },
+      {
+        "title": "Plant clipping may cause overestimation of soil respiration in a Tibetan alpine meadow, southwest China",
+        "doi": "10.1007/s11284-011-0806-7",
+        "mark": "",
+        "topical": false,
+        "container": "Ecological Research"
+      },
+      {
+        "title": "Plant uptake and in-soil degradation of PCB-5 under varying cropping conditions",
+        "doi": "10.1016/j.chemosphere.2011.06.007",
+        "mark": "",
+        "topical": false,
+        "container": "Chemosphere"
+      },
+      {
+        "title": "Effects of different treatments on soil-borne DDT and HCH dynamics and plant uptake",
+        "doi": "10.1080/03601234.2011.589313",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Environmental Science and Health, Part B"
+      },
+      {
+        "title": "A feedback based charge pump",
+        "doi": "10.1109/asid.2011.5967448",
+        "mark": "",
+        "topical": false,
+        "container": "2011 IEEE International Conference on Anti-Counterfeiting, Security and Identification"
+      },
+      {
+        "title": "Correlation between soil apparent electroconductivity and plant hyperspectral reflectance in a managed wetland",
+        "doi": "10.1080/01431161003698427",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Remote Sensing"
+      },
+      {
+        "title": "Adaptive NN output‐feedback decentralized stabilization for a class of large‐scale stochastic nonlinear strict‐feedback systems",
+        "doi": "10.1002/rnc.1609",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Robust and Nonlinear Control"
+      }
+    ]
+  },
+  {
+    "i": 60,
+    "label": "Li et al. 2011 SASB",
+    "year": 2011,
+    "source_values": "Figure 4",
+    "candidates": [
+      {
+        "title": "Irrigation Optimization by Modeling of Plant-Soil Interaction",
+        "doi": "10.2316/p.2011.715-093",
+        "mark": "",
+        "topical": true,
+        "container": "Applied Simulation and Modelling"
+      },
+      {
+        "title": "Plant clipping may cause overestimation of soil respiration in a Tibetan alpine meadow, southwest China",
+        "doi": "10.1007/s11284-011-0806-7",
+        "mark": "",
+        "topical": false,
+        "container": "Ecological Research"
+      },
+      {
+        "title": "Plant uptake and in-soil degradation of PCB-5 under varying cropping conditions",
+        "doi": "10.1016/j.chemosphere.2011.06.007",
+        "mark": "",
+        "topical": false,
+        "container": "Chemosphere"
+      },
+      {
+        "title": "Effects of different treatments on soil-borne DDT and HCH dynamics and plant uptake",
+        "doi": "10.1080/03601234.2011.589313",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Environmental Science and Health, Part B"
+      },
+      {
+        "title": "A feedback based charge pump",
+        "doi": "10.1109/asid.2011.5967448",
+        "mark": "",
+        "topical": false,
+        "container": "2011 IEEE International Conference on Anti-Counterfeiting, Security and Identification"
+      },
+      {
+        "title": "Correlation between soil apparent electroconductivity and plant hyperspectral reflectance in a managed wetland",
+        "doi": "10.1080/01431161003698427",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Remote Sensing"
+      },
+      {
+        "title": "Adaptive NN output‐feedback decentralized stabilization for a class of large‐scale stochastic nonlinear strict‐feedback systems",
+        "doi": "10.1002/rnc.1609",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Robust and Nonlinear Control"
+      }
+    ]
+  },
+  {
+    "i": 61,
+    "label": "Meijer et al. 2011",
+    "year": 2011,
+    "source_values": "Apendix A",
+    "candidates": [
+      {
+        "title": "Effects of plant–soil feedback on tree seedling growth under arid conditions",
+        "doi": "10.1093/jpe/rtr011",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Plant Ecology"
+      }
+    ]
+  },
+  {
+    "i": 62,
+    "label": "Morrien et al. 2011",
+    "year": 2011,
+    "source_values": "Figure A1",
+    "candidates": []
+  },
+  {
+    "i": 63,
+    "label": "Wagner et al. 2011",
+    "year": 2011,
+    "source_values": "Figure S1",
+    "candidates": [
+      {
+        "title": "RELATIVISTIC JET FEEDBACK IN EVOLVING GALAXIES",
+        "doi": "10.1088/0004-637x/728/1/29",
+        "mark": "",
+        "topical": false,
+        "container": "The Astrophysical Journal"
+      },
+      {
+        "title": "ERRATUM: “RELATIVISTIC JET FEEDBACK IN EVOLVING GALAXIES” (2011, ApJ, 728, 29)",
+        "doi": "10.1088/0004-637x/738/1/117",
+        "mark": "",
+        "topical": false,
+        "container": "The Astrophysical Journal"
+      },
+      {
+        "title": "An incremental and user feedback-based ontology matching approach",
+        "doi": "10.1145/2095536.2095607",
+        "mark": "",
+        "topical": false,
+        "container": "Proceedings of the 13th International Conference on Information Integration and Web-based Applications and Services"
+      },
+      {
+        "title": "Experimental Investigations on the Frequency- and Temperature-Dependent Dielectric Material Properties of Soil",
+        "doi": "10.1109/tgrs.2011.2108303",
+        "mark": "",
+        "topical": false,
+        "container": "IEEE Transactions on Geoscience and Remote Sensing"
+      }
+    ]
+  },
+  {
+    "i": 64,
+    "label": "Yelenik,2011",
+    "year": 2011,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "The role of plant–soil feedbacks in driving native-species recovery",
+        "doi": "10.1890/10-0465.1",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 65,
+    "label": "van de Voorde,2011",
+    "year": 2011,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Intra- and interspecific plant-soil interactions, soil legacies and priority effects during old-field succession",
+        "doi": "10.1111/j.1365-2745.2011.01815.x",
+        "mark": "C",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "The importance of plant–soil interactions, soil nutrients, and plant life history traits for the temporal dynamics of Jacobaea vulgaris in a chronosequence of old‐fields",
+        "doi": "10.1111/j.1600-0706.2011.19964.x",
+        "mark": "",
+        "topical": true,
+        "container": "Oikos"
+      },
+      {
+        "title": "Community perspectives of individual plant-soil interactions",
+        "doi": "10.18174/167548",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      }
+    ]
+  },
+  {
+    "i": 66,
+    "label": "Gao 2012",
+    "year": 2012,
+    "source_values": "Figure 3.9",
+    "candidates": [
+      {
+        "title": "Pole-Placement for Multi-Input Linear Systems by State Feedback or State-Derivative Feedback",
+        "doi": "10.4028/www.scientific.net/amr.605-607.1765",
+        "mark": "",
+        "topical": false,
+        "container": "Advanced Materials Research"
+      },
+      {
+        "title": "Temporal stability of soil water storage in diverse soil layers",
+        "doi": "10.1016/j.catena.2012.02.020",
+        "mark": "",
+        "topical": false,
+        "container": "CATENA"
+      },
+      {
+        "title": "FINITE-TIME STABILIZATION OF NONHOLONOMIC SYSTEMS VIA NETWORKED FEEDBACK",
+        "doi": "10.2316/journal.201.2012.3.201-2379",
+        "mark": "",
+        "topical": false,
+        "container": "Control and Intelligent Systems"
+      },
+      {
+        "title": "Feedback control in a coupled Brownian ratchet",
+        "doi": "10.1088/1674-1056/21/2/020502",
+        "mark": "",
+        "topical": false,
+        "container": "Chinese Physics B"
+      },
+      {
+        "title": "The Homicidal Chauffeur Problem with Multiple Time Delayed Feedback",
+        "doi": "10.3182/20120622-3-us-4021.00026",
+        "mark": "",
+        "topical": false,
+        "container": "IFAC Proceedings Volumes"
+      },
+      {
+        "title": "Soil-Cutting Simulation and Test of Oblique Rotary Tiller",
+        "doi": "10.1007/978-3-642-27275-2_16",
+        "mark": "",
+        "topical": false,
+        "container": "IFIP Advances in Information and Communication Technology"
+      },
+      {
+        "title": "State-feedback stabilisation for stochastic non-holonomic systems with time-varying delays",
+        "doi": "10.1049/iet-cta.2011.0746",
+        "mark": "",
+        "topical": false,
+        "container": "IET Control Theory &amp; Applications"
+      }
+    ]
+  },
+  {
+    "i": 67,
+    "label": "Perkins and Nowak,2012",
+    "year": 2012,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Soil conditioning and plant–soil feedbacks affect competitive relationships between native and invasive grasses",
+        "doi": "10.1007/s11258-012-0092-7",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Native and non‐native grasses generate common types of plant–soil feedbacks by altering soil nutrients and microbial communities",
+        "doi": "10.1111/j.1600-0706.2012.20592.x",
+        "mark": "",
+        "topical": true,
+        "container": "Oikos"
+      },
+      {
+        "title": "Effects of native forest restoration on soil hydraulic properties, Auwahi, Maui, Hawaiian Islands",
+        "doi": "10.1029/2012gl051120",
+        "mark": "",
+        "topical": false,
+        "container": "Geophysical Research Letters"
+      }
+    ]
+  },
+  {
+    "i": 68,
+    "label": "Reinhart 2012 Ecology",
+    "year": 2012,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "The organization of plant communities: negative plant–soil feedbacks and semiarid grasslands",
+        "doi": "10.1890/12-0486.1",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Reservoir Computing with Output Feedback",
+        "doi": "10.1007/s13218-012-0187-2",
+        "mark": "",
+        "topical": false,
+        "container": "KI - Künstliche Intelligenz"
+      },
+      {
+        "title": "Conspecific Plant-Soil Feedbacks of Temperate Tree Species in the Southern Appalachians, USA",
+        "doi": "10.1371/journal.pone.0040680",
+        "mark": "",
+        "topical": true,
+        "container": "PLoS ONE"
+      },
+      {
+        "title": "Regularization and stability in reservoir networks with output feedback",
+        "doi": "10.1016/j.neucom.2012.01.032",
+        "mark": "",
+        "topical": false,
+        "container": "Neurocomputing"
+      },
+      {
+        "title": "Predicting plant responses to mycorrhizae: integrating evolutionary history and plant traits",
+        "doi": "10.1111/j.1461-0248.2012.01786.x",
+        "mark": "C",
+        "topical": true,
+        "container": "Ecology Letters"
+      }
+    ]
+  },
+  {
+    "i": 69,
+    "label": "Reinhart et al. 2012",
+    "year": 2012,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "The organization of plant communities: negative plant–soil feedbacks and semiarid grasslands",
+        "doi": "10.1890/12-0486.1",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Reservoir Computing with Output Feedback",
+        "doi": "10.1007/s13218-012-0187-2",
+        "mark": "",
+        "topical": false,
+        "container": "KI - Künstliche Intelligenz"
+      },
+      {
+        "title": "Conspecific Plant-Soil Feedbacks of Temperate Tree Species in the Southern Appalachians, USA",
+        "doi": "10.1371/journal.pone.0040680",
+        "mark": "",
+        "topical": true,
+        "container": "PLoS ONE"
+      },
+      {
+        "title": "Regularization and stability in reservoir networks with output feedback",
+        "doi": "10.1016/j.neucom.2012.01.032",
+        "mark": "",
+        "topical": false,
+        "container": "Neurocomputing"
+      },
+      {
+        "title": "Predicting plant responses to mycorrhizae: integrating evolutionary history and plant traits",
+        "doi": "10.1111/j.1461-0248.2012.01786.x",
+        "mark": "C",
+        "topical": true,
+        "container": "Ecology Letters"
+      }
+    ]
+  },
+  {
+    "i": 70,
+    "label": "Schradin,2012",
+    "year": 2012,
+    "source_values": "Figure 1 | Figure 2 | Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "The Sign and Strength of Plant-Soil Feedback for the Invasive Shrub, Lonicera maackii, Varies in Different Soils",
+        "doi": "10.3390/f3040903",
+        "mark": "X",
+        "topical": true,
+        "container": "Forests"
+      }
+    ]
+  },
+  {
+    "i": 71,
+    "label": "Shannon et al. 2012",
+    "year": 2012,
+    "source_values": "Figure 3",
+    "candidates": []
+  },
+  {
+    "i": 72,
+    "label": "Smith,2012",
+    "year": 2012,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Positive plant-soil feedback may drive dominance of a woodland invader, Euonymus fortunei",
+        "doi": "10.1007/s11258-012-0047-z",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Coress feedback",
+        "doi": "10.1308/003588412x13373405386772",
+        "mark": "",
+        "topical": false,
+        "container": "The Annals of The Royal College of Surgeons of England"
+      },
+      {
+        "title": "Starch in the Arabidopsis plant",
+        "doi": "10.1002/star.201100163",
+        "mark": "",
+        "topical": false,
+        "container": "Starch - Stärke"
+      },
+      {
+        "title": "Inverse Simulation of an Underwater Vehicle Model Using Feedback Principles",
+        "doi": "10.3182/20120215-3-at-3016.00044",
+        "mark": "",
+        "topical": false,
+        "container": "IFAC Proceedings Volumes"
+      },
+      {
+        "title": "Plant Cell Wall Polysaccharides",
+        "doi": "10.1002/9781118688496.ch8",
+        "mark": "",
+        "topical": false,
+        "container": "Food Carbohydrate Chemistry"
+      },
+      {
+        "title": "Plant Oils and Cardiometabolic Risk Factors: The Role of Genetics",
+        "doi": "10.1007/s13668-012-0018-y",
+        "mark": "",
+        "topical": false,
+        "container": "Current Nutrition Reports"
+      },
+      {
+        "title": "Skin cancer education and early detection at the beach: a randomized trial of dermatologist examination and biometric feedback",
+        "doi": "10.1016/j.yder.2012.02.150",
+        "mark": "",
+        "topical": false,
+        "container": "Yearbook of Dermatology and Dermatologic Surgery"
+      },
+      {
+        "title": "Fresh perspectives on the roles of arbuscular mycorrhizal fungi in plant nutrition and growth",
+        "doi": "10.3852/11-229",
+        "mark": "",
+        "topical": true,
+        "container": "Mycologia"
+      },
+      {
+        "title": "Limit loads for a shallow anchor/trapdoor embedded in a non-associative Coulomb soil",
+        "doi": "10.1680/geot.10.p.136",
+        "mark": "",
+        "topical": false,
+        "container": "Géotechnique"
+      },
+      {
+        "title": "Molecular Bases of Plant Resistance to Arthropods",
+        "doi": "10.1146/annurev-ento-120710-100642",
+        "mark": "",
+        "topical": false,
+        "container": "Annual Review of Entomology"
+      }
+    ]
+  },
+  {
+    "i": 73,
+    "label": "Bajpai et al. 2013",
+    "year": 2013,
+    "source_values": "Figure 1A",
+    "candidates": [
+      {
+        "title": "Bleach Plant Effluents from the Pulp and Paper Industry",
+        "doi": "10.1007/978-3-319-00545-4",
+        "mark": "",
+        "topical": false,
+        "container": "SpringerBriefs in Applied Sciences and Technology"
+      },
+      {
+        "title": "Impact of nitrogen availability and soil communities on biomass accumulation of an invasive species",
+        "doi": "10.1093/aobpla/plt045",
+        "mark": "",
+        "topical": true,
+        "container": "AoB PLANTS"
+      }
+    ]
+  },
+  {
+    "i": 74,
+    "label": "Bakker,2013",
+    "year": 2013,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Diffuse symbioses: roles of plant–plant, plant–microbe and microbe–microbe interactions in structuring the soil microbiome",
+        "doi": "10.1111/mec.12571",
+        "mark": "",
+        "topical": true,
+        "container": "Molecular Ecology"
+      },
+      {
+        "title": "Plant monocultures produce more antagonistic soil Streptomyces communities than high-diversity plant communities",
+        "doi": "10.1016/j.soilbio.2013.06.007",
+        "mark": "X",
+        "topical": false,
+        "container": "Soil Biology and Biochemistry"
+      },
+      {
+        "title": "Shading results in depletion of the soil seed bank",
+        "doi": "10.1111/j.1756-1051.2013.00288.x",
+        "mark": "",
+        "topical": false,
+        "container": "Nordic Journal of Botany"
+      },
+      {
+        "title": "Trends in soil–land-use relationships in the Netherlands between 1900 and 1990",
+        "doi": "10.1016/j.agee.2013.09.027",
+        "mark": "",
+        "topical": false,
+        "container": "Agriculture, Ecosystems &amp; Environment"
+      }
+    ]
+  },
+  {
+    "i": 75,
+    "label": "Callaway,2013",
+    "year": 2013,
+    "source_values": "Figure 2 | Figure 3 | Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Native congeners provide biotic resistance to invasive <i>Potentilla</i> through soil biota",
+        "doi": "10.1890/12-1875.1",
+        "mark": "X",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 76,
+    "label": "Hawkes,2013",
+    "year": 2013,
+    "source_values": "Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 77,
+    "label": "Hendriks,2013",
+    "year": 2013,
+    "source_values": "Figure 3 | Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Independent variations of plant and soil mixtures reveal soil feedback effects on plant community overyielding",
+        "doi": "10.1111/1365-2745.12032",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Temporal-Spatial Dynamics in Orthoptera in Relation to Nutrient Availability and Plant Species Richness",
+        "doi": "10.1371/journal.pone.0071736",
+        "mark": "",
+        "topical": false,
+        "container": "PLoS ONE"
+      }
+    ]
+  },
+  {
+    "i": 78,
+    "label": "Li et al. 2013",
+    "year": 2013,
+    "source_values": "Figure 1 | Figure 2",
+    "candidates": [
+      {
+        "title": "Dynamics of plant metal uptake and metal changes in whole soil and soil particle fractions during repeated phytoextraction",
+        "doi": "10.1007/s11104-013-1927-2",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Oral corrective feedback",
+        "doi": "10.1093/elt/cct076",
+        "mark": "",
+        "topical": false,
+        "container": "ELT Journal"
+      },
+      {
+        "title": "Plant material addition affects soil nitrous oxide production differently between aerobic and oxygen-limited conditions",
+        "doi": "10.1016/j.apsoil.2012.10.003",
+        "mark": "",
+        "topical": false,
+        "container": "Applied Soil Ecology"
+      },
+      {
+        "title": "Succession of plant and soil microbial communities with restoration of abandoned land in the Loess Plateau, China",
+        "doi": "10.1007/s11368-013-0652-z",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Soils and Sediments"
+      },
+      {
+        "title": "Changes in carbon, nutrients and stoichiometric relations under different soil depths, plant tissues and ages in black locust plantations",
+        "doi": "10.1007/s11738-013-1326-6",
+        "mark": "",
+        "topical": false,
+        "container": "Acta Physiologiae Plantarum"
+      },
+      {
+        "title": "Adaptive Levitation Control Based on Feedback Linearization",
+        "doi": "10.4028/www.scientific.net/amm.397-400.1309",
+        "mark": "",
+        "topical": false,
+        "container": "Applied Mechanics and Materials"
+      },
+      {
+        "title": "Feedback policies for heterogeneous rayleigh fading channel with finite feedback",
+        "doi": "10.1109/ictc.2013.6675385",
+        "mark": "",
+        "topical": false,
+        "container": "2013 International Conference on ICT Convergence (ICTC)"
+      }
+    ]
+  },
+  {
+    "i": 79,
+    "label": "Pendergast IV et al. 2013",
+    "year": 2013,
+    "source_values": "Figure S1 | Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 80,
+    "label": "Perkins and Nowak,2013",
+    "year": 2013,
+    "source_values": "Crowford2019",
+    "candidates": [
+      {
+        "title": "Light‐based Contact Hearing Device: Characterization of Available Feedback Gain Margin at Two Device Microphone Locations",
+        "doi": "10.1177/0194599813495815a208",
+        "mark": "",
+        "topical": false,
+        "container": "Otolaryngology–Head and Neck Surgery"
+      },
+      {
+        "title": "Quick start guide to soil methods for ecologists",
+        "doi": "10.1016/j.ppees.2013.05.004",
+        "mark": "",
+        "topical": false,
+        "container": "Perspectives in Plant Ecology, Evolution and Systematics"
+      }
+    ]
+  },
+  {
+    "i": 81,
+    "label": "Rodríguez-Echeverría,2013,PE",
+    "year": 2013,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "The effect of soil legacy on competition and invasion by Acacia dealbata Link",
+        "doi": "10.1007/s11258-013-0238-2",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Soil moisture in oak-wood and pinewood of the Moncayo (Iberian Range, Spain)",
+        "doi": "10.18172/cig.1110",
+        "mark": "",
+        "topical": false,
+        "container": "Cuadernos de Investigación Geográfica"
+      }
+    ]
+  },
+  {
+    "i": 82,
+    "label": "Gundale et al. 2014",
+    "year": 2014,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Interactions with soil biota shift from negative to positive when a tree species is moved outside its native range",
+        "doi": "10.1111/nph.12699",
+        "mark": "",
+        "topical": true,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 83,
+    "label": "Maron et al. 2014",
+    "year": 2014,
+    "source_values": "Appendix S1",
+    "candidates": [
+      {
+        "title": "Soil as a support of biodiversity and functions.",
+        "doi": "10.1079/9781780645322.0141",
+        "mark": "",
+        "topical": false,
+        "container": "Soil carbon: science, management and policy for multiple benefits"
+      },
+      {
+        "title": "Disentangling the drivers of context‐dependent plant–animal interactions",
+        "doi": "10.1111/1365-2745.12305",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 84,
+    "label": "Mo 2014",
+    "year": 2014,
+    "source_values": "Figure 4-10",
+    "candidates": [
+      {
+        "title": "Preliminary Feasibility Study for Commercial DME Plant Project",
+        "doi": "10.7316/khnes.2014.25.2.173",
+        "mark": "",
+        "topical": false,
+        "container": "Transactions of the Korean hydrogen and new energy society"
+      }
+    ]
+  },
+  {
+    "i": 85,
+    "label": "Pizano et al. 2014",
+    "year": 2014,
+    "source_values": "Figure A1",
+    "candidates": [
+      {
+        "title": "Habitat‐specific positive and negative effects of soil biota on seedling growth in a fragmented tropical montane landscape",
+        "doi": "10.1111/oik.01032",
+        "mark": "",
+        "topical": true,
+        "container": "Oikos"
+      },
+      {
+        "title": "Effects of thermo-erosional disturbance on surface soil carbon and nitrogen dynamics in upland arctic tundra",
+        "doi": "10.1088/1748-9326/9/7/075006",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Research Letters"
+      }
+    ]
+  },
+  {
+    "i": 86,
+    "label": "Porazinska,2014",
+    "year": 2014,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Discrimination of Plant-Parasitic Nematodes from Complex Soil Communities Using Ecometagenetics",
+        "doi": "10.1094/phyto-08-13-0236-r",
+        "mark": "",
+        "topical": true,
+        "container": "Phytopathology®"
+      },
+      {
+        "title": "Plant invasions from a belowground nematocentric perspective",
+        "doi": "10.1016/j.soilbio.2014.06.004",
+        "mark": "X",
+        "topical": false,
+        "container": "Soil Biology and Biochemistry"
+      }
+    ]
+  },
+  {
+    "i": 87,
+    "label": "Schittko et al. 2014",
+    "year": 2014,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Using a Multi-Trait Approach to Manipulate Plant Functional Diversity in a Biodiversity-Ecosystem Function Experiment",
+        "doi": "10.1371/journal.pone.0099065",
+        "mark": "",
+        "topical": false,
+        "container": "PLoS ONE"
+      }
+    ]
+  },
+  {
+    "i": 88,
+    "label": "Xiao et al. 2014",
+    "year": 2014,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Soil fungi rather than bacteria were modified by invasive plants, and that benefited invasive plant growth",
+        "doi": "10.1007/s11104-014-2040-x",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "An improved exact algorithm for undirected feedback vertex set",
+        "doi": "10.1007/s10878-014-9737-x",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Combinatorial Optimization"
+      },
+      {
+        "title": "A New Linear Kernel for Undirected Planar Feedback Vertex Set: Smaller and Simpler",
+        "doi": "10.1007/978-3-319-07956-1_26",
+        "mark": "",
+        "topical": false,
+        "container": "Lecture Notes in Computer Science"
+      },
+      {
+        "title": "Priming of soil organic matter decomposition scales linearly with microbial biomass response to litter input in steppe vegetation",
+        "doi": "10.1111/oik.01728",
+        "mark": "",
+        "topical": false,
+        "container": "Oikos"
+      },
+      {
+        "title": "Rates of Litter Decomposition and Soil Respiration in Relation to Soil Temperature and Water in Different-Aged Pinus massoniana Forests in the Three Gorges Reservoir Area, China",
+        "doi": "10.1371/journal.pone.0101890",
+        "mark": "",
+        "topical": false,
+        "container": "PLoS ONE"
+      }
+    ]
+  },
+  {
+    "i": 89,
+    "label": "Hendriks,2015,NP",
+    "year": 2015,
+    "source_values": "Figure 4 | Figure S4",
+    "candidates": [
+      {
+        "title": "Spatial heterogeneity of plant–soil feedback affects root interactions and interspecific competition",
+        "doi": "10.1111/nph.13394",
+        "mark": "X",
+        "topical": true,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 90,
+    "label": "Kim et al. 2015",
+    "year": 2015,
+    "source_values": "Figure 3-3",
+    "candidates": [
+      {
+        "title": "Effect of topography and soil parameterisation representing soil thicknesses on shallow landslide modelling",
+        "doi": "10.1016/j.quaint.2015.03.057",
+        "mark": "",
+        "topical": false,
+        "container": "Quaternary International"
+      },
+      {
+        "title": "Designing of 2D Illusory Tactile Feedback for Hand-Held Tablets",
+        "doi": "10.1007/978-3-319-22723-8_2",
+        "mark": "",
+        "topical": false,
+        "container": "Lecture Notes in Computer Science"
+      },
+      {
+        "title": "Decision Feedback Algorithms using Recursive Estimation of Error Distribution Distance",
+        "doi": "10.5762/kais.2015.16.5.3434",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of the Korea Academia-Industrial cooperation Society"
+      },
+      {
+        "title": "How Business Groups Influence Affiliates' Search Behavior? From Performance Feedback Perspective",
+        "doi": "10.5465/ambpp.2015.14402abstract",
+        "mark": "",
+        "topical": false,
+        "container": "Academy of Management Proceedings"
+      },
+      {
+        "title": "Decision Feedback Signal Processing based on Constant Modulus Errors for Sensor Networks",
+        "doi": "10.14257/astl.2015.94.14",
+        "mark": "",
+        "topical": false,
+        "container": "Advanced Science and Technology Letters"
+      },
+      {
+        "title": "Recursive Probability Estimation of Decision Feedback Equalizers based on Constant Modulus Errors",
+        "doi": "10.5762/kais.2015.16.3.2172",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of the Korea Academia-Industrial cooperation Society"
+      }
+    ]
+  },
+  {
+    "i": 91,
+    "label": "Kos et al. 2015 JE",
+    "year": 2015,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Species‐specific plant–soil feedback effects on above‐ground plant–insect interactions",
+        "doi": "10.1111/1365-2745.12402",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Disentangling above‐ and belowground neighbor effects on the growth, chemistry, and arthropod community on a focal plant",
+        "doi": "10.1890/14-0563.1",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 92,
+    "label": "Kos et al. 2015 Oikos",
+    "year": 2015,
+    "source_values": "Figure A2",
+    "candidates": [
+      {
+        "title": "Species‐specific plant–soil feedback effects on above‐ground plant–insect interactions",
+        "doi": "10.1111/1365-2745.12402",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Disentangling above‐ and belowground neighbor effects on the growth, chemistry, and arthropod community on a focal plant",
+        "doi": "10.1890/14-0563.1",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 93,
+    "label": "Kuebbing et al. 2015",
+    "year": 2015,
+    "source_values": "Table A4",
+    "candidates": [
+      {
+        "title": "Plant–soil interactions promote co‐occurrence of three nonnative woody shrubs",
+        "doi": "10.1890/14-2006.1",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Above‐ and below‐ground effects of plant diversity depend on species origin: an experimental test with multiple invaders",
+        "doi": "10.1111/nph.13488",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 94,
+    "label": "Lalibert_x0001_e et al. 2015",
+    "year": 2015,
+    "source_values": "Figure 5c",
+    "candidates": []
+  },
+  {
+    "i": 95,
+    "label": "Larios et al. 2015",
+    "year": 2015,
+    "source_values": "Figure S1",
+    "candidates": [
+      {
+        "title": "Competition and soil resource environment alter plant–soil feedbacks for native and exotic grasses",
+        "doi": "10.1093/aobpla/plu077",
+        "mark": "",
+        "topical": true,
+        "container": "AoB PLANTS"
+      }
+    ]
+  },
+  {
+    "i": 96,
+    "label": "Liang et al. 2015",
+    "year": 2015,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Analysis of Silicon in Soil, Plant and Fertilizer",
+        "doi": "10.1007/978-94-017-9978-2_2",
+        "mark": "",
+        "topical": false,
+        "container": "Silicon in Agriculture"
+      },
+      {
+        "title": "Path following control for underactuated AUV based on feedback gain backstepping",
+        "doi": "10.17559/tv-20150602130833",
+        "mark": "",
+        "topical": false,
+        "container": "Tehnicki vjesnik-Technical Gazette"
+      },
+      {
+        "title": "Dragon Aromatics plant explosion: introductions and reflections",
+        "doi": "10.1007/s11069-015-1827-2",
+        "mark": "",
+        "topical": false,
+        "container": "Natural Hazards"
+      },
+      {
+        "title": "Atmospheric Feedback of Urban Boundary Layer with Implications for Climate Adaptation",
+        "doi": "10.1021/acs.est.5b02444",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Science &amp; Technology"
+      },
+      {
+        "title": "Influence of plant communities and soil properties during natural vegetation restoration on arbuscular mycorrhizal fungal communities in a karst region",
+        "doi": "10.1016/j.ecoleng.2015.04.089",
+        "mark": "",
+        "topical": true,
+        "container": "Ecological Engineering"
+      }
+    ]
+  },
+  {
+    "i": 97,
+    "label": "Maron et al. 2015",
+    "year": 2015,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Do exotic plants lose resistance to pathogenic soil biota from their native range? A test with Solidago gigantea",
+        "doi": "10.1007/s00442-015-3350-2",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      }
+    ]
+  },
+  {
+    "i": 98,
+    "label": "Orozco-Aceves,2015a PS",
+    "year": 2015,
+    "source_values": "Figure 3",
+    "candidates": [
+      {
+        "title": "Soil conditioning and plant-soil feedbacks in a modified forest ecosystem are soil-context dependent",
+        "doi": "10.1007/s11104-015-2390-z",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Long-term conditioning of soil by plantation eucalypts and pines does not affect growth of the native jarrah tree",
+        "doi": "10.1016/j.foreco.2014.11.007",
+        "mark": "X",
+        "topical": false,
+        "container": "Forest Ecology and Management"
+      }
+    ]
+  },
+  {
+    "i": 99,
+    "label": "Sanderson,2015",
+    "year": 2015,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Back to the past: a new take on the timing of flowering plant diversification",
+        "doi": "10.1111/nph.13462",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 100,
+    "label": "Smith, 2015 Ecology",
+    "year": 2015,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Euonymus fortunei dominance over native species may be facilitated by plant–soil feedback",
+        "doi": "10.1007/s11258-015-0518-0",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Plant–soil feedbacks shift from negative to positive with decreasing light in forest understory species",
+        "doi": "10.1890/14-2150.1",
+        "mark": "C",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "An Objective Structured Teaching Exercise (OSTE) for Physicians Employing Multi-Source Feedback",
+        "doi": "10.15766/mep_2374-8265.10157",
+        "mark": "",
+        "topical": false,
+        "container": "MedEdPORTAL"
+      },
+      {
+        "title": "The effects of realistic tactile haptic feedback on user surface texture perception",
+        "doi": "10.21595/jve.2014.15317",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Vibroengineering"
+      },
+      {
+        "title": "SLS analysis of soil-structure interaction using direct methods",
+        "doi": "10.1680/ecsmge.60678.vol7.661",
+        "mark": "",
+        "topical": false,
+        "container": "Geotechnical Engineering for Infrastructure and Development"
+      },
+      {
+        "title": "Local-scale recovery of wastewater nitrogen for edible plant growth",
+        "doi": "10.2166/wst.2015.598",
+        "mark": "",
+        "topical": false,
+        "container": "Water Science and Technology"
+      },
+      {
+        "title": "Plant Collection, Identification, and Herbarium Procedures",
+        "doi": "10.1007/978-3-319-19944-3_30",
+        "mark": "",
+        "topical": false,
+        "container": "Plant Microtechniques and Protocols"
+      },
+      {
+        "title": "Pipe-soil interaction under rapid axial loading",
+        "doi": "10.1201/b18442-50",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Offshore Geotechnics III"
+      },
+      {
+        "title": "Stability and feedback levels in food web models",
+        "doi": "10.1111/ele.12416",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology Letters"
+      },
+      {
+        "title": "Invasive plants may promote predator‐mediated feedback that inhibits further invasion",
+        "doi": "10.1002/ece3.1525",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology and Evolution"
+      },
+      {
+        "title": "GE Rapid Response Plant Design: Operational Flexibility and Transient Emissions Control",
+        "doi": "10.1115/gt2015-42512",
+        "mark": "",
+        "topical": false,
+        "container": "Volume 3: Coal, Biomass and Alternative Fuels; Cycle Innovations; Electric Power; Industrial and Cogeneration"
+      },
+      {
+        "title": "‘From the soil we have come, to the soil we shall go and from the soil we want to live’: Language, Politics and Identity in the Grande Révolte of 1907",
+        "doi": "10.1080/09639489.2015.1043983",
+        "mark": "",
+        "topical": false,
+        "container": "Modern &amp; Contemporary France"
+      }
+    ]
+  },
+  {
+    "i": 101,
+    "label": "Wagg et al. 2015",
+    "year": 2015,
+    "source_values": "Appendix 3 | Figure 1",
+    "candidates": [
+      {
+        "title": "Complementarity in both plant and mycorrhizal fungal communities are not necessarily increased by diversity in the other",
+        "doi": "10.1111/1365-2745.12452",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 102,
+    "label": "Bayandala et al. 2016",
+    "year": 2016,
+    "source_values": "Original data",
+    "candidates": []
+  },
+  {
+    "i": 103,
+    "label": "Bergmann et al. 2016",
+    "year": 2016,
+    "source_values": "Authors",
+    "candidates": [
+      {
+        "title": "The interplay between soil structure, roots, and microbiota as a determinant of plant–soil feedback",
+        "doi": "10.1002/ece3.2456",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology and Evolution"
+      },
+      {
+        "title": "Host Plant Use by the Invasive Halyomorpha halys (Stål) on Woody Ornamental Trees and Shrubs",
+        "doi": "10.1371/journal.pone.0149975",
+        "mark": "",
+        "topical": false,
+        "container": "PLOS ONE"
+      }
+    ]
+  },
+  {
+    "i": 104,
+    "label": "Cortois et al. 2016",
+    "year": 2016,
+    "source_values": "Table S3",
+    "candidates": [
+      {
+        "title": "Plant–soil feedbacks: role of plant functional group and plant traits",
+        "doi": "10.1111/1365-2745.12643",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 105,
+    "label": "Dostalek,2016",
+    "year": 2016,
+    "source_values": "Figure 1",
+    "candidates": []
+  },
+  {
+    "i": 106,
+    "label": "Heinze,2016",
+    "year": 2016,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Soil temperature modifies effects of soil biota on plant growth",
+        "doi": "10.1093/jpe/rtw097",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Plant Ecology"
+      },
+      {
+        "title": "Plant-soil feedbacks: a comparative study on the relative importance of soil feedbacks in the greenhouse versus the field",
+        "doi": "10.1007/s00442-016-3591-8",
+        "mark": "S",
+        "topical": true,
+        "container": "Oecologia"
+      }
+    ]
+  },
+  {
+    "i": 107,
+    "label": "Hemrova,2016",
+    "year": 2016,
+    "source_values": "Table S2 | Table S3",
+    "candidates": []
+  },
+  {
+    "i": 108,
+    "label": "Kuebbing et al. 2016",
+    "year": 2016,
+    "source_values": "Table 2",
+    "candidates": [
+      {
+        "title": "Co‐occurring nonnative woody shrubs have additive and non‐additive soil legacies",
+        "doi": "10.1890/15-1931.1",
+        "mark": "",
+        "topical": false,
+        "container": "Ecological Applications"
+      }
+    ]
+  },
+  {
+    "i": 109,
+    "label": "Kulmatiski et al. 2016",
+    "year": 2016,
+    "source_values": "Table S1",
+    "candidates": [
+      {
+        "title": "Factorial and ‘self vs. other’ plant soil feedback experiments produce similar predictions of plant growth in communities",
+        "doi": "10.1007/s11104-016-2946-6",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Using plant‐soil feedbacks to predict plant biomass in diverse communities",
+        "doi": "10.1890/15-2037.1",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 110,
+    "label": "Liang et al. 2016",
+    "year": 2016,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Effect of Plant Roots on Soil Nutrient Distributions in Shanghai Urban Landscapes",
+        "doi": "10.4236/ajps.2016.72029",
+        "mark": "",
+        "topical": false,
+        "container": "American Journal of Plant Sciences"
+      },
+      {
+        "title": "What’S In A Plant? The Vegetal Transcorporeality In Yucca Invest Trading Plant",
+        "doi": "10.5040/9781666993219.ch-012",
+        "mark": "",
+        "topical": false,
+        "container": "Ecocriticism in Taiwan"
+      },
+      {
+        "title": "The effects of protégés’proactive personality on job performance in Chinese company: The mediating roles of feedback seeking and feedback acceptance in mentoring",
+        "doi": "10.18211/kjhrdq.2016.18.1.003",
+        "mark": "",
+        "topical": false,
+        "container": "The Korean Journal of Human Resource Development Quarterly"
+      },
+      {
+        "title": "An ANC system with dual feedback control",
+        "doi": "10.1109/cacs.2016.7973890",
+        "mark": "",
+        "topical": false,
+        "container": "2016 International Automatic Control Conference (CACS)"
+      },
+      {
+        "title": "Study on Fundamental Frequency of Airport Runway Based on Elastic Layered Soil Model",
+        "doi": "10.4028/www.scientific.net/amm.851.643",
+        "mark": "",
+        "topical": false,
+        "container": "Applied Mechanics and Materials"
+      },
+      {
+        "title": "Qualitative analysis of a predator–prey system with mutual interference and impulsive state feedback control",
+        "doi": "10.1007/s11071-016-3129-y",
+        "mark": "",
+        "topical": false,
+        "container": "Nonlinear Dynamics"
+      },
+      {
+        "title": "Suppression of cardiac altemans by the alternating-period feedback control",
+        "doi": "10.1109/iecbes.2016.7843531",
+        "mark": "",
+        "topical": false,
+        "container": "2016 IEEE EMBS Conference on Biomedical Engineering and Sciences (IECBES)"
+      }
+    ]
+  },
+  {
+    "i": 111,
+    "label": "Nagendra et al. 2016",
+    "year": 2016,
+    "source_values": "Figure S1",
+    "candidates": []
+  },
+  {
+    "i": 112,
+    "label": "Pattison,2016",
+    "year": 2016,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Positive plant–soil feedbacks of the invasive\n                    <i>Impatiens glandulifera</i>\n                    and their effects on above‐ground microbial communities",
+        "doi": "10.1111/wre.12200",
+        "mark": "X",
+        "topical": true,
+        "container": "Weed Research"
+      }
+    ]
+  },
+  {
+    "i": 113,
+    "label": "Perkins,2016",
+    "year": 2016,
+    "source_values": "Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 114,
+    "label": "Rigg et al. 2016",
+    "year": 2016,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Soil microbial communities influence seedling growth of a rare conifer independent of plant–soil feedback",
+        "doi": "10.1002/ecy.1594",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Variation in soil microbial communities associated with critically endangered Wollemi pine affects fungal, but not bacterial, assembly within seedling roots",
+        "doi": "10.1016/j.pedobi.2016.02.002",
+        "mark": "",
+        "topical": true,
+        "container": "Pedobiologia"
+      }
+    ]
+  },
+  {
+    "i": 115,
+    "label": "Rutten et al. 2016",
+    "year": 2016,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Plant–soil feedback in East‐African savanna trees",
+        "doi": "10.1890/15-1316.1",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 116,
+    "label": "Schittko et al. 2016",
+    "year": 2016,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "No evidence that plant–soil feedback effects of native and invasive plant species under glasshouse conditions are reflected in the field",
+        "doi": "10.1111/1365-2745.12603",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 117,
+    "label": "Wubs, 2016",
+    "year": 2016,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Effects of spatial plant–soil feedback heterogeneity on plant performance in monocultures",
+        "doi": "10.1111/1365-2745.12521",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Soil inoculation steers restoration of terrestrial ecosystems",
+        "doi": "10.1038/nplants.2016.107",
+        "mark": "X",
+        "topical": false,
+        "container": "Nature Plants"
+      }
+    ]
+  },
+  {
+    "i": 118,
+    "label": "Aguilera et al. 2017",
+    "year": 2017,
+    "source_values": "Figure 3",
+    "candidates": [
+      {
+        "title": "Effect of plant–soil feedbacks on the growth and competition of Lactuca species",
+        "doi": "10.1007/s11258-016-0697-3",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      }
+    ]
+  },
+  {
+    "i": 119,
+    "label": "Bauer,2017",
+    "year": 2017,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Effects of between‐site variation in soil microbial communities and plant‐soil feedbacks on the productivity and composition of plant communities",
+        "doi": "10.1111/1365-2664.12937",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Applied Ecology"
+      },
+      {
+        "title": "Floral traits influencing plant attractiveness to three bee species: Consequences for plant reproductive success",
+        "doi": "10.3732/ajb.1600405",
+        "mark": "",
+        "topical": false,
+        "container": "American Journal of Botany"
+      },
+      {
+        "title": "Ecological feedback in quorum-sensing microbial populations can induce heterogeneous production of autoinducers",
+        "doi": "10.7554/elife.25773",
+        "mark": "",
+        "topical": false,
+        "container": "eLife"
+      },
+      {
+        "title": "Author response: Ecological feedback in quorum-sensing microbial populations can induce heterogeneous production of autoinducers",
+        "doi": "10.7554/elife.25773.017",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Nuclear power plant closures and local housing values: Evidence from Fukushima and the German housing market",
+        "doi": "10.1016/j.jue.2017.02.002",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Urban Economics"
+      }
+    ]
+  },
+  {
+    "i": 120,
+    "label": "Bennett et al. 2017",
+    "year": 2017,
+    "source_values": "Apendix",
+    "candidates": [
+      {
+        "title": "Feedback that feeds",
+        "doi": "10.1093/oso/9780190673987.003.0033",
+        "mark": "",
+        "topical": false,
+        "container": "Teaching with Vitality"
+      },
+      {
+        "title": "Plant-soil feedbacks and mycorrhizal type influence temperate forest population dynamics",
+        "doi": "10.1126/science.aai8212",
+        "mark": "SX",
+        "topical": true,
+        "container": "Science"
+      },
+      {
+        "title": "Plant-Derived Smoke Influences Germination of Native and Invasive Plant Species",
+        "doi": "10.3368/er.35.3.205",
+        "mark": "",
+        "topical": false,
+        "container": "Ecological Restoration"
+      },
+      {
+        "title": "The March, 2011 Fukushima Daiichi Nuclear Power Plant Disaster – A Foreseeable System Accident?",
+        "doi": "10.1007/978-3-319-61729-9_6",
+        "mark": "",
+        "topical": false,
+        "container": "Advanced Sciences and Technologies for Security Applications"
+      },
+      {
+        "title": "Monetary feedback modulates performance and electrophysiological indices of belief updating in reward learning",
+        "doi": "10.1101/183665",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      }
+    ]
+  },
+  {
+    "i": 121,
+    "label": "Crawford-Knight,2017",
+    "year": 2017,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Bioaccumulation, uptake, and toxicity of carbamazepine in soil–plant systems",
+        "doi": "10.1002/etc.4053",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Toxicology and Chemistry"
+      }
+    ]
+  },
+  {
+    "i": 122,
+    "label": "Fitzpatrick,2017",
+    "year": 2017,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Phylogenetic relatedness, phenotypic similarity and plant–soil feedbacks",
+        "doi": "10.1111/1365-2745.12709",
+        "mark": "C",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "The influence of range‐wide plant genetic variation on soil invertebrate communities",
+        "doi": "10.1111/ecog.03347",
+        "mark": "",
+        "topical": false,
+        "container": "Ecography"
+      },
+      {
+        "title": "Acid sulfate soil evolution models and pedogenic pathways during drought and reflooding cycles in irrigated areas and adjacent natural wetlands",
+        "doi": "10.1016/j.geoderma.2017.08.016",
+        "mark": "",
+        "topical": false,
+        "container": "Geoderma"
+      }
+    ]
+  },
+  {
+    "i": 123,
+    "label": "Gomez-Aparicio et al. 2017",
+    "year": 2017,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Integral use of sugarcane vinasse for biomass production of actinobacteria: Potential application in soil remediation",
+        "doi": "10.1016/j.chemosphere.2017.04.107",
+        "mark": "",
+        "topical": false,
+        "container": "Chemosphere"
+      }
+    ]
+  },
+  {
+    "i": 124,
+    "label": "Kulmatiski et al. 2017",
+    "year": 2017,
+    "source_values": "Table S1",
+    "candidates": [
+      {
+        "title": "Live long and prosper: plant–soil feedback, lifespan, and landscape abundance covary",
+        "doi": "10.1002/ecy.2011",
+        "mark": "X",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Soil type more than precipitation determines fine-root abundance in savannas of Kruger National Park, South Africa",
+        "doi": "10.1007/s11104-017-3277-y",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      }
+    ]
+  },
+  {
+    "i": 125,
+    "label": "Orozco-Aceves,2017",
+    "year": 2017,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Correlation between soil development and native plant growth in forest restoration after surface mining",
+        "doi": "10.1016/j.ecoleng.2017.06.004",
+        "mark": "X",
+        "topical": false,
+        "container": "Ecological Engineering"
+      }
+    ]
+  },
+  {
+    "i": 126,
+    "label": "Semchenko et al. 2017",
+    "year": 2017,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Intraspecific genetic diversity modulates plant–soil feedback and nutrient cycling",
+        "doi": "10.1111/nph.14653",
+        "mark": "",
+        "topical": true,
+        "container": "New Phytologist"
+      },
+      {
+        "title": "Different sets of belowground traits predict the ability of plant species to suppress and tolerate their competitors",
+        "doi": "10.1007/s11104-017-3282-1",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      }
+    ]
+  },
+  {
+    "i": 127,
+    "label": "Su et al. 2017",
+    "year": 2017,
+    "source_values": "Table 6-4",
+    "candidates": [
+      {
+        "title": "On the Spatial Gradient of Soil Moisture–Precipitation Feedback Strength in the April 2011 Drought in the Southern Great Plains",
+        "doi": "10.1175/jcli-d-13-00185.1",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Climate"
+      },
+      {
+        "title": "Novel soil fumigation strategy suppressed plant-parasitic nematodes associated with soil nematode community alterations in the field",
+        "doi": "10.1016/j.apsoil.2017.09.039",
+        "mark": "",
+        "topical": true,
+        "container": "Applied Soil Ecology"
+      },
+      {
+        "title": "Green Development Mode of the Suburban Steel Plant",
+        "doi": "10.3724/sp.j.1224.2017.00085",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Engineering Studies"
+      },
+      {
+        "title": "Comment on “Robust Saturated Finite Time Output Feedback Attitude Stabilization for Rigid Spacecraft”",
+        "doi": "10.2514/1.g001555",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Guidance, Control, and Dynamics"
+      },
+      {
+        "title": "An Internal Model Based Semi-global Output Feedback Control for Nonlinear Multi-agent Systems",
+        "doi": "10.1016/j.ifacol.2017.08.1269",
+        "mark": "",
+        "topical": false,
+        "container": "IFAC-PapersOnLine"
+      },
+      {
+        "title": "Cooperative Semi-Global Output Regulation of Nonlinear Strict-Feedback Multi-Agent Systems With Nonidentical Relative Degrees",
+        "doi": "10.1109/tcyb.2016.2524408",
+        "mark": "",
+        "topical": false,
+        "container": "IEEE Transactions on Cybernetics"
+      },
+      {
+        "title": "A combined backstepping and dynamic surface control to adaptive fuzzy state‐feedback control",
+        "doi": "10.1002/acs.2793",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Adaptive Control and Signal Processing"
+      }
+    ]
+  },
+  {
+    "i": 128,
+    "label": "Teste et al. 2017",
+    "year": 2017,
+    "source_values": "Apendix",
+    "candidates": [
+      {
+        "title": "Plant-soil feedback and the maintenance of diversity in Mediterranean-climate shrublands",
+        "doi": "10.1126/science.aai8291",
+        "mark": "SX",
+        "topical": true,
+        "container": "Science"
+      }
+    ]
+  },
+  {
+    "i": 129,
+    "label": "Vink et al. 2017",
+    "year": 2017,
+    "source_values": "Original data",
+    "candidates": []
+  },
+  {
+    "i": 130,
+    "label": "Xin et al. 2017",
+    "year": 2017,
+    "source_values": "Figure 3-2",
+    "candidates": []
+  },
+  {
+    "i": 131,
+    "label": "van Nuland,2017",
+    "year": 2017,
+    "source_values": "Apendix",
+    "candidates": [
+      {
+        "title": "Divergent plant–soil feedbacks could alter future elevation ranges and ecosystem dynamics",
+        "doi": "10.1038/s41559-017-0150",
+        "mark": "",
+        "topical": true,
+        "container": "Nature Ecology &amp; Evolution"
+      }
+    ]
+  },
+  {
+    "i": 132,
+    "label": "Ai et al. 2018",
+    "year": 2018,
+    "source_values": "Figure 3.13 | Figure 3.3 | Figure 3.8",
+    "candidates": [
+      {
+        "title": "Distributed cooperative learning for a group of uncertain systems via output feedback and neural networks",
+        "doi": "10.1016/j.jfranklin.2018.01.030",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of the Franklin Institute"
+      },
+      {
+        "title": "A Summary of the Impact of Land Degradation on Soil Carbon Sequestration",
+        "doi": "10.1088/1757-899x/394/5/052028",
+        "mark": "",
+        "topical": false,
+        "container": "IOP Conference Series: Materials Science and Engineering"
+      },
+      {
+        "title": "Elevated tropospheric CO2 and O3 concentrations impair organic pollutant removal from grassland soil",
+        "doi": "10.1038/s41598-018-23522-z",
+        "mark": "",
+        "topical": false,
+        "container": "Scientific Reports"
+      }
+    ]
+  },
+  {
+    "i": 133,
+    "label": "Bezemer,2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Plant competition alters the temporal dynamics of plant‐soil feedbacks",
+        "doi": "10.1111/1365-2745.12999",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 134,
+    "label": "Chen et al. 2018",
+    "year": 2018,
+    "source_values": "Figure 3 | Figure 5",
+    "candidates": [
+      {
+        "title": "Plant diversity enhances productivity and soil carbon storage",
+        "doi": "10.1073/pnas.1700298114",
+        "mark": "",
+        "topical": false,
+        "container": "Proceedings of the National Academy of Sciences"
+      },
+      {
+        "title": "Global effects of plant litter alterations on soil <scp>CO</scp><sub>2</sub> to the atmosphere",
+        "doi": "10.1111/gcb.14147",
+        "mark": "",
+        "topical": false,
+        "container": "Global Change Biology"
+      },
+      {
+        "title": "General Feedback Theory",
+        "doi": "10.1201/9781315219165-3",
+        "mark": "",
+        "topical": false,
+        "container": "Feedback, Nonlinear, and Distributed Circuits"
+      },
+      {
+        "title": "General Feedback Theory 1",
+        "doi": "10.1201/9781315220567-13",
+        "mark": "",
+        "topical": false,
+        "container": "Circuit Analysis and Feedback Amplifier Theory"
+      },
+      {
+        "title": "Network Functions and Feedback",
+        "doi": "10.1201/9781315219165-4",
+        "mark": "",
+        "topical": false,
+        "container": "Feedback, Nonlinear, and Distributed Circuits"
+      },
+      {
+        "title": "Multiple-Loop Feedback Amplifiers",
+        "doi": "10.1201/9781315219165-6",
+        "mark": "",
+        "topical": false,
+        "container": "Feedback, Nonlinear, and Distributed Circuits"
+      },
+      {
+        "title": "Multiple-Loop Feedback Amplifiers",
+        "doi": "10.1201/9781315220567-16",
+        "mark": "",
+        "topical": false,
+        "container": "Circuit Analysis and Feedback Amplifier Theory"
+      },
+      {
+        "title": "Glomalin-related soil protein influences the accumulation of polycyclic aromatic hydrocarbons by plant roots",
+        "doi": "10.1016/j.scitotenv.2018.06.370",
+        "mark": "",
+        "topical": false,
+        "container": "Science of The Total Environment"
+      }
+    ]
+  },
+  {
+    "i": 135,
+    "label": "Dudenhoeffer et al. 2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": []
+  },
+  {
+    "i": 136,
+    "label": "Fry,2018",
+    "year": 2018,
+    "source_values": "Figure 2 | Figure 4",
+    "candidates": [
+      {
+        "title": "Drought neutralises plant–soil feedback of two mesic grassland forbs",
+        "doi": "10.1007/s00442-018-4082-x",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      },
+      {
+        "title": "Plant Communities as Modulators of Soil Carbon Storage",
+        "doi": "10.1016/b978-0-12-812766-7.00002-0",
+        "mark": "",
+        "topical": false,
+        "container": "Soil Carbon Storage"
+      },
+      {
+        "title": "Soil multifunctionality and drought resistance are determined by plant structural traits in restoring grassland",
+        "doi": "10.1002/ecy.2437",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology"
+      },
+      {
+        "title": "Using plant, microbe, and soil fauna traits to improve the predictive power of biogeochemical models",
+        "doi": "10.1111/2041-210x.13092",
+        "mark": "",
+        "topical": false,
+        "container": "Methods in Ecology and Evolution"
+      },
+      {
+        "title": "Secondary organic aerosol (SOA) yields from NO\n                    <sub>3</sub>\n                    radical + isoprene based on nighttime aircraft power plant plume transects",
+        "doi": "10.5194/acp-18-11663-2018",
+        "mark": "",
+        "topical": false,
+        "container": "Atmospheric Chemistry and Physics"
+      },
+      {
+        "title": "Secondary Organic Aerosol (SOA) yields from NO\n                  <sub>3</sub>\n                  radical \n+ isoprene based on nighttime aircraft power plant plume \ntransects",
+        "doi": "10.5194/acp-2018-255",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Supplementary material to \"Secondary Organic Aerosol (SOA) yields from NO\n                  <sub>3</sub>\n                  radical \n+ isoprene based on nighttime aircraft power plant plume \ntransects\"",
+        "doi": "10.5194/acp-2018-255-supplement",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      }
+    ]
+  },
+  {
+    "i": 137,
+    "label": "Heinen et al. 2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Effects of Soil Organisms on Aboveground Plant-Insect Interactions in the Field: Patterns, Mechanisms and the Role of Methodology",
+        "doi": "10.3389/fevo.2018.00106",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Ecology and Evolution"
+      }
+    ]
+  },
+  {
+    "i": 138,
+    "label": "Heinze-Joshi,2018",
+    "year": 2018,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Tripartite plant microbe and nutrients interaction in the below ground soil ecosystems",
+        "doi": "10.22271/plants.2018.v6.i4a.08",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Medicinal Plants Studies"
+      },
+      {
+        "title": "A Review on Colletotrichum spp. Virulence mechanism against host plant defensive factors",
+        "doi": "10.22271/plants.2018.v6.i6b.02",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Medicinal Plants Studies"
+      },
+      {
+        "title": "A review of Fusarium oxysporum on its plant interaction and industrial use",
+        "doi": "10.22271/plants.2018.v6.i3b.07",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Medicinal Plants Studies"
+      },
+      {
+        "title": "Microbial Soil Enzymes: Implications in the Maintenance of Rhizosphere Ecosystem and Soil Health",
+        "doi": "10.1007/978-981-10-6178-3_10",
+        "mark": "",
+        "topical": false,
+        "container": "Microorganisms for Sustainability"
+      },
+      {
+        "title": "Soil Loss Estimation based on RUSLE along the Central Hunter Valley Region, NSW, Australia",
+        "doi": "10.1007/s12594-018-0904-z",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of the Geological Society of India"
+      },
+      {
+        "title": "In Vitro Multiple Shoot Induction and Plant Regeneration from Male Ephedra foliata: A Potential Medicinal Gymnosperm",
+        "doi": "10.1007/s40009-018-0714-2",
+        "mark": "",
+        "topical": false,
+        "container": "National Academy Science Letters"
+      },
+      {
+        "title": "Enzymatic Activity and Plant Growth Promoting Potential of Endophytic Bacteria Isolated from Ocimum sanctum and Aloe vera",
+        "doi": "10.20546/ijcmas.2018.706.277",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Current Microbiology and Applied Sciences"
+      },
+      {
+        "title": "A comparative evaluation of Kumaun Himalayan Gymnosperms for their Antifungal potential against plant pathogenic fungi",
+        "doi": "10.31254/phyto.2018.7302",
+        "mark": "",
+        "topical": false,
+        "container": "The Journal of Phytopharmacology"
+      },
+      {
+        "title": "POTENTIAL OF ELECTRICITY GENERATION FROM A COMMUNITY BIOGAS PLANT FOR RURAL DEVELOPMENT",
+        "doi": "10.47119/ijrp1004152018115",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Research Publications"
+      }
+    ]
+  },
+  {
+    "i": 139,
+    "label": "Kadowaki et al. 2018",
+    "year": 2018,
+    "source_values": "Apendix",
+    "candidates": [
+      {
+        "title": "Mycorrhizal fungi mediate the direction and strength of plant–soil feedbacks differently between arbuscular mycorrhizal and ectomycorrhizal communities",
+        "doi": "10.1038/s42003-018-0201-9",
+        "mark": "",
+        "topical": true,
+        "container": "Communications Biology"
+      }
+    ]
+  },
+  {
+    "i": 140,
+    "label": "Kembel et al. 2018",
+    "year": 2018,
+    "source_values": "Authors",
+    "candidates": []
+  },
+  {
+    "i": 141,
+    "label": "Kutakova et al. 2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": []
+  },
+  {
+    "i": 142,
+    "label": "Le Roux et al. 2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Design of a Compact Heat Exchanger in a Methanation Plant for Renewable Energy Storage",
+        "doi": "10.1016/j.applthermaleng.2017.10.040",
+        "mark": "",
+        "topical": false,
+        "container": "Applied Thermal Engineering"
+      },
+      {
+        "title": "Importance of soil legacy effects and successful mutualistic interactions during Australian acacia invasions in nutrient‐poor environments",
+        "doi": "10.1111/1365-2745.12965",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "A Connected Soil Humidity and Salinity Sensor for Precision Agriculture",
+        "doi": "10.1109/csci46756.2018.00199",
+        "mark": "",
+        "topical": false,
+        "container": "2018 International Conference on Computational Science and Computational Intelligence (CSCI)"
+      }
+    ]
+  },
+  {
+    "i": 143,
+    "label": "Lepinay,2018",
+    "year": 2018,
+    "source_values": "Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 144,
+    "label": "McGinn et al. 2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Molecular tools enabling pennycress (<i>Thlaspi arvense</i>) as a model plant and oilseed cash cover crop",
+        "doi": "10.1111/pbi.13014",
+        "mark": "",
+        "topical": false,
+        "container": "Plant Biotechnology Journal"
+      }
+    ]
+  },
+  {
+    "i": 145,
+    "label": "Pfennigwerth et al. 2018",
+    "year": 2018,
+    "source_values": "Apendix",
+    "candidates": []
+  },
+  {
+    "i": 146,
+    "label": "Png et al. 2018",
+    "year": 2018,
+    "source_values": "Apendix",
+    "candidates": [
+      {
+        "title": "Biotic and abiotic plant–soil feedback depends on nitrogen‐acquisition strategy and shifts during long‐term ecosystem development",
+        "doi": "10.1111/1365-2745.13048",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      }
+    ]
+  },
+  {
+    "i": 147,
+    "label": "Qu et al. 2018",
+    "year": 2018,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "An Optimal and Distributed Feedback Voltage Control Under Limited Reactive Power",
+        "doi": "10.23919/pscc.2018.8442766",
+        "mark": "",
+        "topical": false,
+        "container": "2018 Power Systems Computation Conference (PSCC)"
+      },
+      {
+        "title": "Spatial uncertainty assessment of the environmental risk of soil copper using auxiliary portable X-ray fluorescence spectrometry data and soil pH",
+        "doi": "10.1016/j.envpol.2018.04.118",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Pollution"
+      },
+      {
+        "title": "Effects of Different Mulching Materials\non Reducing Soil Dust from Bare Soil",
+        "doi": "10.15244/pjoes/81695",
+        "mark": "",
+        "topical": false,
+        "container": "Polish Journal of Environmental Studies"
+      },
+      {
+        "title": "LncRNA ZEB1-AS1/miR-409–3p/ZEB1 feedback loop is involved in the progression of non-small cell lung cancer",
+        "doi": "10.1016/j.bbrc.2018.11.059",
+        "mark": "",
+        "topical": false,
+        "container": "Biochemical and Biophysical Research Communications"
+      }
+    ]
+  },
+  {
+    "i": 148,
+    "label": "Rutten et al. 2018",
+    "year": 2018,
+    "source_values": "Apendix",
+    "candidates": [
+      {
+        "title": "Plant-soil feedbacks and root responses of two Mediterranean oaks along a precipitation gradient",
+        "doi": "10.1007/s11104-018-3567-z",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      }
+    ]
+  },
+  {
+    "i": 149,
+    "label": "Semchenko et al. 2018",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Fungal diversity regulates plant-soil feedbacks in temperate grassland",
+        "doi": "10.1126/sciadv.aau4578",
+        "mark": "X",
+        "topical": true,
+        "container": "Science Advances"
+      }
+    ]
+  },
+  {
+    "i": 150,
+    "label": "Stotz, 2018",
+    "year": 2018,
+    "source_values": "Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 151,
+    "label": "Wei 2018",
+    "year": 2018,
+    "source_values": "Table 5.1",
+    "candidates": [
+      {
+        "title": "Fertilizer N application rate impacts plant-soil feedback in a sanqi production system",
+        "doi": "10.1016/j.scitotenv.2018.03.219",
+        "mark": "",
+        "topical": true,
+        "container": "Science of The Total Environment"
+      },
+      {
+        "title": "Turn bane into a boon: Application of invasive plant species to remedy soil cadmium contamination",
+        "doi": "10.1016/j.chemosphere.2018.07.129",
+        "mark": "",
+        "topical": false,
+        "container": "Chemosphere"
+      },
+      {
+        "title": "H∞ Control of Network Control System for Singular Plant",
+        "doi": "10.5755/j01.itc.47.1.19982",
+        "mark": "",
+        "topical": false,
+        "container": "Information Technology And Control"
+      },
+      {
+        "title": "The effect of delayed feedback on the dynamics of an autocatalysis reaction–diffusion system",
+        "doi": "10.15388/na.2018.5.7",
+        "mark": "",
+        "topical": false,
+        "container": "Nonlinear Analysis: Modelling and Control"
+      }
+    ]
+  },
+  {
+    "i": 152,
+    "label": "Wubs,2018,FE",
+    "year": 2018,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Potential for synergy in soil inoculation for nature restoration by mixing inocula from different successional stages",
+        "doi": "10.1007/s11104-018-3825-0",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Two decades of altered snow cover does not affect soil microbial ability to catabolize carbon compounds in an oceanic alpine heath",
+        "doi": "10.1016/j.soilbio.2018.05.034",
+        "mark": "",
+        "topical": true,
+        "container": "Soil Biology and Biochemistry"
+      }
+    ]
+  },
+  {
+    "i": 153,
+    "label": "Xi et al. 2018",
+    "year": 2018,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Plant drought resistance is mediated by soil microbial community structure and soil-plant feedbacks in a savanna tree species",
+        "doi": "10.1016/j.envexpbot.2018.08.013",
+        "mark": "",
+        "topical": true,
+        "container": "Environmental and Experimental Botany"
+      },
+      {
+        "title": "Dynamic Output Feedback Guaranteed-Cost Synchronization for Multiagent Networks With Given Cost Budgets",
+        "doi": "10.1109/access.2018.2819989",
+        "mark": "",
+        "topical": false,
+        "container": "IEEE Access"
+      }
+    ]
+  },
+  {
+    "i": 154,
+    "label": "Xue,2018,PS",
+    "year": 2018,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Density-dependency and plant-soil feedback: former plant abundance influences competitive interactions between two grassland plant species through plant-soil feedbacks",
+        "doi": "10.1007/s11104-018-3690-x",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Spatial heterogeneity in plant–soil feedbacks alters competitive interactions between two grassland plant species",
+        "doi": "10.1111/1365-2435.13124",
+        "mark": "",
+        "topical": true,
+        "container": "Functional Ecology"
+      },
+      {
+        "title": "Slope aspect influences plant biomass, soil properties and microbial composition in alpine meadow on the Qinghai-Tibetan plateau",
+        "doi": "10.4067/s0718-95162018005000101",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of soil science and plant nutrition"
+      },
+      {
+        "title": "State feedback finite-time tracking controller of nonholonomic mobile robot with actuator delay",
+        "doi": "10.1109/ccdc.2018.8407607",
+        "mark": "",
+        "topical": false,
+        "container": "2018 Chinese Control And Decision Conference (CCDC)"
+      },
+      {
+        "title": "A hydrophobic layer-based water feedback structure for passive μ-DMFC",
+        "doi": "10.1016/j.mee.2018.01.003",
+        "mark": "",
+        "topical": false,
+        "container": "Microelectronic Engineering"
+      }
+    ]
+  },
+  {
+    "i": 155,
+    "label": "Zhao,2018",
+    "year": 2018,
+    "source_values": "Xi et al. 2021",
+    "candidates": [
+      {
+        "title": "Aluminum–Nitrogen Interactions in the Soil–Plant System",
+        "doi": "10.3389/fpls.2018.00807",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Plant Science"
+      },
+      {
+        "title": "Isolation and identification of bacteria from rhizosphere soil and their effect on plant growth promotion and root-knot nematode disease",
+        "doi": "10.1016/j.biocontrol.2018.01.004",
+        "mark": "",
+        "topical": false,
+        "container": "Biological Control"
+      },
+      {
+        "title": "Highway Construction of Soft Soil Foundation Processing Analysis",
+        "doi": "10.30564/frae.v1i1.10",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers Research of Architecture and Engineering"
+      },
+      {
+        "title": "Competition alters plant–soil feedbacks of two species in the Inner Mongolia Steppe, China",
+        "doi": "10.1007/s11104-018-3703-9",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Soil and human health",
+        "doi": "10.1111/ejss.12528",
+        "mark": "",
+        "topical": false,
+        "container": "European Journal of Soil Science"
+      },
+      {
+        "title": "Evaluating the Capabilities of Soil Enthalpy, Soil Moisture and Soil Temperature in Predicting Seasonal Precipitation",
+        "doi": "10.1007/s00376-017-7006-5",
+        "mark": "",
+        "topical": false,
+        "container": "Advances in Atmospheric Sciences"
+      },
+      {
+        "title": "A simple multi-residue method for determination of plant growth retardants in Ophiopogon japonicus and soil using ultra-performance liquid chromatography–tandem mass spectrometry",
+        "doi": "10.1016/j.chemosphere.2018.05.105",
+        "mark": "",
+        "topical": false,
+        "container": "Chemosphere"
+      },
+      {
+        "title": "An implementation of real-time feedback control of cured part height in Exposure Controlled Projection Lithography with in-situ interferometric measurement feedback",
+        "doi": "10.1016/j.addma.2018.07.016",
+        "mark": "",
+        "topical": false,
+        "container": "Additive Manufacturing"
+      }
+    ]
+  },
+  {
+    "i": 156,
+    "label": "Chung,2019",
+    "year": 2019,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Connecting plant–soil feedbacks to long‐term stability in a desert grassland",
+        "doi": "10.1002/ecy.2756",
+        "mark": "X",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Connecting Plant–Soil Feedbacks to Long‐Term Stability in a Desert Grassland",
+        "doi": "10.1002/bes2.1582",
+        "mark": "",
+        "topical": true,
+        "container": "The Bulletin of the Ecological Society of America"
+      },
+      {
+        "title": "How phosphoinositides shape autophagy in plant cells",
+        "doi": "10.1016/j.plantsci.2019.01.017",
+        "mark": "",
+        "topical": false,
+        "container": "Plant Science"
+      },
+      {
+        "title": "Study of the Rainfall Infiltration Effect and Soil Strength Variation on Unsaturated Laterite Terraces",
+        "doi": "10.11159/icgre19.184",
+        "mark": "",
+        "topical": false,
+        "container": "World Congress on Civil, Structural, and Environmental Engineering"
+      },
+      {
+        "title": "Seed collection strategies for plant restoration with the aid of neutral genetic diversity",
+        "doi": "10.11110/kjpt.2019.49.4.275",
+        "mark": "",
+        "topical": false,
+        "container": "Korean Journal of Plant Taxonomy"
+      },
+      {
+        "title": "Soil surface disturbance alters cyanobacterial biocrusts and soil properties in dry grassland and shrubland ecosystems",
+        "doi": "10.1007/s11104-019-04102-0",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      }
+    ]
+  },
+  {
+    "i": 157,
+    "label": "Dukes,2019",
+    "year": 2019,
+    "source_values": "Figure 2 | Figure 5",
+    "candidates": []
+  },
+  {
+    "i": 158,
+    "label": "Forero et al. 2019",
+    "year": 2019,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Greenhouse- and Field-Measured Plant-Soil Feedbacks Are Not Correlated",
+        "doi": "10.3389/fenvs.2019.00184",
+        "mark": "S",
+        "topical": true,
+        "container": "Frontiers in Environmental Science"
+      },
+      {
+        "title": "SH3Ps—Evolution and Diversity of a Family of Proteins Engaged in Plant Cytokinesis",
+        "doi": "10.3390/ijms20225623",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Molecular Sciences"
+      }
+    ]
+  },
+  {
+    "i": 159,
+    "label": "Heinze,2019",
+    "year": 2019,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "The relative importance of plant-soil feedbacks for plant-species performance increases with decreasing intensity of herbivory",
+        "doi": "10.1007/s00442-019-04442-9",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      }
+    ]
+  },
+  {
+    "i": 160,
+    "label": "Kulmatiski, 2019",
+    "year": 2019,
+    "source_values": "Table 2 | Table 3",
+    "candidates": [
+      {
+        "title": "Plant-Soil Feedbacks Predict Native but Not Non-native Plant Community Composition: A 7-Year Common-Garden Experiment",
+        "doi": "10.3389/fevo.2019.00326",
+        "mark": "",
+        "topical": true,
+        "container": "Frontiers in Ecology and Evolution"
+      }
+    ]
+  },
+  {
+    "i": 161,
+    "label": "Lozano.2019",
+    "year": 2019,
+    "source_values": "Figure 2 | Figure 3",
+    "candidates": [
+      {
+        "title": "Root trait responses to drought depend on plant functional group",
+        "doi": "10.1101/801951",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Hydraulic Fracturing Fluid Compositions Induce Differential Enrichment of Soil Bacterial Communities",
+        "doi": "10.1089/ees.2018.0271",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Engineering Science"
+      },
+      {
+        "title": "Urban growth (1956-2012) and soil sealing in the metropolitan area of Valencia (Eastern Spain)",
+        "doi": "10.3232/sjss.2019.v9.n2.03",
+        "mark": "",
+        "topical": false,
+        "container": "Spanish Journal of Soil Science"
+      }
+    ]
+  },
+  {
+    "i": 162,
+    "label": "Ma,2019",
+    "year": 2019,
+    "source_values": "Table S7",
+    "candidates": [
+      {
+        "title": "Adaptive Fuzzy DSC Design of Strict-Feedback Fractional-Order Nonlinear Systems",
+        "doi": "10.1109/ccdc.2019.8833322",
+        "mark": "",
+        "topical": false,
+        "container": "2019 Chinese Control And Decision Conference (CCDC)"
+      },
+      {
+        "title": "Soil respiration in an irrigated oasis agroecosystem: linking environmental controls with plant activities on hourly, daily and monthly timescales",
+        "doi": "10.1007/s11104-019-04354-w",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Plant species identity and soil characteristics determine rhizosphere soil bacteria community composition in European temperate forests",
+        "doi": "10.1093/femsec/fiz063",
+        "mark": "",
+        "topical": false,
+        "container": "FEMS Microbiology Ecology"
+      },
+      {
+        "title": "<scp>L2</scp>\n            Students' Engagement with Written Corrective Feedback",
+        "doi": "10.1002/9781118784235.eelt0966",
+        "mark": "",
+        "topical": false,
+        "container": "The TESOL Encyclopedia of English Language Teaching"
+      },
+      {
+        "title": "Stoichiometric ratios support plant adaption to grazing moderated by soil nutrients and root enzymes",
+        "doi": "10.7717/peerj.7047",
+        "mark": "",
+        "topical": false,
+        "container": "PeerJ"
+      },
+      {
+        "title": "Effects of traditional Chinese medicine residue on plant growth and soil properties: a case study with maize (Zea mays L.)",
+        "doi": "10.1007/s11356-019-06322-4",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Science and Pollution Research"
+      },
+      {
+        "title": "Editorial: Biotechnological Potential of Plant-Microbe Interactions in Environmental Decontamination",
+        "doi": "10.3389/fpls.2019.01519",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Plant Science"
+      },
+      {
+        "title": "Effects of Soil Fauna on Cellulose and Lignin Decomposition of Plant Litter in the Changbai Mountain, China",
+        "doi": "10.1093/ee/nvz035",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Entomology"
+      }
+    ]
+  },
+  {
+    "i": 163,
+    "label": "Synder,2019",
+    "year": 2019,
+    "source_values": "Figure 3 | Xi et al. 2021",
+    "candidates": []
+  },
+  {
+    "i": 164,
+    "label": "Wang,2019",
+    "year": 2019,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Maize varieties can strengthen positive plant-soil feedback through beneficial arbuscular mycorrhizal fungal mutualists",
+        "doi": "10.1007/s00572-019-00885-3",
+        "mark": "",
+        "topical": true,
+        "container": "Mycorrhiza"
+      },
+      {
+        "title": "Soil loss: Effect of plant litter incorporation rate under simulated rainfall conditions",
+        "doi": "10.1002/ldr.3304",
+        "mark": "",
+        "topical": false,
+        "container": "Land Degradation &amp; Development"
+      },
+      {
+        "title": "Separating effects of soil microorganisms and nematodes on plant community dynamics",
+        "doi": "10.1007/s11104-019-04137-3",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Data Analysis of Bioassay of tea plant soil on endogenous hormone of tea seedlings",
+        "doi": "10.1109/iccce48422.2019.9010786",
+        "mark": "",
+        "topical": true,
+        "container": "2019 IEEE International Conference on Computation, Communication and Engineering (ICCCE)"
+      },
+      {
+        "title": "Potential feedback mediated by soil microbiome response to warming in a glacier forefield",
+        "doi": "10.1111/gcb.14936",
+        "mark": "",
+        "topical": true,
+        "container": "Global Change Biology"
+      }
+    ]
+  },
+  {
+    "i": 165,
+    "label": "Wilschut et al. 2019",
+    "year": 2019,
+    "source_values": "Figure 3",
+    "candidates": [
+      {
+        "title": "Root traits and belowground herbivores relate to plant–soil feedback variation among congeners",
+        "doi": "10.1038/s41467-019-09615-x",
+        "mark": "",
+        "topical": true,
+        "container": "Nature Communications"
+      },
+      {
+        "title": "Latitudinal variation in soil nematode communities under climate warming‐related range‐expanding and native plants",
+        "doi": "10.1111/gcb.14657",
+        "mark": "",
+        "topical": true,
+        "container": "Global Change Biology"
+      }
+    ]
+  },
+  {
+    "i": 166,
+    "label": "Xi et al. 2019",
+    "year": 2019,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Effect of Yeast Extract on Seedling Growth Promotion and Soil Improvement in Afforestation in a Semiarid Chestnut Soil Area",
+        "doi": "10.3390/f10010076",
+        "mark": "",
+        "topical": false,
+        "container": "Forests"
+      },
+      {
+        "title": "Static Output Feedback Control of Discrete-time T-S Fuzzy Systems with Immeasurable Premise Variables",
+        "doi": "10.1109/cac48633.2019.8996436",
+        "mark": "",
+        "topical": false,
+        "container": "2019 Chinese Automation Congress (CAC)"
+      }
+    ]
+  },
+  {
+    "i": 167,
+    "label": "Aldorfova,2020",
+    "year": 2020,
+    "source_values": "Original data",
+    "candidates": []
+  },
+  {
+    "i": 168,
+    "label": "Heinze,2020",
+    "year": 2020,
+    "source_values": "Author",
+    "candidates": [
+      {
+        "title": "Plant–soil feedback effects altered by aboveground herbivory explain plant species abundance in the landscape",
+        "doi": "10.1002/ecy.3023",
+        "mark": "S",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Editorial: The Next Step: Disentangling the Role of Plant-Soil Feedbacks in Plant Performance and Species Coexistence Under Natural Conditions",
+        "doi": "10.3389/fevo.2020.00231",
+        "mark": "",
+        "topical": true,
+        "container": "Frontiers in Ecology and Evolution"
+      },
+      {
+        "title": "Herbivory by aboveground insects impacts plant root morphological traits",
+        "doi": "10.1007/s11258-020-01045-w",
+        "mark": "",
+        "topical": false,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Draft Genome Sequence of Paenibacillus polymyxa DSM 292, a Gram-Positive, Spore-Forming Soil Bacterium with High Biotechnological Potential",
+        "doi": "10.1128/mra.00071-20",
+        "mark": "",
+        "topical": false,
+        "container": "Microbiology Resource Announcements"
+      }
+    ]
+  },
+  {
+    "i": 169,
+    "label": "Jin et al. 2020",
+    "year": 2020,
+    "source_values": "Table 1",
+    "candidates": [
+      {
+        "title": "Response of rice and bacterial community to phosphorus-containing materials in soil-plant ecosystem of rare earth mining area",
+        "doi": "10.1016/j.jhazmat.2019.121004",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Hazardous Materials"
+      },
+      {
+        "title": "Feedback Effects on Task Performance according to Task Characteristics under Time Constraints",
+        "doi": "10.17286/kjep.2020.34.3.02",
+        "mark": "",
+        "topical": false,
+        "container": "The Korean Journal of Educational Psychology"
+      },
+      {
+        "title": "Adaptive Control of Synchronous Precession of Twin-gyro Based on Feedback Linearization Theory",
+        "doi": "10.1109/icus50048.2020.9274879",
+        "mark": "",
+        "topical": false,
+        "container": "2020 3rd International Conference on Unmanned Systems (ICUS)"
+      },
+      {
+        "title": "Development of Feedback System to Support Asynchronous Online Discussion Activities and Usability Test",
+        "doi": "10.22251/jlcci.2020.20.20.867",
+        "mark": "",
+        "topical": false,
+        "container": "Korean Association For Learner-Centered Curriculum And Instruction"
+      },
+      {
+        "title": "Dynamical analysis of an optimal velocity model with time-delayed feedback control",
+        "doi": "10.1016/j.cnsns.2020.105333",
+        "mark": "",
+        "topical": false,
+        "container": "Communications in Nonlinear Science and Numerical Simulation"
+      }
+    ]
+  },
+  {
+    "i": 170,
+    "label": "Kiniry et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 2b",
+    "candidates": [
+      {
+        "title": "Effects of Plant-Soil Feedback on Switchgrass Productivity Related to Microbial Origin",
+        "doi": "10.3390/agronomy10121860",
+        "mark": "",
+        "topical": true,
+        "container": "Agronomy"
+      }
+    ]
+  },
+  {
+    "i": 171,
+    "label": "Lance et al. 2020",
+    "year": 2020,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Individual Plant-Soil Feedback Effects Influence Tree Growth and Rhizosphere Fungal Communities in a Temperate Forest Restoration Experiment",
+        "doi": "10.3389/fevo.2019.00500",
+        "mark": "",
+        "topical": true,
+        "container": "Frontiers in Ecology and Evolution"
+      },
+      {
+        "title": "Multiple stressors in multiple species: effects of different RDX soil concentrations and differential water-resourcing on RDX fate, plant health, and plant survival",
+        "doi": "10.1101/2020.05.21.108142",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Multiple stressors in multiple species: Effects of different RDX soil concentrations and differential water-resourcing on RDX fate, plant health, and plant survival",
+        "doi": "10.1371/journal.pone.0234166",
+        "mark": "",
+        "topical": false,
+        "container": "PLOS ONE"
+      },
+      {
+        "title": "High‐throughput sequencing provides insight into manipulated soil fungal community structure and diversity during temperate forest restoration",
+        "doi": "10.1111/rec.13120",
+        "mark": "",
+        "topical": false,
+        "container": "Restoration Ecology"
+      }
+    ]
+  },
+  {
+    "i": 172,
+    "label": "Liang et al. 2020",
+    "year": 2020,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Soil microbial carbon pump: Mechanism and appraisal",
+        "doi": "10.1007/s42832-020-0052-4",
+        "mark": "",
+        "topical": true,
+        "container": "Soil Ecology Letters"
+      },
+      {
+        "title": "Soil resource heterogeneity competitively favors an invasive clonal plant over a native one",
+        "doi": "10.1007/s00442-020-04660-6",
+        "mark": "",
+        "topical": false,
+        "container": "Oecologia"
+      },
+      {
+        "title": "Effects of Stemflow on Soil Water Dynamics in Forest Stands",
+        "doi": "10.1007/978-3-030-26086-6_15",
+        "mark": "",
+        "topical": false,
+        "container": "Ecological Studies"
+      }
+    ]
+  },
+  {
+    "i": 173,
+    "label": "Lucero et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Soil Biology in the Ecuadorian Amazon",
+        "doi": "10.32545/encyclopedia202004.0007.v1",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Functional classification of plant long noncoding RNAs: a transcript is known by the company it keeps",
+        "doi": "10.1111/nph.16903",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      },
+      {
+        "title": "A Framework to Incorporate Biological Soil Quality Indicators into Assessing the Sustainability of Territories in the Ecuadorian Amazon",
+        "doi": "10.3390/su12073007",
+        "mark": "",
+        "topical": false,
+        "container": "Sustainability"
+      }
+    ]
+  },
+  {
+    "i": 174,
+    "label": "Oschrin et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 2 | Figure 3 | Figure 4",
+    "candidates": [
+      {
+        "title": "Interpreting Pattern in Plant-Soil Feedback Experiments with Co-occurring Invasive Species: A Graphical Framework and Case Study",
+        "doi": "10.3390/d12050201",
+        "mark": "",
+        "topical": true,
+        "container": "Diversity"
+      }
+    ]
+  },
+  {
+    "i": 175,
+    "label": "Peacher et al. 2020",
+    "year": 2020,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Inoculum handling alters the strength and direction of plant–microbe interactions",
+        "doi": "10.1002/ecy.2994",
+        "mark": "",
+        "topical": false,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 176,
+    "label": "Segnitz et al. 2020",
+    "year": 2020,
+    "source_values": "Authors",
+    "candidates": [
+      {
+        "title": "Ectomycorrhizal fungi drive positive phylogenetic plant–soil feedbacks in a regionally dominant tropical plant family",
+        "doi": "10.1002/ecy.3083",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      }
+    ]
+  },
+  {
+    "i": 177,
+    "label": "Singh et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 3",
+    "candidates": [
+      {
+        "title": "Plant-Soil Feedback Effects on Germination and Growth of Native and Non-Native Species Common across Southern California",
+        "doi": "10.3390/d12060217",
+        "mark": "",
+        "topical": true,
+        "container": "Diversity"
+      },
+      {
+        "title": "Boron in crop production from soil to plant system: A review",
+        "doi": "10.26832/24566632.2020.0502020",
+        "mark": "",
+        "topical": false,
+        "container": "Archives of Agriculture and Environmental Science"
+      },
+      {
+        "title": "Transmission of plant viruses through soil-inhabiting nematode vectors",
+        "doi": "10.1016/b978-0-12-818654-1.00022-0",
+        "mark": "",
+        "topical": false,
+        "container": "Applied Plant Virology"
+      },
+      {
+        "title": "Robot Motion Control Dynamics using Feedback Linearization Technique",
+        "doi": "10.1109/gucon48875.2020.9231132",
+        "mark": "",
+        "topical": false,
+        "container": "2020 IEEE International Conference on Computing, Power and Communication Technologies (GUCON)"
+      },
+      {
+        "title": "Soil test crop response approach for optimizing integrated plant nutrient management supply for coriander in an inceptisol of eastern Uttar Pradesh",
+        "doi": "10.5958/0974-0228.2020.00013.4",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of the Indian Society of Soil Science"
+      },
+      {
+        "title": "Environmental Plant Physiology",
+        "doi": "10.1201/9781003014997",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Data Analysis Tools and Feedback",
+        "doi": "10.1007/978-3-030-39123-2_10",
+        "mark": "",
+        "topical": false,
+        "container": "Leading Organizational Development and Change"
+      },
+      {
+        "title": "Soil Pollution and Contamination",
+        "doi": "10.1201/9781003068716-15",
+        "mark": "",
+        "topical": false,
+        "container": "Methods for Assessment of Soil Degradation"
+      },
+      {
+        "title": "Soil Pollution and Human Health",
+        "doi": "10.1007/978-981-15-4964-9_13",
+        "mark": "",
+        "topical": false,
+        "container": "Plant Responses to Soil Pollution"
+      }
+    ]
+  },
+  {
+    "i": 178,
+    "label": "Stein et al. 2020",
+    "year": 2020,
+    "source_values": "Figure S2b | Figure S3b",
+    "candidates": [
+      {
+        "title": "Soil biota increase the likelihood for coexistence among competing plant species",
+        "doi": "10.1002/ecy.3147",
+        "mark": "",
+        "topical": true,
+        "container": "Ecology"
+      },
+      {
+        "title": "Stabilization of the stochastic point reactor kinetic equation through power feedback",
+        "doi": "10.1140/epjp/s13360-020-00215-z",
+        "mark": "",
+        "topical": false,
+        "container": "The European Physical Journal Plus"
+      },
+      {
+        "title": "Feedback Control of a Two-Component Signaling System by an Fe-S-Binding Receiver Domain",
+        "doi": "10.1128/mbio.03383-19",
+        "mark": "",
+        "topical": false,
+        "container": "mBio"
+      },
+      {
+        "title": "Nuclear Power Plant Evacuation: Gaps, Strategies, and Activity Scheduling",
+        "doi": "10.13182/t130-32638",
+        "mark": "",
+        "topical": false,
+        "container": "Transactions of the American Nuclear Society"
+      },
+      {
+        "title": "Using Soil Organic Carbon Isotopes in C3 Dominated Ecosystems to Reconstruct Ancient Precipitation",
+        "doi": "10.46427/gold2020.2458",
+        "mark": "",
+        "topical": false,
+        "container": "Goldschmidt Abstracts"
+      },
+      {
+        "title": "C<sub>3</sub> plant carbon isotope discrimination does not respond to CO<sub>2</sub> concentration on decadal to centennial timescales",
+        "doi": "10.1111/nph.17030",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      },
+      {
+        "title": "Plant-Pollinator Networks in Savannas of Burkina Faso, West Africa",
+        "doi": "10.3390/d13010001",
+        "mark": "",
+        "topical": false,
+        "container": "Diversity"
+      }
+    ]
+  },
+  {
+    "i": 179,
+    "label": "Wang YK et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 3-10 | Figure 3-11 | Figure 3-12 | Figure 3-5 | Figure 3-6 | Figure 3-7 | Figure 3-8 | Figure 3-9",
+    "candidates": []
+  },
+  {
+    "i": 180,
+    "label": "Wang et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 3",
+    "candidates": [
+      {
+        "title": "Biochar Application Alleviated Negative Plant-Soil Feedback by Modifying Soil Microbiome",
+        "doi": "10.3389/fmicb.2020.00799",
+        "mark": "",
+        "topical": true,
+        "container": "Frontiers in Microbiology"
+      },
+      {
+        "title": "Soil microbial legacy drives crop diversity advantage: Linking ecological plant–soil feedback with agricultural intercropping",
+        "doi": "10.1111/1365-2664.13802",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Applied Ecology"
+      },
+      {
+        "title": "Plant functional traits regulate soil bacterial diversity across temperate deserts",
+        "doi": "10.1016/j.scitotenv.2020.136976",
+        "mark": "",
+        "topical": false,
+        "container": "Science of The Total Environment"
+      },
+      {
+        "title": "Degradation of carbofuran in contaminated soil by plant-microorganism combined technology",
+        "doi": "10.2298/jsc190301052l",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of the Serbian Chemical Society"
+      },
+      {
+        "title": "Deficit Alternate Drip Irrigation Increased Root-Soil-Plant Interaction, Tomato Yield, and Quality",
+        "doi": "10.3390/ijerph17030781",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Environmental Research and Public Health"
+      },
+      {
+        "title": "The effect of biochar on soil-plant-earthworm-bacteria system in metal(loid) contaminated soil",
+        "doi": "10.1016/j.envpol.2020.114610",
+        "mark": "",
+        "topical": false,
+        "container": "Environmental Pollution"
+      },
+      {
+        "title": "Plant–soil feedbacks under resource limitation may not contribute to the invasion by annual Asteraceae plants",
+        "doi": "10.1007/s00442-020-04756-z",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      },
+      {
+        "title": "Nexus of grazing management with plant and soil properties in northern China grasslands",
+        "doi": "10.1038/s41597-020-0375-0",
+        "mark": "",
+        "topical": false,
+        "container": "Scientific Data"
+      }
+    ]
+  },
+  {
+    "i": 181,
+    "label": "Wei et al. 2020",
+    "year": 2020,
+    "source_values": "Figure 4",
+    "candidates": [
+      {
+        "title": "Mixed evidence for plant–soil feedbacks in forest invasions",
+        "doi": "10.1007/s00442-020-04703-y",
+        "mark": "",
+        "topical": true,
+        "container": "Oecologia"
+      },
+      {
+        "title": "Investigating the impact of increased student feedback literacy level on their expectations on university teachers’ feedback",
+        "doi": "10.1080/02602938.2020.1846017",
+        "mark": "",
+        "topical": false,
+        "container": "Assessment &amp; Evaluation in Higher Education"
+      },
+      {
+        "title": "Effects of Different Amelioration Materials on Soil Fertility in Abandoned Homestead Reclaimed Soil",
+        "doi": "10.1088/1755-1315/514/5/052038",
+        "mark": "",
+        "topical": false,
+        "container": "IOP Conference Series: Earth and Environmental Science"
+      }
+    ]
+  },
+  {
+    "i": 182,
+    "label": "Werger et al. 2020",
+    "year": 2020,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Wind intensity affects fine root morphological traits with consequences for plant-soil feedback effects",
+        "doi": "10.1093/aobpla/plaa050",
+        "mark": "",
+        "topical": true,
+        "container": "AoB PLANTS"
+      }
+    ]
+  },
+  {
+    "i": 183,
+    "label": "Xi et al. 2020",
+    "year": 2020,
+    "source_values": "Figure S1",
+    "candidates": [
+      {
+        "title": "Soil microbes alter seedling performance and biotic interactions under plant competition and contrasting light conditions",
+        "doi": "10.1093/aob/mcaa134",
+        "mark": "",
+        "topical": true,
+        "container": "Annals of Botany"
+      },
+      {
+        "title": "Weekly to annual variability of surface soil moisture",
+        "doi": "10.1002/essoar.10503645.1",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "New Nonlinear Signal Processing Method Based on LS Algorithm and Decision Feedback at Receiver",
+        "doi": "10.1109/ictc49638.2020.9123285",
+        "mark": "",
+        "topical": false,
+        "container": "2020 Information Communication Technologies Conference (ICTC)"
+      },
+      {
+        "title": "Teaching Practiceson the Course of\" Soil Mechanics and Foundation Engineering \"Based on Engineering Education Certification",
+        "doi": "10.1109/icbdie50010.2020.00045",
+        "mark": "",
+        "topical": false,
+        "container": "2020 International Conference on Big Data and Informatization Education (ICBDIE)"
+      },
+      {
+        "title": "Phosphoproteomic Analysis of Plant Membranes",
+        "doi": "10.1007/978-1-0716-0880-7_22",
+        "mark": "",
+        "topical": false,
+        "container": "Methods in Molecular Biology"
+      },
+      {
+        "title": "Adaptive exact sliding tracking control of high‐order strict‐feedback systems with mismatched nonlinearities and external disturbances",
+        "doi": "10.1002/rnc.5231",
+        "mark": "",
+        "topical": false,
+        "container": "International Journal of Robust and Nonlinear Control"
+      },
+      {
+        "title": "The Research on the Cultivation of Innovation Capabilities Supported by Information Technology : A case study of \"soil mechanics and foundation engineering\" course",
+        "doi": "10.1109/icise51755.2020.00099",
+        "mark": "",
+        "topical": false,
+        "container": "2020 International Conference on Information Science and Education (ICISE-IE)"
+      }
+    ]
+  },
+  {
+    "i": 184,
+    "label": "Allen et al. 2021",
+    "year": 2021,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Soil sample pooling generates no consistent inference bias: a meta‐analysis of 71 plant–soil feedback experiments",
+        "doi": "10.1111/nph.17455",
+        "mark": "",
+        "topical": true,
+        "container": "New Phytologist"
+      },
+      {
+        "title": "Metabolomics: insights into plant‐based diets",
+        "doi": "10.15252/emmm.202013568",
+        "mark": "",
+        "topical": false,
+        "container": "EMBO Molecular Medicine"
+      },
+      {
+        "title": "Making the Most of Mindfulness-Based Stress Reduction: Participant Feedback Reveals Strengths and Challenges",
+        "doi": "10.1016/j.cbpra.2020.10.002",
+        "mark": "",
+        "topical": false,
+        "container": "Cognitive and Behavioral Practice"
+      },
+      {
+        "title": "Electrochemical Ammonia: Power to Ammonia Ratio and Balance of Plant Requirements for Two Different Electrolysis Approaches",
+        "doi": "10.3389/fceng.2021.765457",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Chemical Engineering"
+      }
+    ]
+  },
+  {
+    "i": 185,
+    "label": "Beck, 2021",
+    "year": 2021,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Variation in plant–soil interactions among temperate forest herbs",
+        "doi": "10.1007/s11258-021-01173-x",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Prediction of ultra low sulphur diesel catalyst performance using limited pilot plant data",
+        "doi": "10.1016/j.aej.2021.02.062",
+        "mark": "",
+        "topical": false,
+        "container": "Alexandria Engineering Journal"
+      },
+      {
+        "title": "Lactobacillus fermented plant extracts provided to yearling ewes improves their lambs’ antioxidant status at weaning",
+        "doi": "10.1016/j.anifeedsci.2021.115103",
+        "mark": "",
+        "topical": false,
+        "container": "Animal Feed Science and Technology"
+      },
+      {
+        "title": "Negative effects of energy supplementation at peak lactation of sheep can be offset by the addition of <i>Lactobacillus</i>-fermented plant extracts",
+        "doi": "10.1093/jas/skab069",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Animal Science"
+      },
+      {
+        "title": "Developing a mHealth Routine Outcome Monitoring and Feedback App (“SMART Track”) to Support Self-Management of Addictive Behaviours",
+        "doi": "10.3389/fpsyt.2021.677637",
+        "mark": "",
+        "topical": false,
+        "container": "Frontiers in Psychiatry"
+      }
+    ]
+  },
+  {
+    "i": 186,
+    "label": "Coughlin et al. 2021",
+    "year": 2021,
+    "source_values": "Authors",
+    "candidates": [
+      {
+        "title": "Plant–soil feedbacks and the introduction of <i>Castanea</i> (chestnut) hybrids to eastern North American forests",
+        "doi": "10.1111/rec.13326",
+        "mark": "",
+        "topical": true,
+        "container": "Restoration Ecology"
+      }
+    ]
+  },
+  {
+    "i": 187,
+    "label": "Davis et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 5a",
+    "candidates": [
+      {
+        "title": "Variable Frequency Drives Improve Power Plant Minimum Operating Level Performance",
+        "doi": "10.1115/1.0000573v",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Rearing Lepidoptera for Plant Resistance Research",
+        "doi": "10.4324/9780429043246-16",
+        "mark": "",
+        "topical": false,
+        "container": "Advances in Insect Rearing for Research and Pest Management"
+      },
+      {
+        "title": "Is a plant-based diet safe in pediatric populations?",
+        "doi": "10.1097/ebp.0000000000001425",
+        "mark": "",
+        "topical": false,
+        "container": "Evidence-Based Practice"
+      },
+      {
+        "title": "Coal-Fired Power Plant Retirements in the U.S",
+        "doi": "10.2139/ssrn.3875116",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Coal-Fired Power Plant Retirements in the U.S.",
+        "doi": "10.3386/w28949",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Faculty Opinions recommendation of Poaceae-specific cell wall-derived oligosaccharides activate plant immunity via OsCERK1 during Magnaporthe oryzae infection in rice.",
+        "doi": "10.3410/f.739934233.793585349",
+        "mark": "",
+        "topical": false,
+        "container": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature"
+      },
+      {
+        "title": "Faculty Opinions recommendation of Peat-based gnotobiotic plant growth systems for Arabidopsis microbiome research.",
+        "doi": "10.3410/f.740021580.793585693",
+        "mark": "",
+        "topical": false,
+        "container": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature"
+      },
+      {
+        "title": "Faculty Opinions recommendation of A plant lipocalin promotes retinal-mediated oscillatory lateral root initiation.",
+        "doi": "10.3410/f.740707785.793589260",
+        "mark": "",
+        "topical": false,
+        "container": "Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature"
+      },
+      {
+        "title": "The Scientific Basis of the Target Plant Concept: An Overview",
+        "doi": "10.3390/f12091293",
+        "mark": "",
+        "topical": false,
+        "container": "Forests"
+      },
+      {
+        "title": "Plant your street! A research game exploring tree selection and placement in an urban neighborhood",
+        "doi": "10.1016/j.ufug.2021.127244",
+        "mark": "",
+        "topical": false,
+        "container": "Urban Forestry &amp; Urban Greening"
+      }
+    ]
+  },
+  {
+    "i": 188,
+    "label": "De Long et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 2b",
+    "candidates": [
+      {
+        "title": "Synchronous vs asynchronous switching-based output-feedback control for switched nonlinear systems with measurement noise sensitivity",
+        "doi": "10.1016/j.sysconle.2021.104935",
+        "mark": "",
+        "topical": false,
+        "container": "Systems &amp; Control Letters"
+      }
+    ]
+  },
+  {
+    "i": 189,
+    "label": "Domínguez-Begines et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 1",
+    "candidates": []
+  },
+  {
+    "i": 190,
+    "label": "Dostal et al. 2021",
+    "year": 2021,
+    "source_values": "Author",
+    "candidates": []
+  },
+  {
+    "i": 191,
+    "label": "Hassan et al. 2021",
+    "year": 2021,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "The effect of prolonged drought legacies on plant–soil feedbacks",
+        "doi": "10.1111/jvs.13100",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Vegetation Science"
+      },
+      {
+        "title": "The Effect of Prolonged Drought Legacies on Plant-Soil Feedbacks",
+        "doi": "10.21203/rs.3.rs-282547/v1",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      },
+      {
+        "title": "Adaptive stabilization of a Timoshenko system by boundary feedback controls",
+        "doi": "10.1002/mma.7803",
+        "mark": "",
+        "topical": false,
+        "container": "Mathematical Methods in the Applied Sciences"
+      },
+      {
+        "title": "Dissolution and deformation characteristics of gypsum soil along the Baiji railway",
+        "doi": "10.1016/j.matpr.2020.12.552",
+        "mark": "",
+        "topical": false,
+        "container": "Materials Today: Proceedings"
+      },
+      {
+        "title": "\"Effect Of ZnO Nanoparticles on the Physical, Chemical and Nutritional Quality of Tomato Plant (Solanum Lycopersicum)\"",
+        "doi": "10.26717/bjstr.2021.39.006351",
+        "mark": "",
+        "topical": false,
+        "container": "Biomedical Journal of Scientific &amp; Technical Research"
+      }
+    ]
+  },
+  {
+    "i": 192,
+    "label": "Ke et al. 2021",
+    "year": 2021,
+    "source_values": "Figure S6",
+    "candidates": [
+      {
+        "title": "The Temporal Dimension of Plant-Soil Microbe Interactions: Mechanisms Promoting Feedback between Generations",
+        "doi": "10.1086/715577",
+        "mark": "",
+        "topical": true,
+        "container": "The American Naturalist"
+      },
+      {
+        "title": "Dynamic plant–soil microbe interactions: the neglected effect of soil conditioning time",
+        "doi": "10.1111/nph.17420",
+        "mark": "",
+        "topical": true,
+        "container": "New Phytologist"
+      },
+      {
+        "title": "The feedback interaction between biomass accumulation and heterogeneous flow in porous media: Effect of shear stresses",
+        "doi": "10.1016/j.jhydrol.2021.126083",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Hydrology"
+      },
+      {
+        "title": "Microbiome Engineering: Synthetic Biology of Plant-Associated Microbiomes in Sustainable Agriculture",
+        "doi": "10.1016/j.tibtech.2020.07.008",
+        "mark": "",
+        "topical": false,
+        "container": "Trends in Biotechnology"
+      },
+      {
+        "title": "Multifractal parameters of soil particle size as key indicators of the soil moisture distribution",
+        "doi": "10.1016/j.jhydrol.2021.125988",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Hydrology"
+      }
+    ]
+  },
+  {
+    "i": 193,
+    "label": "Lu et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Effects of Intact Soil Bacterial Community on Plant Growth and Soil Physicochemical Properties",
+        "doi": "10.1145/3469678.3469711",
+        "mark": "",
+        "topical": false,
+        "container": "The Fifth International Conference on Biological Information and Biomedical Engineering"
+      },
+      {
+        "title": "Light environment and plant growth in plant factories",
+        "doi": "10.1088/1755-1315/686/1/012002",
+        "mark": "",
+        "topical": false,
+        "container": "IOP Conference Series: Earth and Environmental Science"
+      },
+      {
+        "title": "Exponential stability of a pendulum in dynamic boundary feedback with a viscous damped wave equation",
+        "doi": "10.1080/23307706.2021.1938250",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Control and Decision"
+      }
+    ]
+  },
+  {
+    "i": 194,
+    "label": "Nuske et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 4",
+    "candidates": [
+      {
+        "title": "Soil biotic and abiotic effects on seedling growth exhibit context‐dependent interactions: evidence from a multi‐country experiment on <i>Pinus contorta</i> invasion",
+        "doi": "10.1111/nph.17449",
+        "mark": "",
+        "topical": false,
+        "container": "New Phytologist"
+      }
+    ]
+  },
+  {
+    "i": 195,
+    "label": "Spitzer et al. 2021",
+    "year": 2021,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Feedback Linearization for Quadrotors with a Learned Acceleration Error Model",
+        "doi": "10.1109/icra48506.2021.9561708",
+        "mark": "",
+        "topical": false,
+        "container": "2021 IEEE International Conference on Robotics and Automation (ICRA)"
+      },
+      {
+        "title": "Root traits and soil micro‐organisms as drivers of plant–soil feedbacks within the sub‐arctic tundra meadow",
+        "doi": "10.1111/1365-2745.13814",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Author response for \"Root traits and soil microorganisms as drivers of plant‐soil feedbacks within the sub‐arctic tundra meadow\"",
+        "doi": "10.1111/1365-2745.13814/v2/response1",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      }
+    ]
+  },
+  {
+    "i": 196,
+    "label": "Tang et al. 2021",
+    "year": 2021,
+    "source_values": "Figure S3",
+    "candidates": [
+      {
+        "title": "On the Feedback Number of 3-Uniform Linear Extremal Hypergraphs",
+        "doi": "10.1007/978-3-030-92681-6_54",
+        "mark": "",
+        "topical": false,
+        "container": "Lecture Notes in Computer Science"
+      },
+      {
+        "title": "Plant genotype controls wetland soil microbial functioning in response to sea-level rise",
+        "doi": "10.5194/bg-18-6133-2021",
+        "mark": "",
+        "topical": true,
+        "container": "Biogeosciences"
+      },
+      {
+        "title": "Plant genotype controls wetland soil microbial functioning in response to sea-level rise ",
+        "doi": "10.5194/bg-2021-41",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      },
+      {
+        "title": "Soil-plant relationships of metallophytes of the zinc-lead-copper Dugald River gossan, Queensland, Australia",
+        "doi": "10.1007/s11104-021-05209-z",
+        "mark": "",
+        "topical": false,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Free soil colloids and colloidal building units of soil aggregates",
+        "doi": "10.5194/egusphere-egu21-8532",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Effect of salinity on soil structure and soil hydraulic characteristics",
+        "doi": "10.1139/cjss-2020-0018",
+        "mark": "",
+        "topical": false,
+        "container": "Canadian Journal of Soil Science"
+      },
+      {
+        "title": "Supplementary material to \"Plant genotype controls wetland soil microbial functioning in response to sea-level rise \"",
+        "doi": "10.5194/bg-2021-41-supplement",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      },
+      {
+        "title": "Nitrogen and phosphorus fertilization increases the uptake of soil heavy metal pollutants by plant community",
+        "doi": "10.21203/rs.3.rs-413625/v1",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Broad-intensity-range optical nonreciprocity based on feedback-induced Kerr nonlinearity",
+        "doi": "10.1364/prj.413286",
+        "mark": "",
+        "topical": false,
+        "container": "Photonics Research"
+      },
+      {
+        "title": "Does Diagnostic Feedback Promote Learning? Evidence From a Longitudinal Cognitive Diagnostic Assessment",
+        "doi": "10.1177/23328584211060804",
+        "mark": "",
+        "topical": false,
+        "container": "AERA Open"
+      }
+    ]
+  },
+  {
+    "i": 197,
+    "label": "Uddin et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Interpolatory projection technique for Riccati-based feedback stabilization of index-1 descriptor systems",
+        "doi": "10.1088/1757-899x/1070/1/012022",
+        "mark": "",
+        "topical": false,
+        "container": "IOP Conference Series: Materials Science and Engineering"
+      },
+      {
+        "title": "SVD-Krylov based Sparsity-preserving Techniques for Riccati-based Feedback Stabilization of Unstable Power System Models",
+        "doi": "10.38032/jea.2021.03.002",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Engineering Advancements"
+      },
+      {
+        "title": "Conspecific and heterospecific plant–soil biota interactions of Lonicera japonica in its native and introduced range: implications for invasion success",
+        "doi": "10.1007/s11258-021-01180-y",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Design and Development an IoT Based Real-Time Agriculture Plant Monitoring System",
+        "doi": "10.46603/ejcee.v2i1.26",
+        "mark": "",
+        "topical": false,
+        "container": "EDU Journal of Computer and Electrical Engineering"
+      },
+      {
+        "title": "Production of extracellular lipase from psychrotrophic bacterium Oceanisphaera sp. RSAP17 isolated from arctic soil",
+        "doi": "10.1007/s10482-021-01671-y",
+        "mark": "",
+        "topical": false,
+        "container": "Antonie van Leeuwenhoek"
+      },
+      {
+        "title": "Anticholinesterase Activity of Eight Medicinal Plant Species: In Vitro and In Silico Studies in the Search for Therapeutic Agents against Alzheimer’s Disease",
+        "doi": "10.1155/2021/9995614",
+        "mark": "",
+        "topical": false,
+        "container": "Evidence-Based Complementary and Alternative Medicine"
+      },
+      {
+        "title": "Reactive Power Compensation and Efficient Power Evacuation for a 35 MW AC Grid Tied Solar PV Plant",
+        "doi": "10.1109/icsct53883.2021.9642602",
+        "mark": "",
+        "topical": false,
+        "container": "2021 International Conference on Science &amp; Contemporary Technologies (ICSCT)"
+      }
+    ]
+  },
+  {
+    "i": 198,
+    "label": "Wang et al. 2021 PE",
+    "year": 2021,
+    "source_values": "Figure 1c",
+    "candidates": [
+      {
+        "title": "Direct Biotic Plant–soil Feedback Promotes Dodonaea Viscosa Growth in a Dry-hot Valley, China",
+        "doi": "10.21203/rs.3.rs-316055/v1",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      },
+      {
+        "title": "Plant–Soil Feedback In Camellia Oleifera And Mixed Gardenia Jasminoides Ellis–Camellia Oleifera Stands Determined By Soil Bacterial Community Analysis",
+        "doi": "10.21203/rs.3.rs-849971/v1",
+        "mark": "",
+        "topical": true,
+        "container": ""
+      },
+      {
+        "title": "Plant–soil feedback effects on the performance and functional traits of Dodonaea viscosa in a dry-hot valley, China",
+        "doi": "10.1007/s11258-021-01171-z",
+        "mark": "",
+        "topical": true,
+        "container": "Plant Ecology"
+      },
+      {
+        "title": "Selenium in Soil–Plant-Microbe: A Review",
+        "doi": "10.1007/s00128-021-03386-2",
+        "mark": "",
+        "topical": false,
+        "container": "Bulletin of Environmental Contamination and Toxicology"
+      },
+      {
+        "title": "Plant-microbial remediation of chlorpyrifos contaminated soil",
+        "doi": "10.1080/03601234.2021.1977570",
+        "mark": "",
+        "topical": false,
+        "container": "Journal of Environmental Science and Health, Part B"
+      }
+    ]
+  },
+  {
+    "i": 199,
+    "label": "Wilschut et al. 2021",
+    "year": 2021,
+    "source_values": "Figure 3 | Figure S2",
+    "candidates": [
+      {
+        "title": "Drought alters plant‐soil feedback effects on biomass allocation but not on plant performance",
+        "doi": "10.1007/s11104-021-04861-9",
+        "mark": "",
+        "topical": true,
+        "container": "Plant and Soil"
+      },
+      {
+        "title": "Nematodes as Drivers of Plant Performance in Natural Systems",
+        "doi": "10.1016/j.tplants.2020.10.006",
+        "mark": "",
+        "topical": false,
+        "container": "Trends in Plant Science"
+      }
+    ]
+  },
+  {
+    "i": 200,
+    "label": "Huangfu et al. 2022",
+    "year": 2022,
+    "source_values": "Figure 2",
+    "candidates": [
+      {
+        "title": "Density-dependent plant-soil feedbacks of two plant species affected by plant competition",
+        "doi": "10.1016/j.scitotenv.2021.150908",
+        "mark": "",
+        "topical": true,
+        "container": "Science of The Total Environment"
+      },
+      {
+        "title": "A Multi-Task Learning Approach for Delayed Feedback Modeling",
+        "doi": "10.1145/3487553.3524217",
+        "mark": "",
+        "topical": false,
+        "container": "Companion Proceedings of the Web Conference 2022"
+      }
+    ]
+  },
+  {
+    "i": 201,
+    "label": "Jiang et al. 2022",
+    "year": 2022,
+    "source_values": "Original data",
+    "candidates": [
+      {
+        "title": "Phylogenetic dependence of plant–soil feedback promotes rare species in a subtropical forest",
+        "doi": "10.1111/1365-2745.13879",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Seasonal variations and feedback from microplastics and cadmium on soil organisms in agricultural fields",
+        "doi": "10.1016/j.envint.2022.107096",
+        "mark": "",
+        "topical": false,
+        "container": "Environment International"
+      },
+      {
+        "title": "Effects of Plant and Tree Roots Decomposition\non Soil Nutrients in an Abandoned Pyrite Mining\nArea in China",
+        "doi": "10.15244/pjoes/150423",
+        "mark": "",
+        "topical": false,
+        "container": "Polish Journal of Environmental Studies"
+      },
+      {
+        "title": "A Molecular Ratchet Model without Feedback Control",
+        "doi": "10.21203/rs.3.rs-1142536/v1",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      }
+    ]
+  },
+  {
+    "i": 202,
+    "label": "Li et al. 2022",
+    "year": 2022,
+    "source_values": "Figure 1",
+    "candidates": [
+      {
+        "title": "Inter- and Intraspecific Plant Interaction Pathways Affect Feedback Effects of Am Fungi on Plant Growth",
+        "doi": "10.2139/ssrn.4224463",
+        "mark": "",
+        "topical": false,
+        "container": "SSRN Electronic Journal"
+      },
+      {
+        "title": "Feedback Effects of Am Fungi in Native or Afforestation Area on Afforestation Plant Growth Regulated by Neighbor Plant",
+        "doi": "10.2139/ssrn.4092919",
+        "mark": "",
+        "topical": false,
+        "container": "SSRN Electronic Journal"
+      },
+      {
+        "title": "Plant diversity improves resistance of plant biomass and soil microbial communities to drought",
+        "doi": "10.1111/1365-2745.13900",
+        "mark": "",
+        "topical": true,
+        "container": "Journal of Ecology"
+      },
+      {
+        "title": "Correlation of microbiomes in ‘plant-insect-soil’ ecosystem",
+        "doi": "10.22541/au.166609524.42824368/v1",
+        "mark": "",
+        "topical": false,
+        "container": ""
+      },
+      {
+        "title": "Integrated drought evaluation index: considering the ecological feedback of the soil moisture and vegetation on wheat",
+        "doi": "10.1007/s10333-022-00918-2",
+        "mark": "",
+        "topical": false,
+        "container": "Paddy and Water Environment"
+      },
+      {
+        "title": "Host Plant Selection Imprints Structure and Assembly of Fungal Community along the Soil-Root Continuum",
+        "doi": "10.1128/msystems.00361-22",
+        "mark": "",
+        "topical": false,
+        "container": "mSystems"
+      }
+    ]
+  }
+]
