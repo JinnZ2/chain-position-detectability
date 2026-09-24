@@ -10,14 +10,14 @@ plus the execution records for the four that have been run in part. It is not a
 code repository and not a thesis.
 
 ```text
-work-orders/            seven markers, operator-authored, verbatim, never edited
+work-orders/            seven markers, operator-authored; six verbatim, never edited; WO-11 a hash-pinned pointer
    |  WO-1  chain position detectable from inside a container?
    |  WO-2  "quiet" failure = a missing aggregation function?
    |  WO-3  does any TERMINAL system exist (zero crossings, every medium)?
    |  WO-4  one shape under WO-1..3: local correctness + an unowned join; the term gap
    |  WO-5  per-hop loss and pre-entry loss in reporting chains
    |  WO-6  assessor-assessed coupling as a known failure mode
-   |  WO-11 benchmark score as an unpartitioned residual: partition before reporting (research designs, not a build)
+   |  WO-11 benchmark score as an unpartitioned residual (research designs, not a build) -> POINTER to Simulators@4237ac2
    v
 research/wo-N/          model-executed milestones (wo-1..3 Manus AI; wo-4 this session), one dir per run order
    |  wo-1  standards audit: 15 units, 516 clauses, 0 positive   NULL RESULT
@@ -39,6 +39,7 @@ or reject it.
 
 ```text
 delivered files are verbatim     work-orders/WO-*, research/wo-1..3: never edit; findings go in AUDIT_NOTES.md.
+                                 WO-11 holds no text: it pins Simulators@4237ac2 by path and sha256; cite the body hash
                                  work-orders/README.md is the index and moves with each milestone
 ids are permanent                CPD_nnn never renumbered; a superseded claim keeps its id and gains a status
 python >= 3.8, stdlib only       tools/ only; no runtime deps, no network, no build step
@@ -105,7 +106,7 @@ file; if a mapping is needed, it is a new table in `work-orders/README.md`.
 
 ```text
 README.md                     byte copy of WO-1 (CPD_001) -- not the index
-work-orders/README.md         THE index: seven rows, measurand, status
+work-orders/README.md         THE index: seven delivered, one of them a pointer; measurand, status
 work-orders/WO-N-*.md         markers
 research/wo-1/                standards-audit.md, source-inventory.md, evidence/audit-unit-NN.md (15)
 research/wo-2/                codebook.md, source-manifest.md, coding/coder-{a,b}/, validation/,

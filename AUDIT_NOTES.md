@@ -341,34 +341,50 @@ flips kind; a term that names both C1 and C3.
 
 ## CPD_016 -- WO-11 is a registered slot, not a delivered marker
 
-STATUS: SUPERSEDED 2026-09-24, same day. The delivered text landed under
-the same filename and the STATUS line is gone, which is this claim's own
-falsifier firing. The slot existed for one commit (`7ab162d`); the record
-is kept so the directory's rule (delivered files are verbatim) has a
-visible instance of being held rather than assumed.
+STATUS: CLOSED 2026-09-24 under the amended falsifier (see the amendment
+entry below). Row `status_table` counts the file as one index row and one
+WO file; nothing recomputes its content, which is a path and two hashes.
+
+The file passed through three states in one day, all kept in history:
 
 ```
-file            work-orders/WO-11-benchmark-score-unpartitioned-residual.md
-was             title, registration date, a STATUS line, what would move it
-is              the operator's delivered text, verbatim, em dashes and
-                curly punctuation carried as delivered
-still not here  a run; research/wo-11/ does not exist and the index says
-                "Not started"
+7ab162d  slot     title, registration date, STATUS line, what would move it
+2d688d4  copy     a paste of the delivered text, landed under the same filename
+now      pointer  Simulators@4237ac2 publication-loop-work-orders/WORK_ORDER_11.md
+                  whole-file sha256 41fbd82e...34426d ; body (line 12+) ada578e2...9119d
 ```
 
-What the delivered marker states about itself, read not adjudicated: six
-arms `T-1..T-6`, each with a falsifier; a class line saying it is research
-designs and NOT a code build; a ranking naming `T-4a` (control manifest
-over published evals, pure document coding) as the cheapest decisive arm;
-a known-bias section recording that every arm is a transfer from a
-human-population design and that the prior-art check is unrun for all six;
-and a whole-order refutation protocol. One literature anchor is carried
-(Kalai, Nachum, Vempala & Zhang, *Nature* 653, 2026, DOI stated) and is
-not checked here, egress being an allowlist. The two `OBSERVED` tags that
-rest on the human literature (T-3, T-4) point at source objects not in
-this tree.
+The copy was withdrawn because it was the SECOND rendering of one
+delivery: against the canonical body it differs in whitespace only
+(code-block alignment in two blocks, one trailing blank line), and the
+source of the variance is unresolved -- the 09-23 re-emit, or either of
+two manual phone pastes -- so neither rendering can be shown
+byte-verbatim to the 2026-09-18 original. Canonical means first landed
+and hash-pinned, not proven original. Two repositories holding two
+renderings of one marker is the one-id-two-texts defect
+(`AUDIT_OPEN_RESEARCH.md`, Simulators) at repository scale; a pointer
+removes it by construction.
 
-FALSIFIER: none needed; superseded by its own stated condition.
+FALSIFIER, AMENDED: the verbatim text is reachable at a pinned commit.
+Met: `git show 4237ac2:publication-loop-work-orders/WORK_ORDER_11.md`
+returns the file at the stated hashes, and 4237ac2 is in Simulators
+main via PR #85.
+
+### Amendment to CPD_016, 2026-09-24
+
+```
+old falsifier   the delivered WO-11 text lands under the same filename and the
+                STATUS line is gone
+new falsifier   the verbatim text is reachable at a pinned commit
+reason          single source of truth across repositories: a copy under the
+                same filename satisfied the old wording and produced two
+                renderings of one delivery, which is the defect the audit
+                exists to catch
+status change   SUPERSEDED (2d688d4, old wording) -> CLOSED (this commit, new wording)
+```
+
+The old wording is retained above so the change of criterion is visible
+as a change rather than as the criterion having always read this way.
 
 ---
 
@@ -382,5 +398,5 @@ CPD_007  one constructed known-negative case, or one real case coded does_not_su
 CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
-CPD_016  closed; a run order for WO-11 opens research/wo-11/ and a new CPD row
+CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
 ```
