@@ -341,26 +341,34 @@ flips kind; a term that names both C1 and C3.
 
 ## CPD_016 -- WO-11 is a registered slot, not a delivered marker
 
-STATUS: OPEN. Row `status_table` counts it as an index row and a WO file;
-nothing recomputes its content because it has none.
+STATUS: SUPERSEDED 2026-09-24, same day. The delivered text landed under
+the same filename and the STATUS line is gone, which is this claim's own
+falsifier firing. The slot existed for one commit (`7ab162d`); the record
+is kept so the directory's rule (delivered files are verbatim) has a
+visible instance of being held rather than assumed.
 
 ```
 file            work-orders/WO-11-benchmark-score-unpartitioned-residual.md
-carries         title, registration date, the STATUS line, what would move it
-does not carry  measurand statement, tags, falsifier, scope limits, runnable steps
-why             the delivered text was pasted into a session whose record did not
-                retain it; reconstructing it from memory would author a marker in
-                the operator's name, which the verbatim rule forbids
+was             title, registration date, a STATUS line, what would move it
+is              the operator's delivered text, verbatim, em dashes and
+                curly punctuation carried as delivered
+still not here  a run; research/wo-11/ does not exist and the index says
+                "Not started"
 ```
 
-This is the first file under `work-orders/` that is not verbatim, and the
-file states that on its first line so the directory's own rule
-(`delivered files are verbatim`) stays checkable: a reader who finds a
-STATUS line in a work order knows they are reading a slot.
+What the delivered marker states about itself, read not adjudicated: six
+arms `T-1..T-6`, each with a falsifier; a class line saying it is research
+designs and NOT a code build; a ranking naming `T-4a` (control manifest
+over published evals, pure document coding) as the cheapest decisive arm;
+a known-bias section recording that every arm is a transfer from a
+human-population design and that the prior-art check is unrun for all six;
+and a whole-order refutation protocol. One literature anchor is carried
+(Kalai, Nachum, Vempala & Zhang, *Nature* 653, 2026, DOI stated) and is
+not checked here, egress being an allowlist. The two `OBSERVED` tags that
+rest on the human literature (T-3, T-4) point at source objects not in
+this tree.
 
-FALSIFIER: the delivered WO-11 text lands under the same filename and the
-STATUS line is gone; this claim is then SUPERSEDED and the row moves to
-the delivered-marker set.
+FALSIFIER: none needed; superseded by its own stated condition.
 
 ---
 
@@ -374,5 +382,5 @@ CPD_007  one constructed known-negative case, or one real case coded does_not_su
 CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
-CPD_016  the operator pastes WO-11 verbatim over the slot file
+CPD_016  closed; a run order for WO-11 opens research/wo-11/ and a new CPD row
 ```
