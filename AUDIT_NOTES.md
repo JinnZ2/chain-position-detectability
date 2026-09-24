@@ -54,6 +54,7 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_012 | MECHANICAL | Before this audit nothing in the tree executed; every stated number was typed | SUPPORTED |
 | CPD_013 | READING | WO-1's pre-registered null was met by the party that wrote the criterion | OPEN |
 | CPD_014 | -- | No external source was opened; every citation is carried | UNVERIFIED |
+| CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
 
 ---
 
@@ -314,6 +315,84 @@ tree and hold whatever those sources say.
 
 FALSIFIER: not applicable; this is the audit's own scope statement.
 
+## CPD_015 -- WO-4 run: a formal statement whose first reading its own check refuted
+
+STATUS: SUPPORTED. Row `wo4_invariant`; `python3 research/wo-4/invariant.py --selftest`.
+
+```
+statement      UNDETECTABLE <=> C1 (L does not entail J) and C3 (no owner with a view covering var(J))
+controls       5, reaching all four verdicts
+faces          7, all UNDETECTABLE under their encoding; 3 assembly, 4 sensing (computed, not declared)
+term census    11 terms; C1 named by 3, C3 named by 6, the conjunction by 0; nothing coined
+```
+
+The first draft declared the face split by hand and the selftest refuted
+it on F4 before anything was written down; the refuted split is kept in
+the module and asserted to stay refuted. The encoding of every face is by
+the same party that wrote the checker, so the fits are readings. Step 2
+needs a party outside this author line and was not run; step 4 is gated by
+the work order and was not started.
+
+FALSIFIER: an instance in the module where the biconditional fails; an
+encoding of a face under which the aggregator-over-all-views verdict
+flips kind; a term that names both C1 and C3.
+
+---
+
+## CPD_016 -- WO-11 is a registered slot, not a delivered marker
+
+STATUS: CLOSED 2026-09-24 under the amended falsifier (see the amendment
+entry below). Row `status_table` counts the file as one index row and one
+WO file; row `pointer_hash` recomputes its content -- a path and two
+hashes -- from a sibling Simulators checkout, and returns NOT_TESTABLE
+naming the missing checkout when there is none, so the hashes are typed
+numbers on a machine without one and the row says so rather than passing.
+The row's first run FAILED on its own regex reading a line number where it
+wanted a hash (two capture groups, wrong index), a defect in the checker
+and not in the pointer, caught by running and fixed; the selftest plants a
+one-digit change in the stated body hash and requires the row to fire.
+
+The file passed through three states in one day, all kept in history:
+
+```
+7ab162d  slot     title, registration date, STATUS line, what would move it
+2d688d4  copy     a paste of the delivered text, landed under the same filename
+now      pointer  Simulators@4237ac2 publication-loop-work-orders/WORK_ORDER_11.md
+                  whole-file sha256 41fbd82e...34426d ; body (line 12+) ada578e2...9119d
+```
+
+The copy was withdrawn because it was the SECOND rendering of one
+delivery: against the canonical body it differs in whitespace only
+(code-block alignment in two blocks, one trailing blank line), and the
+source of the variance is unresolved -- the 09-23 re-emit, or either of
+two manual phone pastes -- so neither rendering can be shown
+byte-verbatim to the 2026-09-18 original. Canonical means first landed
+and hash-pinned, not proven original. Two repositories holding two
+renderings of one marker is the one-id-two-texts defect
+(`AUDIT_OPEN_RESEARCH.md`, Simulators) at repository scale; a pointer
+removes it by construction.
+
+FALSIFIER, AMENDED: the verbatim text is reachable at a pinned commit.
+Met: `git show 4237ac2:publication-loop-work-orders/WORK_ORDER_11.md`
+returns the file at the stated hashes, and 4237ac2 is in Simulators
+main via PR #85.
+
+### Amendment to CPD_016, 2026-09-24
+
+```
+old falsifier   the delivered WO-11 text lands under the same filename and the
+                STATUS line is gone
+new falsifier   the verbatim text is reachable at a pinned commit
+reason          single source of truth across repositories: a copy under the
+                same filename satisfied the old wording and produced two
+                renderings of one delivery, which is the defect the audit
+                exists to catch
+status change   SUPERSEDED (2d688d4, old wording) -> CLOSED (this commit, new wording)
+```
+
+The old wording is retained above so the change of criterion is visible
+as a change rather than as the criterion having always read this way.
+
 ---
 
 ## What would move each open item
@@ -325,4 +404,6 @@ CPD_005  rename validation_verdict -> initial_reconciliation_verdict, or a note 
 CPD_007  one constructed known-negative case, or one real case coded does_not_support
 CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
+CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
+CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
 ```
