@@ -13,7 +13,9 @@ canonical text  JinnZ2/Simulators @ 4237ac2
 landed          PR #85, merged 2026-09-20; 4237ac2 is in Simulators main
 ```
 
-Hashes, sha256, verified 2026-09-24 against `git show 4237ac2:...`:
+Hashes, sha256, verified 2026-09-24 against `git show 4237ac2:...` and
+recomputed on every run by `tools/check_repo.py` row `pointer_hash` when a
+Simulators checkout is beside this one (NOT_TESTABLE when it is not):
 
 ```
 whole file      41fbd82eae022feb82061a6378f9747aaf82297c73b4b72854816d47bc34426d

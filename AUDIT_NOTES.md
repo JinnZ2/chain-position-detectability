@@ -343,7 +343,14 @@ flips kind; a term that names both C1 and C3.
 
 STATUS: CLOSED 2026-09-24 under the amended falsifier (see the amendment
 entry below). Row `status_table` counts the file as one index row and one
-WO file; nothing recomputes its content, which is a path and two hashes.
+WO file; row `pointer_hash` recomputes its content -- a path and two
+hashes -- from a sibling Simulators checkout, and returns NOT_TESTABLE
+naming the missing checkout when there is none, so the hashes are typed
+numbers on a machine without one and the row says so rather than passing.
+The row's first run FAILED on its own regex reading a line number where it
+wanted a hash (two capture groups, wrong index), a defect in the checker
+and not in the pointer, caught by running and fixed; the selftest plants a
+one-digit change in the stated body hash and requires the row to fire.
 
 The file passed through three states in one day, all kept in history:
 

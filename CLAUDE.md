@@ -39,7 +39,8 @@ or reject it.
 
 ```text
 delivered files are verbatim     work-orders/WO-*, research/wo-1..3: never edit; findings go in AUDIT_NOTES.md.
-                                 WO-11 holds no text: it pins Simulators@4237ac2 by path and sha256; cite the body hash
+                                 WO-11 holds no text: it pins Simulators@4237ac2 by path and sha256; cite the body hash;
+                                 check_repo row pointer_hash recomputes both from a sibling checkout, NOT_TESTABLE without one
                                  work-orders/README.md is the index and moves with each milestone
 ids are permanent                CPD_nnn never renumbered; a superseded claim keeps its id and gains a status
 python >= 3.8, stdlib only       tools/ only; no runtime deps, no network, no build step
@@ -87,6 +88,7 @@ six media                 -> a profile, never one scalar    wo-3/amended-crossin
 cost categories           -> non-additive, no saving-to-loss ratio
 contamination marker      -> UNKNOWN, resolved in neither direction
 term gap (WO-4)           -> registered, NOT coined
+no sibling checkout       -> NOT_TESTABLE, never PASS         tools/check_repo.py pointer_hash
 ```
 
 ## Status vocabularies (four; no file maps them -- CPD_010)
@@ -118,7 +120,7 @@ research/wo-3/                crossing-metric.md (preregistered), amended-crossi
                               validation-summary.md, workflow-synthesis.md, final-report.md
 research/wo-4/                formal-statement.md, invariant.py (step 1); term census in the statement (step 3)
 AUDIT_NOTES.md                CPD claims + what would move each open one
-tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement
+tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement, pointer hashes vs sibling
 ```
 
 ## Provenance (CPD_011)
@@ -150,7 +152,8 @@ overlay to be checked, never credited. Infer nothing about intent.
 ## Commands
 
 ```sh
-python3 tools/check_repo.py              # 10 checks; exit 0 = no FAIL (FLAGs allowed), 1 = FAIL, 3 = cannot run
+python3 tools/check_repo.py              # 12 checks; exit 0 = no FAIL (FLAGs and NOT_TESTABLE allowed), 1 = FAIL, 3 = cannot run
+SIMULATORS_PATH=/path/to/Simulators python3 tools/check_repo.py   # pointer_hash reads that checkout; default ../Simulators
 python3 tools/check_repo.py --selftest   # plants defects in a copy, proves each check fires, then runs the real tree
 python3 tools/check_repo.py --json       # machine-readable rows
 python3 research/wo-4/invariant.py --selftest   # WO-4 step 1; prints its own check count

@@ -17,11 +17,15 @@ Exit codes follow the ecosystem contract:
     1  checks ran, >= 1 FAILED
     3  could not run (missing input)
 
-Three result states, kept apart: PASS (property holds), FAIL (a property the
+Four result states, kept apart: PASS (property holds), FAIL (a property the
 tree should maintain is broken), FLAG (a recorded finding that still stands;
-it clears when the finding is repaired, and clearing is reported).
+it clears when the finding is repaired, and clearing is reported), and
+NOT_TESTABLE (the check needs an input this machine does not have; it names
+the input, and it is neither a pass nor a failure -- a check that cannot run
+must not read as a check that passed).
 
-Stdlib only. Parses under Python 3.8. No network.
+Stdlib only. Parses under Python 3.8. No network: the one cross-repository
+check reads a SIBLING CHECKOUT on local disk through git, never a remote.
 """
 from __future__ import annotations
 
@@ -30,7 +34,9 @@ import datetime as dt
 import json
 import os
 import re
+import hashlib
 import shutil
+import subprocess
 import sys
 import tempfile
 from typing import Dict, List, Optional, Tuple
@@ -41,11 +47,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 class Result:
     def __init__(self, check: str, state: str, detail: str) -> None:
-        assert state in ("PASS", "FAIL", "FLAG")
+        assert state in ("PASS", "FAIL", "FLAG", "NOT_TESTABLE")
         self.check, self.state, self.detail = check, state, detail
 
     def row(self) -> str:
-        return "%-18s %-4s %s" % (self.check, self.state, self.detail)
+        return "%-18s %-12s %s" % (self.check, self.state, self.detail)
 
 
 def _read(root: str, rel: str) -> str:
@@ -381,9 +387,58 @@ def check_status_table(root: str) -> Result:
     return Result("status_table", "FAIL" if bad or n != len(wo_files) else "PASS", detail + ("; " + "; ".join(bad) if bad else ""))
 
 
+POINTER_FILE = "work-orders/WO-11-benchmark-score-unpartitioned-residual.md"
+POINTER_BODY_START = 12  # the delivered text begins at this line of the canonical file; the pointer states it
+
+
+def _sibling_simulators(root: str) -> str:
+    """The Simulators checkout this check reads. SIMULATORS_PATH overrides; default is the sibling directory."""
+    return os.environ.get("SIMULATORS_PATH") or os.path.join(os.path.dirname(root), "Simulators")
+
+
+def check_pointer_hash(root: str) -> Result:
+    """CPD_016 -- the two sha256 values the WO-11 pointer states reproduce from the pinned commit.
+
+    Reads work-orders/WO-11-*.md for a commit, a path and two hashes; runs
+    `git show <commit>:<path>` in a sibling Simulators checkout; hashes the
+    whole file and the body from POINTER_BODY_START. No sibling, or a sibling
+    that does not hold the commit, is NOT_TESTABLE naming what is missing --
+    the hashes are then typed numbers on this machine and the row says so.
+    """
+    txt = _read(root, POINTER_FILE)
+    commit = re.search(r"JinnZ2/Simulators @ ([0-9a-f]{7,40})", txt)
+    path = re.search(r"^\s+(publication-loop-work-orders/\S+\.md)\s*$", txt, re.M)
+    whole = re.search(r"^whole file\s+([0-9a-f]{64})", txt, re.M)
+    body = re.search(r"^body, line (\d+)\+\s+([0-9a-f]{64})", txt, re.M)
+    if not (commit and path and whole and body):
+        return Result("pointer_hash", "FAIL", "pointer does not state commit, path and both hashes")
+    if int(body.group(1)) != POINTER_BODY_START:
+        return Result("pointer_hash", "FAIL", "pointer says body starts at line %s; this check is written for %d" % (body.group(1), POINTER_BODY_START))
+    sib = _sibling_simulators(root)
+    if not os.path.isdir(os.path.join(sib, ".git")):
+        return Result("pointer_hash", "NOT_TESTABLE", "no Simulators checkout at %s (set SIMULATORS_PATH); hashes stated, not recomputed" % sib)
+    try:
+        subprocess.run(["git", "-C", sib, "cat-file", "-e", commit.group(1) + "^{commit}"], check=True, capture_output=True)
+    except (subprocess.CalledProcessError, OSError):
+        return Result("pointer_hash", "NOT_TESTABLE", "checkout at %s does not hold %s; fetch it, or hashes stay stated" % (sib, commit.group(1)))
+    try:
+        raw = subprocess.run(["git", "-C", sib, "show", "%s:%s" % (commit.group(1), path.group(1))], check=True, capture_output=True).stdout
+    except subprocess.CalledProcessError:
+        return Result("pointer_hash", "FAIL", "%s not in %s at %s" % (path.group(1), sib, commit.group(1)))
+    lines = raw.split(b"\n")
+    got_whole = hashlib.sha256(raw).hexdigest()
+    got_body = hashlib.sha256(b"\n".join(lines[POINTER_BODY_START - 1:])).hexdigest()
+    title_ok = lines[POINTER_BODY_START - 1].startswith(b"# WORK ORDER 11")
+    ok = got_whole == whole.group(1) and got_body == body.group(2) and title_ok
+    detail = "%s:%s whole %s..%s stated %s..; body(line %d+) %s.. stated %s..; line %d is a WORK ORDER 11 title: %s" % (
+        commit.group(1), os.path.basename(path.group(1)), got_whole[:8], got_whole[-4:], whole.group(1)[:8],
+        POINTER_BODY_START, got_body[:8], body.group(2)[:8], POINTER_BODY_START, title_ok)
+    return Result("pointer_hash", "PASS" if ok else "FAIL", detail)
+
+
 CHECKS = [check_links, check_wo1_clauses, check_wo2_dates, check_wo2_distributions,
           check_wo2_agreement, check_wo2_fields, check_wo3_arithmetic, check_wo3_gates,
-          check_wo4_invariant, check_readme_duplicate, check_status_table]
+          check_wo4_invariant, check_readme_duplicate, check_status_table, check_pointer_hash]
 
 
 def run(root: str) -> List[Result]:
@@ -417,6 +472,7 @@ def _plant(src: str, dst: str) -> None:
     edit("research/wo-2/coding/coder-a/givaudan-sense-colour.md", "| `signal_present` | **yes** |", "| `signal_present` | **no** |")
     edit("README.md", "# WO-1", "# Repository index\n\n# WO-1")
     edit("research/wo-4/formal-statement.md", "assembly 3 ", "assembly 4 ")
+    edit(POINTER_FILE, "body, line 12+  ada578e2", "body, line 12+  0da578e2")
 
 
 def selftest() -> int:
@@ -430,6 +486,23 @@ def selftest() -> int:
             assert res[name].state == "FAIL", (name, res[name].row())
             n += 1
         assert res["readme_dup"].state == "PASS", res["readme_dup"].row(); n += 1
+        # the planted body hash is one hex digit off; with a sibling present the row must FAIL,
+        # and without one it must say NOT_TESTABLE rather than PASS on an unchecked number
+        if os.path.isdir(os.path.join(_sibling_simulators(planted), ".git")):
+            assert res["pointer_hash"].state == "FAIL", res["pointer_hash"].row(); n += 1
+        else:
+            assert res["pointer_hash"].state == "NOT_TESTABLE", res["pointer_hash"].row(); n += 1
+        # a sibling that is not there reads NOT_TESTABLE, never PASS: the row names the missing input
+        saved = os.environ.get("SIMULATORS_PATH")
+        os.environ["SIMULATORS_PATH"] = os.path.join(tmp, "no-such-checkout")
+        try:
+            r = check_pointer_hash(ROOT)
+            assert r.state == "NOT_TESTABLE" and "no-such-checkout" in r.detail, r.row(); n += 1
+        finally:
+            if saved is None:
+                del os.environ["SIMULATORS_PATH"]
+            else:
+                os.environ["SIMULATORS_PATH"] = saved
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     real = {r.check: r for r in run(ROOT)}
@@ -438,6 +511,7 @@ def selftest() -> int:
     # recorded findings that stand today; each turns PASS when repaired and that is a change to record
     for name in ("readme_dup", "wo2_agreement", "wo2_fields"):
         assert real[name].state == "FLAG", real[name].row(); n += 1
+    assert real["pointer_hash"].state in ("PASS", "NOT_TESTABLE"), real["pointer_hash"].row(); n += 1
     assert not any(r.state == "FAIL" for r in real.values()); n += 1
     print("selftest: %d checks PASS" % n)
     return 0
@@ -458,7 +532,8 @@ def main(argv: List[str]) -> int:
             print(r.row())
         fails = sum(r.state == "FAIL" for r in results)
         flags = sum(r.state == "FLAG" for r in results)
-        print("checks %d  PASS %d  FLAG %d  FAIL %d" % (len(results), len(results) - fails - flags, flags, fails))
+        nt = sum(r.state == "NOT_TESTABLE" for r in results)
+        print("checks %d  PASS %d  FLAG %d  FAIL %d  NOT_TESTABLE %d" % (len(results), len(results) - fails - flags - nt, flags, fails, nt))
     return 1 if any(r.state == "FAIL" for r in results) else 0
 
 
