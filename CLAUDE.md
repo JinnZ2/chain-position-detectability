@@ -4,27 +4,30 @@ Guidance for working in this repository. Public; CC0; nothing here is private.
 
 ## What this repository is
 
-A **research program as work orders**: six markers, each an instrument
+A **research program as work orders**: seven markers, each an instrument
 spec with a measurand, a falsifier, scope limits and runnable next steps,
-plus the execution records for the three that have been run. It is not a
+plus the execution records for the four that have been run in part. It is not a
 code repository and not a thesis.
 
 ```text
-work-orders/            six markers, operator-authored, verbatim, never edited
+work-orders/            seven markers, operator-authored; six verbatim, never edited; WO-11 a hash-pinned pointer
    |  WO-1  chain position detectable from inside a container?
    |  WO-2  "quiet" failure = a missing aggregation function?
    |  WO-3  does any TERMINAL system exist (zero crossings, every medium)?
    |  WO-4  one shape under WO-1..3: local correctness + an unowned join; the term gap
    |  WO-5  per-hop loss and pre-entry loss in reporting chains
    |  WO-6  assessor-assessed coupling as a known failure mode
+   |  WO-11 benchmark score as an unpartitioned residual (research designs, not a build) -> POINTER to Simulators@4237ac2
    v
-research/wo-N/          model-executed milestones (Manus AI), one dir per run order
+research/wo-N/          model-executed milestones (wo-1..3 Manus AI; wo-4 this session), one dir per run order
    |  wo-1  standards audit: 15 units, 516 clauses, 0 positive   NULL RESULT
    |  wo-2  8 CSB reports, double-coded, validated: 1 supports / 7 indeterminate / 0 against
    |  wo-3  3 asymptotes nonterminal-in-frame; 6 cost cases, 0 clear all five gates
+   |  wo-4  invariant UNDETECTABLE <=> C1 and C3, checked; 7 faces = 3 assembly + 4 sensing; nothing coined
    v
 AUDIT_NOTES.md          this tree audited: CPD_001..014, split MECHANICAL / READING
-tools/check_repo.py     the only executable; recomputes every number the tree states
+tools/check_repo.py     recomputes every number the tree states
+research/wo-4/invariant.py  the one instrument that models rather than counts; finite, brute-force, selftested
 ```
 
 Read `READING_PROTOCOL.md` and `AUDIT_CONTRACT.md` in the sibling
@@ -35,7 +38,10 @@ or reject it.
 ## Hard constraints
 
 ```text
-delivered files are verbatim     work-orders/*, research/**: never edit; findings go in AUDIT_NOTES.md
+delivered files are verbatim     work-orders/WO-*, research/wo-1..3: never edit; findings go in AUDIT_NOTES.md.
+                                 WO-11 holds no text: it pins Simulators@4237ac2 by path and sha256; cite the body hash;
+                                 check_repo row pointer_hash recomputes both from a sibling checkout, NOT_TESTABLE without one
+                                 work-orders/README.md is the index and moves with each milestone
 ids are permanent                CPD_nnn never renumbered; a superseded claim keeps its id and gains a status
 python >= 3.8, stdlib only       tools/ only; no runtime deps, no network, no build step
 no author sections               no "about", working-style or audience prose anywhere (AUDIT_CONTRACT)
@@ -74,12 +80,15 @@ Refusals that are deliberate, and where each is written down:
 missing evidence          -> unclear, never no              wo-2/codebook.md
 one pathway per case      -> fragments from a second pathway cannot fill a field   (post hoc, stated)
 join_assigned = no        -> needs AFFIRMATIVE absence, not a missing procedure
+owner without view        -> OWNER_BLIND, never DETECTED         wo-4/invariant.py
+assembly vs sensing       -> computed from the encoding, never declared by hand
 non-detection             -> an upper bound, never Um = 0   wo-3/crossing-metric.md
 crossings                 -> gross in + out, never netted
 six media                 -> a profile, never one scalar    wo-3/amended-crossing-profile.md
 cost categories           -> non-additive, no saving-to-loss ratio
 contamination marker      -> UNKNOWN, resolved in neither direction
 term gap (WO-4)           -> registered, NOT coined
+no sibling checkout       -> NOT_TESTABLE, never PASS         tools/check_repo.py pointer_hash
 ```
 
 ## Status vocabularies (four; no file maps them -- CPD_010)
@@ -89,6 +98,7 @@ work orders      OBSERVED / DERIVED / PROPOSED
 wo-1             positive / negative / ambiguous / failed
 wo-2             supports / does_not_support / indeterminate ; fields: yes / no / unclear
 wo-3             OBSERVED / DERIVED / MODELLED-CONDITIONAL / PLANNED / UNRESOLVED
+wo-4             JOIN_ENTAILED / DETECTED / OWNER_BLIND / UNDETECTABLE ; kind: assembly / sensing
 ```
 
 Use the layer's own set. Do not translate one into another in a delivered
@@ -98,7 +108,7 @@ file; if a mapping is needed, it is a new table in `work-orders/README.md`.
 
 ```text
 README.md                     byte copy of WO-1 (CPD_001) -- not the index
-work-orders/README.md         THE index: six rows, measurand, status
+work-orders/README.md         THE index: seven delivered, one of them a pointer; measurand, status
 work-orders/WO-N-*.md         markers
 research/wo-1/                standards-audit.md, source-inventory.md, evidence/audit-unit-NN.md (15)
 research/wo-2/                codebook.md, source-manifest.md, coding/coder-{a,b}/, validation/,
@@ -108,8 +118,9 @@ research/wo-2/                codebook.md, source-manifest.md, coding/coder-{a,b
 research/wo-3/                crossing-metric.md (preregistered), amended-crossing-profile.md,
                               evidence/, cost-candidates/, validation/, three CSVs,
                               validation-summary.md, workflow-synthesis.md, final-report.md
+research/wo-4/                formal-statement.md, invariant.py (step 1); term census in the statement (step 3)
 AUDIT_NOTES.md                CPD claims + what would move each open one
-tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement
+tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement, pointer hashes vs sibling
 ```
 
 ## Provenance (CPD_011)
@@ -141,11 +152,13 @@ overlay to be checked, never credited. Infer nothing about intent.
 ## Commands
 
 ```sh
-python3 tools/check_repo.py              # 10 checks; exit 0 = no FAIL (FLAGs allowed), 1 = FAIL, 3 = cannot run
+python3 tools/check_repo.py              # 12 checks; exit 0 = no FAIL (FLAGs and NOT_TESTABLE allowed), 1 = FAIL, 3 = cannot run
+SIMULATORS_PATH=/path/to/Simulators python3 tools/check_repo.py   # pointer_hash reads that checkout; default ../Simulators
 python3 tools/check_repo.py --selftest   # plants defects in a copy, proves each check fires, then runs the real tree
 python3 tools/check_repo.py --json       # machine-readable rows
+python3 research/wo-4/invariant.py --selftest   # WO-4 step 1; prints its own check count
 ```
 
-There is nothing else to run. The three research milestones are
+Nothing else runs. The three research milestones are
 documents; reproducing them means re-reading the cited sources, which
 this environment cannot reach (allowlist egress).
