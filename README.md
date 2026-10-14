@@ -1,3 +1,6 @@
+> Before reading or editing anything here, read READ_ME_THIS_WAY.md.
+> Mismatches, dead ends and odd names in this repo are kept on purpose.
+
 # WO-1 — Chain position detectability from inside a container
 
 CC0. Instrument, not an argument. Status tags: OBSERVED / DERIVED / PROPOSED.
