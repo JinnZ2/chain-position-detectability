@@ -40,7 +40,7 @@ READING      a judgement declared here; disagree with it line by line
 
 | id | kind | claim | status |
 |---|---|---|---|
-| CPD_001 | MECHANICAL | Root `README.md` is a byte copy of `WO-1`; the repository index is `work-orders/README.md` | SUPPORTED |
+| CPD_001 | MECHANICAL | Root `README.md` is a byte copy of `WO-1`; the repository index is `work-orders/README.md` | FALSIFIED as worded (21679b0); substance stands |
 | CPD_002 | MECHANICAL | Every relative link resolves; every self-absolute `blob/main` link resolves on disk and is pinned to `main`, not a commit | SUPPORTED |
 | CPD_003 | MECHANICAL | WO-1's 516 = 87 + 429 reproduces from its own table; the AMBIGUOUS state fired 0 of 15 | SUPPORTED |
 | CPD_004 | MECHANICAL | WO-2's "59 of 87" agreement: the 59 reproduces, the 87 does not, the comparison list is unpublished | SUPPORTED |
@@ -55,12 +55,23 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_013 | READING | WO-1's pre-registered null was met by the party that wrote the criterion | OPEN |
 | CPD_014 | -- | No external source was opened; every citation is carried | UNVERIFIED |
 | CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
+| CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN |
 
 ---
 
 ## CPD_001 -- the root README is one work order, not an index
 
 STATUS: SUPPORTED. `tools/check_repo.py` row `readme_dup`.
+
+STATUS CHANGE, recorded 2026-10-20: FALSIFIED AS WORDED at `21679b0`,
+which prepended a three-line banner (pointer to `READ_ME_THIS_WAY.md`)
+to `README.md`. The files now differ and the root carries content absent
+from WO-1, so the falsifier below is met and row `readme_dup` reads PASS.
+The selftest expected FLAG and went red from that commit on; its
+expectation moves to PASS in the commit that records this. The substance
+is untouched: below the banner the root README is still WO-1 byte for
+byte, not an index. The check was not widened to keep the finding alive;
+the wording was narrower than the shape, and that is the record.
 
 `README.md` and `work-orders/WO-1-chain-position-detectability.md` are
 byte-identical (166 lines, 7285 bytes). A reader landing on the
@@ -395,10 +406,65 @@ as a change rather than as the criterion having always read this way.
 
 ---
 
+## CPD_017 -- WO-16 landed: a paste, a number nobody assigned, one unbranched outcome
+
+Landed 2026-10-20 as `work-orders/WO-16-trained-objective-residual-tension.md`,
+byte-for-byte as received plus a final newline. Not edited, not fenced:
+the indented design and branch blocks render as plain paragraphs, and that
+is the delivered form.
+
+```
+sha256 (whole file, as landed)   99a6f88807dd0b62b2278cc072a7c548afb6baae389f565d1cc2d10ec41f952c
+channel                          paste, no hash sent alongside
+consequence                      the landed bytes are this rendering, not a verified original
+                                 (the WO-11 channel rule asks for attachment + hash)
+```
+
+Number. The delivery carries no WO number. WO-11..WO-14 are files in
+Simulators `publication-loop-work-orders/`, WO-15 is referenced there
+(read at Simulators `6be5848`); 16 is the first number free in both
+trees. It is a landing assignment, not the operator's. If the operator
+numbers it otherwise the file is renamed; this id stays.
+
+Fit, READING, not adjudicated. In this set's terms:
+
+```
+WO-11 T-1   training composition is one of the four unmeasured terms in a score
+WO-16       asks what one composition (C3: two objectives) does INSIDE the weights
+WO-4 shape  C1 objective locally correct, C2 objective locally correct,
+            the join at emission (which answer leaves) owned by neither;
+            M1 is a reading of that join, M3 of what it costs elsewhere
+```
+
+Where the marker breaks as written (measurements, not objections):
+
+```
+unbranched     M1 flat AND M3 drops: cost with no divergence readout.
+               Read under (c) it becomes "conflict resolved" -- the
+               not-measured != no-effect misreading the spec itself forbids.
+overlap        (c) and (d) both admit M1 flat; (d) is a refinement of (c),
+               so the four are not disjoint as listed
+unspecified    C3 "both": order or mix of the two tunings
+               M1 item set: how "accessible != accurate" is decided, and by whom
+               M2: no threshold for "moves"
+carried        two OBSERVED lines carry "citations owed"; nothing opened (CPD_014)
+```
+
+Nothing here runs it: no checkpoints, no activations in this
+environment. `research/wo-16/` opens with a run order, not before.
+
+Index repair, same commit. `work-orders/README.md` carried a second
+WO-4 row and a stale WO-5 row ("Not started", while `research/wo-5/`
+holds a validated milestone), merge debris from `015eb8f`. Row
+`status_table` was FAIL on main (index rows 9, WO files 7). Both stale
+rows removed; with WO-16 the row reads 8 / 8 and passes.
+
+---
+
 ## What would move each open item
 
 ```
-CPD_001  one edit: a root README that indexes work-orders/ and research/
+CPD_001  falsified as worded; the substance moves with one edit: a root README that indexes work-orders/ and research/
 CPD_004  publish the 87-item comparison list beside the reconciliation log
 CPD_005  rename validation_verdict -> initial_reconciliation_verdict, or a note row
 CPD_007  one constructed known-negative case, or one real case coded does_not_support
@@ -406,4 +472,5 @@ CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
+CPD_017  operator confirms or reassigns the number; a hash for the delivery; a fifth branch (M1 flat, M3 down); a run order
 ```
