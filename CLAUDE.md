@@ -120,6 +120,7 @@ research/wo-3/                crossing-metric.md (preregistered), amended-crossi
                               evidence/, cost-candidates/, validation/, three CSVs,
                               validation-summary.md, workflow-synthesis.md, final-report.md
 research/wo-4/                formal-statement.md, invariant.py (step 1); term census in the statement (step 3)
+gaps/GAPS_YYYY-MM-DD.md       co-authored gap registers: STATUS, GAP, STUDY NEEDED, BRANCHES; not work orders
 AUDIT_NOTES.md                CPD claims + what would move each open one
 tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement, pointer hashes vs sibling
 ```
