@@ -57,7 +57,7 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
 | CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN (number and hash settled 2026-10-20; branch and run order open) |
 | CPD_018 | READING | OKComputer bundle landed verbatim; its stdlib-recomputable numbers reproduce; one study's reliability check is same-coder and its model run is not reproducible here | OPEN |
-| CPD_019 | READING | G2 pilot reproduces exactly; zero confident wrong numbers holds; the tool's decline-vs-assume boundary is itself a name prior | OPEN |
+| CPD_019 | READING | G2 pilot reproduces exactly; zero confident wrong numbers holds; the tool's decline-vs-assume boundary is itself a name prior | OPEN (name prior + held-out reliance CLOSED by v2 at af75f29; other-hand held-out + fine-tune arm open) |
 
 ---
 
@@ -565,6 +565,41 @@ arm A      a reused 0.5B run, no fine-tune arm: G2's A-vs-B question is
            not yet asked (stated in RESULTS as a limit)
 ```
 
+### Amendment to CPD_019, 2026-10-20 -- v2 frozen at `af75f29`
+
+`gaps/G2-frame-glyph-pilot/v2/` landed alone in `af75f29`, before any new
+held-out item exists; that SHA is the freeze record. v1 untouched.
+Recomputed at landing (MECHANICAL, scratch copy, `python3 -I`):
+
+```
+CODE.sha256        frame_glyph.py f048e9c1...a4d40b OK ; run_g2.py 1a33b7db...fff8c8 OK
+selftest           8/8 PASS
+run_g2.py          output == v2/out_all.json, exact
+RPF-01 A (18)      6 CORRECT / 12 CONDITIONAL_KEY_IN_BRANCHES / 0 WRONG
+held-out (12)      3 CORRECT / 4 CONDITIONAL_KEY_IN_BRANCHES / 2 CORRECT_UNDETERMINED
+                   / 3 MISSING / 0 WRONG
+data/              all three files byte-identical to v1
+```
+
+```
+name prior      CLOSED. No name list in v2 (grep: names appear only in selftest
+                strings and one pronoun-declared case). Undeclared sex -> OPEN ->
+                all branches returned (A01: Alice=F 3, Alice=M 2); nothing filled
+held-out        CLOSED. H01, H06, H10, H12 reclassified CONDITIONAL_KEY_IN_BRANCHES;
+  reliance      H02, H11 now CORRECT_UNDETERMINED (all branches returned) rather than declined
+closed-world    v1 limit, now traced: undeclared children read as 0 are listed
+                (CLOSED-WORLD line in the trace; selftest asserts it)
+OPEN            other-hand held-out set: written blind to the code, committed
+                AFTER af75f29; a fine-tune arm
+OPEN, carried   the 3 MISSING (H03, H07, H08) are v1's extractor coverage gaps, unchanged
+landing defect  af75f29 also carried v2/__pycache__/*.pyc, produced by the
+                verification run in the scratch copy, not delivered. Removed in
+                the commit that records this amendment; af75f29 not rewritten,
+                since it is the freeze record and the code hashes are unaffected
+```
+
+The v1 wording above is kept so the change is visible.
+
 Fit: G2 branch table (GAPS) vs pilot branch table (RESULTS) differ; the
 pilot's (b) trigger and (c) extraction are new branches, not renames.
 Of G2's five, none is yet decided: no fine-tune arm exists.
@@ -583,6 +618,6 @@ CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
 CPD_017  number and hash SETTLED (amendment); open: a fifth branch (M1 flat, M3 down); a run order
-CPD_019  a declared name-prior rule (or every name slot treated as OPEN); held-out items by another hand; a fine-tune arm
+CPD_019  name prior CLOSED (v2, af75f29); open: held-out items by another hand, written blind, committed after af75f29; a fine-tune arm
 CPD_018  an independent second coder on coded_decisions_v2; a stated rule for closure rows; run_pilot.py re-run with the pinned weights
 ```
