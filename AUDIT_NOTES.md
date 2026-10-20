@@ -55,7 +55,7 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_013 | READING | WO-1's pre-registered null was met by the party that wrote the criterion | OPEN |
 | CPD_014 | -- | No external source was opened; every citation is carried | UNVERIFIED |
 | CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
-| CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN |
+| CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN (number and hash settled 2026-10-20; branch and run order open) |
 
 ---
 
@@ -436,6 +436,24 @@ WO-4 shape  C1 objective locally correct, C2 objective locally correct,
             M1 is a reading of that join, M3 of what it costs elsewhere
 ```
 
+### Amendment to CPD_017, 2026-10-20 -- number and hash settled
+
+The operator settled both open landing items from the record, not by a
+new choice. The wording above is kept so the change is visible.
+
+```
+number   WO-16 KEPT. 11..15 were taken; 16 is the next free number.
+         Renumbering would break commit references (07c3a90, d362ad0).
+         status: landing assignment -> operator-confirmed
+hash     99a6f88807dd0b62b2278cc072a7c548afb6baae389f565d1cc2d10ec41f952c
+         recorded as THE delivery hash, class COMPUTED AT LANDING:
+         taken by the receiver over the landed bytes, not sent by the sender.
+         It pins this rendering from 2026-10-20 on; it says nothing about
+         whether the rendering matches what was sent (the WO-11 channel
+         rule's sender-side hash is still absent, and stays recorded as absent)
+open     the unbranched outcome (M1 flat, M3 down); a run order
+```
+
 Where the marker breaks as written (measurements, not objections):
 
 ```
@@ -472,5 +490,5 @@ CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
-CPD_017  operator confirms or reassigns the number; a hash for the delivery; a fifth branch (M1 flat, M3 down); a run order
+CPD_017  number and hash SETTLED (amendment); open: a fifth branch (M1 flat, M3 down); a run order
 ```
