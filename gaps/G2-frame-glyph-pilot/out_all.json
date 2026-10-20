@@ -1,0 +1,637 @@
+{
+ "tool_sha256": "5296d1583e44086dcb5ad4f6e6748788411433571ad68845fed527217e51bd63",
+ "rpf01_A": [
+  {
+   "id": "A01",
+   "condition": "base",
+   "expected": 3,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 2,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 3; flipped -> 2",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A02",
+   "condition": "counts",
+   "expected": 4,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 4,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 3,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 4; flipped -> 3",
+    "READ from B1: 4"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A03",
+   "condition": "counts",
+   "expected": 2,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 1,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 2; flipped -> 1",
+    "READ from B1: 2"
+   ],
+   "qwen_answer": 4,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A04",
+   "condition": "asker_sister",
+   "expected": 2,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 1,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 2; flipped -> 1",
+    "READ from S1: 2"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A05",
+   "condition": "asker_sister",
+   "expected": 2,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 3,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 8 placed, EDGES: 7 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'M'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 2; flipped -> 3",
+    "READ from S1: 2"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A06",
+   "condition": "asker_alice",
+   "expected": 2,
+   "glyph_status": "OK",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from Alice (Alice)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from Alice: 2"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A07",
+   "condition": "inclusion",
+   "expected": 5,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 5,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 6,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: parent -> child{'sex': 'M'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 5; flipped -> 6",
+    "READ from B1: 5"
+   ],
+   "qwen_answer": 3,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A08",
+   "condition": "direction",
+   "expected": 5,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 5,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 6,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'M'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 5; flipped -> 6",
+    "READ from S1: 5"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A09",
+   "condition": "distractor_entities",
+   "expected": 3,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 2,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 12 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 3; flipped -> 2",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A10",
+   "condition": "distractor_depth",
+   "expected": 5,
+   "glyph_status": "OK",
+   "glyph_count": 5,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "READ from S1: 5"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A11",
+   "condition": "paraphrase",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A12",
+   "condition": "paraphrase_equivalent",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A13",
+   "condition": "large_counts",
+   "expected": 8,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 8,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 7,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 21 placed, EDGES: 20 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 8; flipped -> 7",
+    "READ from B1: 8"
+   ],
+   "qwen_answer": null,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A14",
+   "condition": "zero_edge",
+   "expected": 1,
+   "glyph_status": "OK",
+   "glyph_count": 1,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 5 placed, EDGES: 4 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 1"
+   ],
+   "qwen_answer": 1,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A15",
+   "condition": "name_generalize",
+   "expected": 3,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Maria": "F"
+   },
+   "if_flipped": 2,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Maria.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Maria': 'F'} -> 3; flipped -> 2",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A16",
+   "condition": "target_brothers",
+   "expected": 4,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 4,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 5,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'M'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 4; flipped -> 5",
+    "READ from B1: 4"
+   ],
+   "qwen_answer": 3,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A17",
+   "condition": "digits",
+   "expected": 3,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 2,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 3; flipped -> 2",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 1,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A18",
+   "condition": "higher_arity",
+   "expected": 15,
+   "glyph_status": "OK",
+   "glyph_count": 15,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 24 placed, EDGES: 23 (stored once)",
+    "PATH: sibling{'sex': 'M'} -> child{'sex': 'M'}",
+    "READ from S1: 15"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  }
+ ],
+ "rpf01_A_tally": {
+  "glyph": {
+   "CORRECT": 18
+  },
+  "qwen": {
+   "WRONG": 14,
+   "CORRECT": 4
+  },
+  "conditional": 12
+ },
+ "heldout": [
+  {
+   "id": "H01",
+   "condition": "male_anchor_name",
+   "expected": 1,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 1,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Ben": "M"
+   },
+   "if_flipped": 2,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 7 placed, EDGES: 6 (stored once)",
+    "ASSUMED: Ben.sex=M (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Ben': 'M'} -> 1; flipped -> 2",
+    "READ from S1: 1"
+   ]
+  },
+  {
+   "id": "H02",
+   "condition": "ambiguous_name_loadbearing",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": [
+    "Sam.sex"
+   ],
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 6 placed, EDGES: 5 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "OPEN ON READ PATH: ['Sam.sex']"
+   ]
+  },
+  {
+   "id": "H03",
+   "condition": "parent_frame",
+   "expected": 3,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": [
+    "frame (who is reading) not recognized"
+   ],
+   "trace": [
+    "EXTRACT: frame (who is reading) not recognized"
+   ]
+  },
+  {
+   "id": "H04",
+   "condition": "pronoun_only_anchor",
+   "expected": 1,
+   "glyph_status": "OK",
+   "glyph_count": 1,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 6 placed, EDGES: 5 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 1"
+   ]
+  },
+  {
+   "id": "H05",
+   "condition": "second_gen_via_sisters",
+   "expected": 4,
+   "glyph_status": "OK",
+   "glyph_count": 4,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 13 placed, EDGES: 12 (stored once)",
+    "PATH: sibling{'sex': 'F'} -> child{'sex': 'F'}",
+    "READ from B1: 4"
+   ]
+  },
+  {
+   "id": "H06",
+   "condition": "singular_brother",
+   "expected": 11,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 11,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 10,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 13 placed, EDGES: 12 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'F'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 11; flipped -> 10",
+    "READ from B1: 11"
+   ]
+  },
+  {
+   "id": "H07",
+   "condition": "named_member_reverse",
+   "expected": 1,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "H08",
+   "condition": "parent_count",
+   "expected": 8,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": [
+    "frame (who is reading) not recognized"
+   ],
+   "trace": [
+    "EXTRACT: frame (who is reading) not recognized"
+   ]
+  },
+  {
+   "id": "H09",
+   "condition": "siblings_total",
+   "expected": 7,
+   "glyph_status": "OK",
+   "glyph_count": 7,
+   "glyph_outcome": "CORRECT",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling",
+    "READ from B1: 7"
+   ]
+  },
+  {
+   "id": "H10",
+   "condition": "male_anchor_brothers",
+   "expected": 2,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "John": "M"
+   },
+   "if_flipped": 1,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 7 placed, EDGES: 6 (stored once)",
+    "ASSUMED: John.sex=M (source: name prior)",
+    "PATH: sibling{'sex': 'M'}",
+    "LOAD-BEARING ASSUMPTION: {'John': 'M'} -> 2; flipped -> 1",
+    "READ from B1: 2"
+   ]
+  },
+  {
+   "id": "H11",
+   "condition": "ambiguous_name_loadbearing",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "assumption": null,
+   "if_flipped": null,
+   "missing": [
+    "Alex.sex"
+   ],
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 4 placed, EDGES: 3 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "OPEN ON READ PATH: ['Alex.sex']"
+   ]
+  },
+  {
+   "id": "H12",
+   "condition": "sister_reads_brothers",
+   "expected": 2,
+   "glyph_status": "OK_CONDITIONAL",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "assumption": {
+    "Alice": "F"
+   },
+   "if_flipped": 3,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 7 placed, EDGES: 6 (stored once)",
+    "ASSUMED: Alice.sex=F (source: name prior)",
+    "PATH: sibling{'sex': 'M'}",
+    "LOAD-BEARING ASSUMPTION: {'Alice': 'F'} -> 2; flipped -> 3",
+    "READ from S1: 2"
+   ]
+  }
+ ],
+ "heldout_tally": {
+  "glyph": {
+   "CORRECT": 7,
+   "MISSING": 5
+  },
+  "expected_missing_and_missing": 2
+ }
+}

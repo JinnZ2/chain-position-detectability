@@ -57,6 +57,7 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
 | CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN (number and hash settled 2026-10-20; branch and run order open) |
 | CPD_018 | READING | OKComputer bundle landed verbatim; its stdlib-recomputable numbers reproduce; one study's reliability check is same-coder and its model run is not reproducible here | OPEN |
+| CPD_019 | READING | G2 pilot reproduces exactly; zero confident wrong numbers holds; the tool's decline-vs-assume boundary is itself a name prior | OPEN |
 
 ---
 
@@ -527,6 +528,49 @@ forcing      7 of 8 restrictive actions ride an external forcing event: the
 
 ---
 
+## CPD_019 -- G2 pilot: the readout holds; its boundary is a name prior
+
+Landed 2026-10-20 as `gaps/G2-frame-glyph-pilot/`, 9 files unchanged
+(zip sha256 `73184ceb...96e8`, computed at landing). Co-authored run
+against gap G2. Recomputed (MECHANICAL): frozen code hashes verify;
+selftest 7/7; `run_g2.py` output equals `out_all.json`; tallies below.
+
+```
+                   CORRECT  WRONG  MISSING  of which OK_CONDITIONAL
+RPF-01 A, glyph       18      0       0       12   (ceiling: extractor written on these)
+RPF-01 A, Qwen 0.5B    4     14       -
+held-out, glyph        7      0       5        4   (H01 Ben, H06, H10 John, H12)
+```
+
+Holds as stated: zero confident wrong numbers on 30 items.
+
+Where it breaks or needs a reader (READING):
+
+```
+boundary   Ben, John, Alice -> assumed (OK_CONDITIONAL, sex named, flip shown);
+           Sam, Alex -> declined (MISSING). Which names are assumed and which
+           declined is decided by a name prior inside the tool: the dependency
+           the pilot finds in the AIW gold answers (12 of 18) is relocated into
+           the extractor, not removed. It is DECLARED per item, which the
+           benchmark's gold is not; the line between "typical" and "ambiguous"
+           is not declared anywhere
+held-out   4 of the 7 held-out CORRECT come back OK_CONDITIONAL on a name prior
+           (tool output); the item notes mark 2 of them (H01, H10) and not
+           H06, H12. The held-out set carries the dependency it was written
+           to expose, and its own notes under-mark it
+same hand  extractor and held-out items by one party (stated in RESULTS)
+freeze     the "frozen before held-out" order is a self-declared timestamp;
+           nothing in the bundle orders the two. Not checkable; not refuted
+arm A      a reused 0.5B run, no fine-tune arm: G2's A-vs-B question is
+           not yet asked (stated in RESULTS as a limit)
+```
+
+Fit: G2 branch table (GAPS) vs pilot branch table (RESULTS) differ; the
+pilot's (b) trigger and (c) extraction are new branches, not renames.
+Of G2's five, none is yet decided: no fine-tune arm exists.
+
+---
+
 ## What would move each open item
 
 ```
@@ -539,5 +583,6 @@ CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
 CPD_017  number and hash SETTLED (amendment); open: a fifth branch (M1 flat, M3 down); a run order
+CPD_019  a declared name-prior rule (or every name slot treated as OPEN); held-out items by another hand; a fine-tune arm
 CPD_018  an independent second coder on coded_decisions_v2; a stated rule for closure rows; run_pilot.py re-run with the pinned weights
 ```
