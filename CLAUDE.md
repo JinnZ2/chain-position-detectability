@@ -124,6 +124,7 @@ okcomputer-regulatory-cost-bearer/  delivered bundle (model output, verbatim): r
 gaps/GAPS_YYYY-MM-DD.md       co-authored gap registers: STATUS, GAP, STUDY NEEDED, BRANCHES; not work orders
 gaps/G2-frame-glyph-pilot/    first run against G2 (delivered verbatim; CPD_019); python3 run_g2.py ... reproduces out_all.json
 gaps/G2-frame-glyph-pilot/v2/ no name prior, branches returned; frozen at af75f29 for a blind held-out set
+gaps/G2-frame-glyph-pilot/v2/blind/  other-hand 40 items, frozen v2 run once: 5 / 0 wrong / 35 missing
 AUDIT_NOTES.md                CPD claims + what would move each open one
 tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement, pointer hashes vs sibling
 ```

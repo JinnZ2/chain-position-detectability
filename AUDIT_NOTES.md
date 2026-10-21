@@ -57,7 +57,7 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
 | CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN (number and hash settled 2026-10-20; branch and run order open) |
 | CPD_018 | READING | OKComputer bundle landed verbatim; its stdlib-recomputable numbers reproduce; one study's reliability check is same-coder and its model run is not reproducible here | OPEN |
-| CPD_019 | READING | G2 pilot reproduces exactly; zero confident wrong numbers holds; the tool's decline-vs-assume boundary is itself a name prior | OPEN (name prior + held-out reliance CLOSED by v2 at af75f29; other-hand held-out + fine-tune arm open) |
+| CPD_019 | READING | G2 pilot reproduces exactly; zero confident wrong numbers holds; the tool's decline-vs-assume boundary is itself a name prior | OPEN (name prior, held-out reliance, other-hand held-out CLOSED; extractor non-transfer found; model-built-spec arm, slot types, fine-tune arm open) |
 
 ---
 
@@ -600,6 +600,44 @@ landing defect  af75f29 also carried v2/__pycache__/*.pyc, produced by the
 
 The v1 wording above is kept so the change is visible.
 
+### Amendment to CPD_019, 2026-10-21 -- G2-HO blind run
+
+`gaps/G2-frame-glyph-pilot/v2/blind/` landed: 3 files unchanged from
+`G2_HO_blind_run.zip` (sha256 `1bd42676...7161`, computed at landing),
+committed after the freeze `af75f29`. No code or item modified.
+Recomputed (MECHANICAL, scratch copy of the frozen v2 tree, `python3 -I`):
+
+```
+heldout_blind.jsonl   sha256 e1012c0b...0c8f  = stated
+frame_glyph.py        sha256 f048e9c1...d40b  = af75f29
+run_g2.py             output == blind/out_blind.json, exact
+tally (40)            5 CORRECT / 0 WRONG / 35 MISSING
+CORRECT               X02 X04 X20 X30 X32
+MISSING reasons       "no sibling-count sentence shape" 33 ; "query relation not recognized" 2
+items                 30 determinable / 10 undetermined (scoring.determinable)
+```
+
+```
+other-hand held-out   CLOSED. Written by another party without the code; run once,
+                      frozen v2, after the freeze SHA
+NEW finding           extractor non-transfer: 5/30 determinable correct on blind
+                      items vs 18/18 in-sample. All 35 misses are extractor shape
+                      misses; none from the glyph core
+held                  zero confident wrong numbers, on 40 blind items
+miscount, delivered   RESULTS_blind.md tables 31 determinable / 9 undetermined; the
+                      items file gives 30 / 10 (10 = X08 X09 X11 X17 X22 X23 X26
+                      X34 X36 X37). Rate is 5/30, not 5/31. File left verbatim
+READING               the zero-wrong is partly shielded by the non-transfer: four
+                      blind items (X17 X23 X34 X36) rule "undeclared children are
+                      not zero", which v2's traced closed-world read (as 0) would
+                      contradict if the extractor had parsed them. Untested, not refuted
+undetermined          9 of 10 (all 10 by the items file) declined, 0 returned as branches
+OPEN                  model-built-spec arm (model fills the JSON spec; glyph reads)
+OPEN                  slot types the core lacks: constraint/aggregate (X11 X12 X13
+                      X35 X39); inverse-count (X18 X29)
+OPEN                  fine-tune arm
+```
+
 Fit: G2 branch table (GAPS) vs pilot branch table (RESULTS) differ; the
 pilot's (b) trigger and (c) extraction are new branches, not renames.
 Of G2's five, none is yet decided: no fine-tune arm exists.
@@ -618,6 +656,6 @@ CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
 CPD_017  number and hash SETTLED (amendment); open: a fifth branch (M1 flat, M3 down); a run order
-CPD_019  name prior CLOSED (v2, af75f29); open: held-out items by another hand, written blind, committed after af75f29; a fine-tune arm
+CPD_019  name prior, held-out reliance, other-hand held-out CLOSED; open: model-built-spec arm; constraint + inverse-count slot types; closed-world vs "undeclared != 0" rule; a fine-tune arm
 CPD_018  an independent second coder on coded_decisions_v2; a stated rule for closure rows; run_pilot.py re-run with the pinned weights
 ```

@@ -1,0 +1,1048 @@
+{
+ "tool_sha256": "f048e9c18dcc535b8674ae0b44d79015af60e786606b0495296f25cbbca4d40b",
+ "rpf01_A": [
+  {
+   "id": "A01",
+   "condition": "base",
+   "expected": 3,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 3,
+    "Alice=M": 2
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 3, 'Alice=M': 2}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A02",
+   "condition": "counts",
+   "expected": 4,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 4,
+    "Alice=M": 3
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 4, 'Alice=M': 3}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A03",
+   "condition": "counts",
+   "expected": 2,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 2,
+    "Alice=M": 1
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 2, 'Alice=M': 1}"
+   ],
+   "qwen_answer": 4,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A04",
+   "condition": "asker_sister",
+   "expected": 2,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 2,
+    "Alice=M": 1
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 2, 'Alice=M': 1}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A05",
+   "condition": "asker_sister",
+   "expected": 2,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 2,
+    "Alice=M": 3
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 8 placed, EDGES: 7 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 2, 'Alice=M': 3}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A06",
+   "condition": "asker_alice",
+   "expected": 2,
+   "glyph_status": "OK",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from Alice (Alice)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from Alice: 2"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A07",
+   "condition": "inclusion",
+   "expected": 5,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 5,
+    "Alice=M": 6
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: parent -> child{'sex': 'M'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 5, 'Alice=M': 6}"
+   ],
+   "qwen_answer": 3,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A08",
+   "condition": "direction",
+   "expected": 5,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 5,
+    "Alice=M": 6
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 5, 'Alice=M': 6}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A09",
+   "condition": "distractor_entities",
+   "expected": 3,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 3,
+    "Alice=M": 2
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 12 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 3, 'Alice=M': 2}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A10",
+   "condition": "distractor_depth",
+   "expected": 5,
+   "glyph_status": "OK",
+   "glyph_count": 5,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "READ from S1: 5"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A11",
+   "condition": "paraphrase",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A12",
+   "condition": "paraphrase_equivalent",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 3"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A13",
+   "condition": "large_counts",
+   "expected": 8,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 8,
+    "Alice=M": 7
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 21 placed, EDGES: 20 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 8, 'Alice=M': 7}"
+   ],
+   "qwen_answer": null,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A14",
+   "condition": "zero_edge",
+   "expected": 1,
+   "glyph_status": "OK",
+   "glyph_count": 1,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 5 placed, EDGES: 4 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 1"
+   ],
+   "qwen_answer": 1,
+   "qwen_outcome": "CORRECT"
+  },
+  {
+   "id": "A15",
+   "condition": "name_generalize",
+   "expected": 3,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Maria=F": 3,
+    "Maria=M": 2
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Maria']; branches {'Maria=F': 3, 'Maria=M': 2}"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A16",
+   "condition": "target_brothers",
+   "expected": 4,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 4,
+    "Alice=M": 5
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 4, 'Alice=M': 5}"
+   ],
+   "qwen_answer": 3,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A17",
+   "condition": "digits",
+   "expected": 3,
+   "glyph_status": "CONDITIONAL",
+   "glyph_count": null,
+   "glyph_outcome": "CONDITIONAL_KEY_IN_BRANCHES",
+   "branches": {
+    "Alice=F": 3,
+    "Alice=M": 2
+   },
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 9 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "UNDECLARED, LOAD-BEARING: ['Alice']; branches {'Alice=F': 3, 'Alice=M': 2}"
+   ],
+   "qwen_answer": 1,
+   "qwen_outcome": "WRONG"
+  },
+  {
+   "id": "A18",
+   "condition": "higher_arity",
+   "expected": 15,
+   "glyph_status": "OK",
+   "glyph_count": 15,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 24 placed, EDGES: 23 (stored once)",
+    "PATH: sibling{'sex': 'M'} -> child{'sex': 'M'}",
+    "READ from S1: 15"
+   ],
+   "qwen_answer": 2,
+   "qwen_outcome": "WRONG"
+  }
+ ],
+ "rpf01_A_tally": {
+  "glyph": {
+   "CONDITIONAL_KEY_IN_BRANCHES": 12,
+   "CORRECT": 6
+  },
+  "qwen": {
+   "WRONG": 14,
+   "CORRECT": 4
+  },
+  "conditional": 12
+ },
+ "heldout": [
+  {
+   "id": "X01",
+   "condition": "sibling_asker|female_stated|words",
+   "expected": 4,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "query relation not recognized"
+   ],
+   "trace": [
+    "EXTRACT: query relation not recognized"
+   ]
+  },
+  {
+   "id": "X02",
+   "condition": "sibling_asker|male_stated|words",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 5 placed, EDGES: 4 (stored once)",
+    "PATH: sibling{'sex': 'M'}",
+    "READ from S1: 3"
+   ]
+  },
+  {
+   "id": "X03",
+   "condition": "sibling_asker|quoted_speech",
+   "expected": 1,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X04",
+   "condition": "sibling_asker|digits",
+   "expected": 2,
+   "glyph_status": "OK",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 7 placed, EDGES: 6 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from S1: 2"
+   ]
+  },
+  {
+   "id": "X05",
+   "condition": "grandparent_asker|product",
+   "expected": 6,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X06",
+   "condition": "aunt_asker|sex_irrelevant",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X07",
+   "condition": "cousin_asker|enumerated",
+   "expected": 3,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X08",
+   "condition": "grandchild_asker|structure_unstated",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X09",
+   "condition": "reversal|unstated_sex_trap",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X10",
+   "condition": "reversal|brother_to_sister",
+   "expected": 1,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X11",
+   "condition": "reversal|each_brother|unstated_sex",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X12",
+   "condition": "reversal|girls_to_boys",
+   "expected": 3,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X13",
+   "condition": "reversal|ratio",
+   "expected": 4,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X14",
+   "condition": "two_gen|grandsons_product",
+   "expected": 6,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X15",
+   "condition": "two_gen|nieces",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X16",
+   "condition": "two_gen|nieces_of_brother",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X17",
+   "condition": "two_gen|undeclared_children",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X18",
+   "condition": "two_gen|only_sibling_bound",
+   "expected": 3,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X19",
+   "condition": "two_gen|each_one_boy",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X20",
+   "condition": "distractor|cousins_and_pet",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 12 placed, EDGES: 8 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 3"
+   ]
+  },
+  {
+   "id": "X21",
+   "condition": "distractor|height_and_hobbies",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X22",
+   "condition": "distractor|unstated_sex_trap",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X23",
+   "condition": "distractor|undeclared_children",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "query relation not recognized"
+   ],
+   "trace": [
+    "EXTRACT: query relation not recognized"
+   ]
+  },
+  {
+   "id": "X24",
+   "condition": "distractor|bounded_twin_of_X23",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X25",
+   "condition": "named_member|enumerated_brothers",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X26",
+   "condition": "named_member|twin_sex_trap",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X27",
+   "condition": "named_member|son_anchor",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X28",
+   "condition": "named_member|only_sister",
+   "expected": 1,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X29",
+   "condition": "digits|zero_digit|only_sibling",
+   "expected": 7,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X30",
+   "condition": "sibling_asker|no_form",
+   "expected": 2,
+   "glyph_status": "OK",
+   "glyph_count": 2,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from S1 (S1)",
+    "NODES: 4 placed, EDGES: 3 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from S1: 2"
+   ]
+  },
+  {
+   "id": "X31",
+   "condition": "only_child|declared_zero",
+   "expected": 0,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X32",
+   "condition": "mixed_forms|digits_words_no",
+   "expected": 3,
+   "glyph_status": "OK",
+   "glyph_count": 3,
+   "glyph_outcome": "CORRECT",
+   "branches": null,
+   "closed_world": null,
+   "missing": null,
+   "trace": [
+    "FRAME: reading from B1 (B1)",
+    "NODES: 7 placed, EDGES: 6 (stored once)",
+    "PATH: sibling{'sex': 'F'}",
+    "READ from B1: 3"
+   ]
+  },
+  {
+   "id": "X33",
+   "condition": "sibling_asker|family_total",
+   "expected": 3,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X34",
+   "condition": "grandmother|partial_declaration",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X35",
+   "condition": "reversal|each_every_system",
+   "expected": 2,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X36",
+   "condition": "distractor|jobs_off_path",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X37",
+   "condition": "named_member|elimination_trap",
+   "expected": null,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X38",
+   "condition": "cousin_asker|digits|crosscheck",
+   "expected": 4,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X39",
+   "condition": "reversal|shared_sister",
+   "expected": 6,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  },
+  {
+   "id": "X40",
+   "condition": "uncle_asker|only_form",
+   "expected": 1,
+   "glyph_status": "MISSING",
+   "glyph_count": null,
+   "glyph_outcome": "MISSING",
+   "branches": null,
+   "closed_world": null,
+   "missing": [
+    "no sibling-count sentence shape recognized"
+   ],
+   "trace": [
+    "EXTRACT: no sibling-count sentence shape recognized"
+   ]
+  }
+ ],
+ "heldout_tally": {
+  "glyph": {
+   "MISSING": 35,
+   "CORRECT": 5
+  },
+  "undetermined_returned_all_branches": 0
+ }
+}
