@@ -4,13 +4,13 @@ Guidance for working in this repository. Public; CC0; nothing here is private.
 
 ## What this repository is
 
-A **research program as work orders**: seven markers, each an instrument
+A **research program as work orders**: eight markers, each an instrument
 spec with a measurand, a falsifier, scope limits and runnable next steps,
 plus the execution records for the four that have been run in part. It is not a
 code repository and not a thesis.
 
 ```text
-work-orders/            seven markers, operator-authored; six verbatim, never edited; WO-11 a hash-pinned pointer
+work-orders/            eight markers, operator-authored; seven verbatim, never edited; WO-11 a hash-pinned pointer
    |  WO-1  chain position detectable from inside a container?
    |  WO-2  "quiet" failure = a missing aggregation function?
    |  WO-3  does any TERMINAL system exist (zero crossings, every medium)?
@@ -18,6 +18,7 @@ work-orders/            seven markers, operator-authored; six verbatim, never ed
    |  WO-5  per-hop loss and pre-entry loss in reporting chains
    |  WO-6  assessor-assessed coupling as a known failure mode
    |  WO-11 benchmark score as an unpartitioned residual (research designs, not a build) -> POINTER to Simulators@4237ac2
+   |  WO-16 trained-objective residual tension: standing geometry pull -> collateral loss? (needs checkpoints)
    v
 research/wo-N/          model-executed milestones (wo-1..3 Manus AI; wo-4 this session), one dir per run order
    |  wo-1  standards audit: 15 units, 516 clauses, 0 positive   NULL RESULT
@@ -25,7 +26,7 @@ research/wo-N/          model-executed milestones (wo-1..3 Manus AI; wo-4 this s
    |  wo-3  3 asymptotes nonterminal-in-frame; 6 cost cases, 0 clear all five gates
    |  wo-4  invariant UNDETECTABLE <=> C1 and C3, checked; 7 faces = 3 assembly + 4 sensing; nothing coined
    v
-AUDIT_NOTES.md          this tree audited: CPD_001..014, split MECHANICAL / READING
+AUDIT_NOTES.md          this tree audited: CPD_001..019, split MECHANICAL / READING
 tools/check_repo.py     recomputes every number the tree states
 research/wo-4/invariant.py  the one instrument that models rather than counts; finite, brute-force, selftested
 ```
@@ -108,7 +109,7 @@ file; if a mapping is needed, it is a new table in `work-orders/README.md`.
 
 ```text
 README.md                     byte copy of WO-1 (CPD_001) -- not the index
-work-orders/README.md         THE index: seven delivered, one of them a pointer; measurand, status
+work-orders/README.md         THE index: eight delivered, one of them a pointer; measurand, status
 work-orders/WO-N-*.md         markers
 research/wo-1/                standards-audit.md, source-inventory.md, evidence/audit-unit-NN.md (15)
 research/wo-2/                codebook.md, source-manifest.md, coding/coder-{a,b}/, validation/,
@@ -119,6 +120,11 @@ research/wo-3/                crossing-metric.md (preregistered), amended-crossi
                               evidence/, cost-candidates/, validation/, three CSVs,
                               validation-summary.md, workflow-synthesis.md, final-report.md
 research/wo-4/                formal-statement.md, invariant.py (step 1); term census in the statement (step 3)
+okcomputer-regulatory-cost-bearer/  delivered bundle (model output, verbatim): regulatory cost-bearer v1..v3 + rpf01 pilot (CPD_018)
+gaps/GAPS_YYYY-MM-DD.md       co-authored gap registers: STATUS, GAP, STUDY NEEDED, BRANCHES; not work orders
+gaps/G2-frame-glyph-pilot/    first run against G2 (delivered verbatim; CPD_019); python3 run_g2.py ... reproduces out_all.json
+gaps/G2-frame-glyph-pilot/v2/ no name prior, branches returned; frozen at af75f29 for a blind held-out set
+gaps/G2-frame-glyph-pilot/v2/blind/  other-hand 40 items, frozen v2 run once: 5 / 0 wrong / 35 missing
 AUDIT_NOTES.md                CPD claims + what would move each open one
 tools/check_repo.py           links, sums, dates, CSV-vs-prose, three-rendering agreement, pointer hashes vs sibling
 ```

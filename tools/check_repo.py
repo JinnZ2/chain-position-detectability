@@ -506,10 +506,11 @@ def selftest() -> int:
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
     real = {r.check: r for r in run(ROOT)}
-    for name in ("links", "wo1_clauses", "wo2_dates", "wo2_distrib", "wo3_arithmetic", "wo3_gates", "wo4_invariant", "status_table"):
+    # readme_dup moved FLAG -> PASS at 21679b0 (banner prepended to README.md); CPD_001 records it
+    for name in ("links", "wo1_clauses", "wo2_dates", "wo2_distrib", "wo3_arithmetic", "wo3_gates", "wo4_invariant", "status_table", "readme_dup"):
         assert real[name].state == "PASS", real[name].row(); n += 1
     # recorded findings that stand today; each turns PASS when repaired and that is a change to record
-    for name in ("readme_dup", "wo2_agreement", "wo2_fields"):
+    for name in ("wo2_agreement", "wo2_fields"):
         assert real[name].state == "FLAG", real[name].row(); n += 1
     assert real["pointer_hash"].state in ("PASS", "NOT_TESTABLE"), real["pointer_hash"].row(); n += 1
     assert not any(r.state == "FAIL" for r in real.values()); n += 1

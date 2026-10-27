@@ -40,7 +40,7 @@ READING      a judgement declared here; disagree with it line by line
 
 | id | kind | claim | status |
 |---|---|---|---|
-| CPD_001 | MECHANICAL | Root `README.md` is a byte copy of `WO-1`; the repository index is `work-orders/README.md` | SUPPORTED |
+| CPD_001 | MECHANICAL | Root `README.md` is a byte copy of `WO-1`; the repository index is `work-orders/README.md` | FALSIFIED as worded (21679b0); substance stands |
 | CPD_002 | MECHANICAL | Every relative link resolves; every self-absolute `blob/main` link resolves on disk and is pinned to `main`, not a commit | SUPPORTED |
 | CPD_003 | MECHANICAL | WO-1's 516 = 87 + 429 reproduces from its own table; the AMBIGUOUS state fired 0 of 15 | SUPPORTED |
 | CPD_004 | MECHANICAL | WO-2's "59 of 87" agreement: the 59 reproduces, the 87 does not, the comparison list is unpublished | SUPPORTED |
@@ -55,12 +55,25 @@ READING      a judgement declared here; disagree with it line by line
 | CPD_013 | READING | WO-1's pre-registered null was met by the party that wrote the criterion | OPEN |
 | CPD_014 | -- | No external source was opened; every citation is carried | UNVERIFIED |
 | CPD_015 | MECHANICAL | WO-4 step 1 is delivered as a checkable invariant; its first hand-declared face split was refuted by its own selftest; steps 2 and 4 stay open | SUPPORTED |
+| CPD_017 | READING | WO-16 landed from a paste under a number assigned at landing; its branch table leaves one outcome unbranched; the index carried two stale rows | OPEN (number and hash settled 2026-10-20; branch and run order open) |
+| CPD_018 | READING | OKComputer bundle landed verbatim; its stdlib-recomputable numbers reproduce; one study's reliability check is same-coder and its model run is not reproducible here | OPEN |
+| CPD_019 | READING | G2 pilot reproduces exactly; zero confident wrong numbers holds; the tool's decline-vs-assume boundary is itself a name prior | OPEN (name prior, held-out reliance, other-hand held-out CLOSED; extractor non-transfer found; model-built-spec arm, slot types, fine-tune arm open) |
 
 ---
 
 ## CPD_001 -- the root README is one work order, not an index
 
 STATUS: SUPPORTED. `tools/check_repo.py` row `readme_dup`.
+
+STATUS CHANGE, recorded 2026-10-20: FALSIFIED AS WORDED at `21679b0`,
+which prepended a three-line banner (pointer to `READ_ME_THIS_WAY.md`)
+to `README.md`. The files now differ and the root carries content absent
+from WO-1, so the falsifier below is met and row `readme_dup` reads PASS.
+The selftest expected FLAG and went red from that commit on; its
+expectation moves to PASS in the commit that records this. The substance
+is untouched: below the banner the root README is still WO-1 byte for
+byte, not an index. The check was not widened to keep the finding alive;
+the wording was narrower than the shape, and that is the record.
 
 `README.md` and `work-orders/WO-1-chain-position-detectability.md` are
 byte-identical (166 lines, 7285 bytes). A reader landing on the
@@ -395,10 +408,246 @@ as a change rather than as the criterion having always read this way.
 
 ---
 
+## CPD_017 -- WO-16 landed: a paste, a number nobody assigned, one unbranched outcome
+
+Landed 2026-10-20 as `work-orders/WO-16-trained-objective-residual-tension.md`,
+byte-for-byte as received plus a final newline. Not edited, not fenced:
+the indented design and branch blocks render as plain paragraphs, and that
+is the delivered form.
+
+```
+sha256 (whole file, as landed)   99a6f88807dd0b62b2278cc072a7c548afb6baae389f565d1cc2d10ec41f952c
+channel                          paste, no hash sent alongside
+consequence                      the landed bytes are this rendering, not a verified original
+                                 (the WO-11 channel rule asks for attachment + hash)
+```
+
+Number. The delivery carries no WO number. WO-11..WO-14 are files in
+Simulators `publication-loop-work-orders/`, WO-15 is referenced there
+(read at Simulators `6be5848`); 16 is the first number free in both
+trees. It is a landing assignment, not the operator's. If the operator
+numbers it otherwise the file is renamed; this id stays.
+
+Fit, READING, not adjudicated. In this set's terms:
+
+```
+WO-11 T-1   training composition is one of the four unmeasured terms in a score
+WO-16       asks what one composition (C3: two objectives) does INSIDE the weights
+WO-4 shape  C1 objective locally correct, C2 objective locally correct,
+            the join at emission (which answer leaves) owned by neither;
+            M1 is a reading of that join, M3 of what it costs elsewhere
+```
+
+### Amendment to CPD_017, 2026-10-20 -- number and hash settled
+
+The operator settled both open landing items from the record, not by a
+new choice. The wording above is kept so the change is visible.
+
+```
+number   WO-16 KEPT. 11..15 were taken; 16 is the next free number.
+         Renumbering would break commit references (07c3a90, d362ad0).
+         status: landing assignment -> operator-confirmed
+hash     99a6f88807dd0b62b2278cc072a7c548afb6baae389f565d1cc2d10ec41f952c
+         recorded as THE delivery hash, class COMPUTED AT LANDING:
+         taken by the receiver over the landed bytes, not sent by the sender.
+         It pins this rendering from 2026-10-20 on; it says nothing about
+         whether the rendering matches what was sent (the WO-11 channel
+         rule's sender-side hash is still absent, and stays recorded as absent)
+open     the unbranched outcome (M1 flat, M3 down); a run order
+```
+
+Where the marker breaks as written (measurements, not objections):
+
+```
+unbranched     M1 flat AND M3 drops: cost with no divergence readout.
+               Read under (c) it becomes "conflict resolved" -- the
+               not-measured != no-effect misreading the spec itself forbids.
+overlap        (c) and (d) both admit M1 flat; (d) is a refinement of (c),
+               so the four are not disjoint as listed
+unspecified    C3 "both": order or mix of the two tunings
+               M1 item set: how "accessible != accurate" is decided, and by whom
+               M2: no threshold for "moves"
+carried        two OBSERVED lines carry "citations owed"; nothing opened (CPD_014)
+```
+
+Nothing here runs it: no checkpoints, no activations in this
+environment. `research/wo-16/` opens with a run order, not before.
+
+Index repair, same commit. `work-orders/README.md` carried a second
+WO-4 row and a stale WO-5 row ("Not started", while `research/wo-5/`
+holds a validated milestone), merge debris from `015eb8f`. Row
+`status_table` was FAIL on main (index rows 9, WO files 7). Both stale
+rows removed; with WO-16 the row reads 8 / 8 and passes.
+
+---
+
+## CPD_018 -- OKComputer bundle: regulatory cost-bearer + RPF-01 pilot
+
+Landed 2026-10-20 as `okcomputer-regulatory-cost-bearer/`, 30 files
+extracted unchanged from one upload (zip sha256 `1157136b...cf1a2a`,
+computed at landing); per-file hashes in that folder's README. Model
+output, carried, not credited. Not a run order of any work order here.
+
+Recomputed (MECHANICAL, in a scratch copy, stdlib only):
+
+```
+rpf01 test_cases.jsonl      regenerated byte-identical by gen_cases.py; hash = manifest
+rpf01 results_summary.json  rebuilt from raw_results.jsonl by analysis.py; identical but timestamp
+v2 restrictive by group     7/31 concentrated vs 0/2 diffuse; Fisher two-sided p = 1.00
+v2 EPA frame                34 decision rows, 34 go_ahead; 6 closure rows outside the 34
+not recomputed              run_pilot.py (torch, weights, network); Frame A (published census)
+```
+
+Where it breaks or needs a reader (READING):
+
+```
+closure coding     6 "case closure (registrations already canceled)" rows carry
+                   direction go_ahead. The headline 34/34 excludes them, so it
+                   stands; the column codes a cancellation as permissive,
+                   which the v2 rule (relative to cost-bearer) does not obviously give
+reliability        the v2 "second coder" was the same researcher (stated in the
+                   report); agreement tests codebook consistency, not independence.
+                   Same shape as CPD_013 (a criterion met by its own author)
+contrast           Frame A has no diffuse-bearer group (stated); the coded sample
+                   has 2. The cost-bearer hypothesis is near-untestable on these
+                   frames: the measurement, not a negative
+model run          one 0.5B model, greedy, 88 cases; cells of n=2 are descriptive
+```
+
+Fit, READING, not adjudicated:
+
+```
+RPF-01 A01   "2 sisters, 5 brothers, asked as a brother" -> answered 2, expected 3:
+             Alice's sisters counted, Alice omitted. One observed instance of the
+             G2 frame error (right graph, wrong origin); WO-16 M4 probe class
+cost-bearer  direction tracking who pays for caution is the WO-6 pool question
+             asked of regulators instead of assessors
+forcing      7 of 8 restrictive actions ride an external forcing event: the
+             restriction is joined from outside the agency (WO-4 shape)
+```
+
+---
+
+## CPD_019 -- G2 pilot: the readout holds; its boundary is a name prior
+
+Landed 2026-10-20 as `gaps/G2-frame-glyph-pilot/`, 9 files unchanged
+(zip sha256 `73184ceb...96e8`, computed at landing). Co-authored run
+against gap G2. Recomputed (MECHANICAL): frozen code hashes verify;
+selftest 7/7; `run_g2.py` output equals `out_all.json`; tallies below.
+
+```
+                   CORRECT  WRONG  MISSING  of which OK_CONDITIONAL
+RPF-01 A, glyph       18      0       0       12   (ceiling: extractor written on these)
+RPF-01 A, Qwen 0.5B    4     14       -
+held-out, glyph        7      0       5        4   (H01 Ben, H06, H10 John, H12)
+```
+
+Holds as stated: zero confident wrong numbers on 30 items.
+
+Where it breaks or needs a reader (READING):
+
+```
+boundary   Ben, John, Alice -> assumed (OK_CONDITIONAL, sex named, flip shown);
+           Sam, Alex -> declined (MISSING). Which names are assumed and which
+           declined is decided by a name prior inside the tool: the dependency
+           the pilot finds in the AIW gold answers (12 of 18) is relocated into
+           the extractor, not removed. It is DECLARED per item, which the
+           benchmark's gold is not; the line between "typical" and "ambiguous"
+           is not declared anywhere
+held-out   4 of the 7 held-out CORRECT come back OK_CONDITIONAL on a name prior
+           (tool output); the item notes mark 2 of them (H01, H10) and not
+           H06, H12. The held-out set carries the dependency it was written
+           to expose, and its own notes under-mark it
+same hand  extractor and held-out items by one party (stated in RESULTS)
+freeze     the "frozen before held-out" order is a self-declared timestamp;
+           nothing in the bundle orders the two. Not checkable; not refuted
+arm A      a reused 0.5B run, no fine-tune arm: G2's A-vs-B question is
+           not yet asked (stated in RESULTS as a limit)
+```
+
+### Amendment to CPD_019, 2026-10-20 -- v2 frozen at `af75f29`
+
+`gaps/G2-frame-glyph-pilot/v2/` landed alone in `af75f29`, before any new
+held-out item exists; that SHA is the freeze record. v1 untouched.
+Recomputed at landing (MECHANICAL, scratch copy, `python3 -I`):
+
+```
+CODE.sha256        frame_glyph.py f048e9c1...a4d40b OK ; run_g2.py 1a33b7db...fff8c8 OK
+selftest           8/8 PASS
+run_g2.py          output == v2/out_all.json, exact
+RPF-01 A (18)      6 CORRECT / 12 CONDITIONAL_KEY_IN_BRANCHES / 0 WRONG
+held-out (12)      3 CORRECT / 4 CONDITIONAL_KEY_IN_BRANCHES / 2 CORRECT_UNDETERMINED
+                   / 3 MISSING / 0 WRONG
+data/              all three files byte-identical to v1
+```
+
+```
+name prior      CLOSED. No name list in v2 (grep: names appear only in selftest
+                strings and one pronoun-declared case). Undeclared sex -> OPEN ->
+                all branches returned (A01: Alice=F 3, Alice=M 2); nothing filled
+held-out        CLOSED. H01, H06, H10, H12 reclassified CONDITIONAL_KEY_IN_BRANCHES;
+  reliance      H02, H11 now CORRECT_UNDETERMINED (all branches returned) rather than declined
+closed-world    v1 limit, now traced: undeclared children read as 0 are listed
+                (CLOSED-WORLD line in the trace; selftest asserts it)
+OPEN            other-hand held-out set: written blind to the code, committed
+                AFTER af75f29; a fine-tune arm
+OPEN, carried   the 3 MISSING (H03, H07, H08) are v1's extractor coverage gaps, unchanged
+landing defect  af75f29 also carried v2/__pycache__/*.pyc, produced by the
+                verification run in the scratch copy, not delivered. Removed in
+                the commit that records this amendment; af75f29 not rewritten,
+                since it is the freeze record and the code hashes are unaffected
+```
+
+The v1 wording above is kept so the change is visible.
+
+### Amendment to CPD_019, 2026-10-21 -- G2-HO blind run
+
+`gaps/G2-frame-glyph-pilot/v2/blind/` landed: 3 files unchanged from
+`G2_HO_blind_run.zip` (sha256 `1bd42676...7161`, computed at landing),
+committed after the freeze `af75f29`. No code or item modified.
+Recomputed (MECHANICAL, scratch copy of the frozen v2 tree, `python3 -I`):
+
+```
+heldout_blind.jsonl   sha256 e1012c0b...0c8f  = stated
+frame_glyph.py        sha256 f048e9c1...d40b  = af75f29
+run_g2.py             output == blind/out_blind.json, exact
+tally (40)            5 CORRECT / 0 WRONG / 35 MISSING
+CORRECT               X02 X04 X20 X30 X32
+MISSING reasons       "no sibling-count sentence shape" 33 ; "query relation not recognized" 2
+items                 30 determinable / 10 undetermined (scoring.determinable)
+```
+
+```
+other-hand held-out   CLOSED. Written by another party without the code; run once,
+                      frozen v2, after the freeze SHA
+NEW finding           extractor non-transfer: 5/30 determinable correct on blind
+                      items vs 18/18 in-sample. All 35 misses are extractor shape
+                      misses; none from the glyph core
+held                  zero confident wrong numbers, on 40 blind items
+miscount, delivered   RESULTS_blind.md tables 31 determinable / 9 undetermined; the
+                      items file gives 30 / 10 (10 = X08 X09 X11 X17 X22 X23 X26
+                      X34 X36 X37). Rate is 5/30, not 5/31. File left verbatim
+READING               the zero-wrong is partly shielded by the non-transfer: four
+                      blind items (X17 X23 X34 X36) rule "undeclared children are
+                      not zero", which v2's traced closed-world read (as 0) would
+                      contradict if the extractor had parsed them. Untested, not refuted
+undetermined          9 of 10 (all 10 by the items file) declined, 0 returned as branches
+OPEN                  model-built-spec arm (model fills the JSON spec; glyph reads)
+OPEN                  slot types the core lacks: constraint/aggregate (X11 X12 X13
+                      X35 X39); inverse-count (X18 X29)
+OPEN                  fine-tune arm
+```
+
+Fit: G2 branch table (GAPS) vs pilot branch table (RESULTS) differ; the
+pilot's (b) trigger and (c) extraction are new branches, not renames.
+Of G2's five, none is yet decided: no fine-tune arm exists.
+
+---
+
 ## What would move each open item
 
 ```
-CPD_001  one edit: a root README that indexes work-orders/ and research/
+CPD_001  falsified as worded; the substance moves with one edit: a root README that indexes work-orders/ and research/
 CPD_004  publish the 87-item comparison list beside the reconciliation log
 CPD_005  rename validation_verdict -> initial_reconciliation_verdict, or a note row
 CPD_007  one constructed known-negative case, or one real case coded does_not_support
@@ -406,4 +655,7 @@ CPD_010  a five-line mapping table in work-orders/README.md
 CPD_013  a second reader over the 15 WO-1 units, blind to the first
 CPD_015  seven faces handed to someone outside this author line (WO-4 step 2); a term naming C1 and C3
 CPD_016  closed under the amended falsifier; a run order for WO-11 opens research/wo-11/ and a new CPD row
+CPD_017  number and hash SETTLED (amendment); open: a fifth branch (M1 flat, M3 down); a run order
+CPD_019  name prior, held-out reliance, other-hand held-out CLOSED; open: model-built-spec arm; constraint + inverse-count slot types; closed-world vs "undeclared != 0" rule; a fine-tune arm
+CPD_018  an independent second coder on coded_decisions_v2; a stated rule for closure rows; run_pilot.py re-run with the pinned weights
 ```

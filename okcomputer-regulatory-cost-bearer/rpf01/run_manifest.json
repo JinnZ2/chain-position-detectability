@@ -1,0 +1,40 @@
+{
+ "model_hub_id": "Qwen/Qwen2.5-0.5B-Instruct",
+ "model_dir": "/tmp/qwen",
+ "weights_sha256": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+ "weights_source": "modelscope.cn mirror of Qwen/Qwen2.5-0.5B-Instruct; byte-verified against HF LFS oid sha256",
+ "settings": {
+  "max_new_tokens": 128,
+  "do_sample": false,
+  "dtype": "float32",
+  "device": "cpu",
+  "pad_token_id": "eos"
+ },
+ "env": {
+  "python": "3.12.12",
+  "torch": "2.8.0+cu128",
+  "transformers": "5.20.2",
+  "platform": "Linux-5.10.134-18.0.12.lifsea8.x86_64-x86_64-with-glibc2.36",
+  "torch_num_threads": 2
+ },
+ "test_cases_sha256": "79fde478522188d4835d90e3c2aaa800ffbb6a5df60476efc29a6e21283c6f82",
+ "run_started_utc": "2026-10-20T22:21:13.852300+00:00",
+ "work_order": "RPF-01",
+ "n_cases": 88,
+ "n_records": 88,
+ "missing_records": [],
+ "extra_records": [],
+ "run_finished_utc": "2026-10-20T22:51:43.525120+00:00",
+ "code": {
+  "gen_cases.py": "44690e0e9e2de78fecc3534e1bcdd8a463aaad392006d3603272c3dd39a92066",
+  "run_pilot.py": "63a072422f45d588066be9bfcd5d5a38edb8a051777cec7f934061a3ced1932b",
+  "analysis.py": "e347bc26de7cb8d432642f85e2f433e039fa90fa1d9a670786a08388f4cff4a0",
+  "fetch_model.sh": "19b151dfcfc1dff21a922c44c6c8e7d39924485c9b74a0c3ec21e9c414adfdb7"
+ },
+ "artifacts_sha256": {
+  "test_cases.jsonl": "79fde478522188d4835d90e3c2aaa800ffbb6a5df60476efc29a6e21283c6f82",
+  "raw_results.jsonl": "e6708a4ccf91c0eafeccbdefb7fca762d347641e61627e30db391394ee0f441f",
+  "results_summary.json": "417e04350f3a7e766ad3ce0ebecd39a68de2f6ca05e820762898baf336692aef"
+ },
+ "sandbox_events": "2 sandbox recycles + 2 tool-deadline kills during run; resumable runner; zero record loss"
+}
