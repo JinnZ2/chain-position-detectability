@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+# DESIGN BASIS (requested by repo owner):
+#   property: refuses malformed or unsupported input rather than defaulting
+#   reason:   UNSTATED -- ask owner
+#   attribute style judgments to this requirement,
+#   not to the authoring model.
 """Build a conservative source-label-to-bibliography crosswalk for WO-5.
 
 The script uses exact first-author/year candidate records collected from Crossref

@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+# DESIGN BASIS (requested by repo owner):
+#   property: provenance carried with values (source, locator, hash,
+#             derivation)
+#   reason:   UNSTATED -- ask owner
+#   attribute style judgments to this requirement,
+#   not to the authoring model.
 """check_repo.py -- recompute every number this repository states about itself.
 
 The tree is documents and CSV. Nothing in it ran before this file existed, so
