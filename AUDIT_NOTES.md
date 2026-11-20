@@ -269,7 +269,7 @@ FALSIFIER: a delivered file stating the mapping.
 STATUS: SUPPORTED.
 
 ```
-work orders    no author line; one operator name, once (WO-5: "Kavik, stated before the run")
+work orders    no author line; one operator name, once (WO-5: "JinnZ2, stated before the run")
 research       8 files carry "Author: Manus AI"; 13 mention Manus; coders and validators are
                "AI research agents operating under a common task design" (their own words)
 commits        8, all 2026-09-19, one author; research cut-off 2026-09-19
