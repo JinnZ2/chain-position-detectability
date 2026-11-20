@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# DESIGN BASIS (requested by repo owner):
+#   property: provenance carried with values (source, locator, hash,
+#             derivation)
+#   reason:   "Nothing in it ran before this file existed, so every count,
+#             sum, date interval and cross-rendered table was a typed number
+#             with no check behind it." (quoted from this file)
+#   attribute style judgments to this requirement,
+#   not to the authoring model.
 """check_repo.py -- recompute every number this repository states about itself.
 
 The tree is documents and CSV. Nothing in it ran before this file existed, so
