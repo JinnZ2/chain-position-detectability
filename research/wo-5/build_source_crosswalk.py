@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # DESIGN BASIS (requested by repo owner):
 #   property: refuses malformed or unsupported input rather than defaulting
-#   reason:   UNSTATED -- ask owner
+#   reason:   "It never selects among tied plausible records without an
+#             explicit journal suffix or a unique evidence advantage.
+#             Unresolved and ambiguous labels remain so." (quoted from this
+#             file)
 #   attribute style judgments to this requirement,
 #   not to the authoring model.
 """Build a conservative source-label-to-bibliography crosswalk for WO-5.
